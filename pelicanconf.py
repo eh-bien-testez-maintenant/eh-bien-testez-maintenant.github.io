@@ -25,9 +25,9 @@ AUTHOR_FEED_RSS = None
 FEED_RSS = 'rss.xml'
 
 # Blogroll
-LINKS = (('Archives', 'archives.html'),
-         ('Catégories', 'categories.html'),
-         ('Tags', 'tags.html'),)
+LINKS = (('Archives', '/archives.html'),
+         ('Catégories', '/categories.html'),
+         ('Tags', '/tags.html'),)
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/eh-bien-testez-maintenant'),

@@ -22,3 +22,6 @@ DELETE_OUTPUT_DIRECTORY = True
 
 DISQUS_SITENAME = 'eh-bien-testez-maintenant'
 #GOOGLE_ANALYTICS = ""
+
+# Flex theme configuration
+SITELOGO = SITEURL + '/images/logo_400x400.jpg'
