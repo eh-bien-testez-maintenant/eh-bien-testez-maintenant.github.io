@@ -110,11 +110,11 @@ et les forces en présence dans une entreprise ou une équipe de
 développement. C'est un exercice que j'ai trouvé intéressant à faire et
 qui m'a permis de mieux comprendre le contexte d'une entreprise.
 
-+------------------------------------------------------+
-| |image0|                                             |
-+------------------------------------------------------+
-| Sketchnote "Développement logiciel et Gouvernance"   |
-+------------------------------------------------------+
++----------------------------------------------------+
+| |image0|                                           |
++----------------------------------------------------+
+| Sketchnote "Développement logiciel et Gouvernance" |
++----------------------------------------------------+
 
 ---------------
 
@@ -126,7 +126,7 @@ qui m'a permis de mieux comprendre le contexte d'une entreprise.
 .. [#f4] QA = Quality Assurance ou Assurance Qualité
 .. [#f5] Voir à ce sujet le "World Quality Report 2015-16" : en 2015, en moyenne 35% du budget IT est alloué à la Qualité et au Test : www.world-quality-report.com
 
-.. |image0| image:: {filename}/images/2016_SketchnoteDéveloppementLogicielEtGouvernance.jpg
+.. |image0| image:: {filename}/images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg
    :width: 640px
    :height: 414px
-   :target: {filename}/images/2016_SketchnoteDéveloppementLogicielEtGouvernance.jpg
+   :target: {filename}/images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg

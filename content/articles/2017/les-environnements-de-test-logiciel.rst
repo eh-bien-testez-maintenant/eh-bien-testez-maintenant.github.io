@@ -6,7 +6,7 @@ Les environnements de test logiciel
 :tags: environnement de test, test logiciel
 :slug: les-environnements-de-test-logiciel
 
-.. image:: https://2.bp.blogspot.com/-cepB1B6A4hE/WfowbYWl8wI/AAAAAAAACDg/W8DOxhJVccY734kdM8iJkJ8D8070fcc9ACLcBGAs/s200/environnement.JPG
+.. image:: {filename}/images/2017-les-environnements-de-test-logiciel.jpg
    :width: 200px
    :height: 133px
    :align: center

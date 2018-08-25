@@ -1,8 +1,20 @@
-A Propos
+A propos
 ########
 
-Ceci est un blog qui parle de Test logiciel. Il est écrit par un professionnel qui exerce depuis 2006 dans ce métier.
+Je m'appelle Alexis Pallier et ce site est mon blog professionel. Depuis 2006, je me suis spécialisé dans le domaine du Test logiciel. 
 
-Il s'agit de réflexions personnelles sur le Test et la Qualité logiciels en général. J'ai moi-même eu des difficultés à trouver des retours d'expérience sur le Test logiciel à mes débuts, surtout en français. J'espère, par ces quelques articles, aider humblement à mieux comprendre et appréhender ce vaste domaine de l'informatique qu'est le Test logiciel.
+Ce blog est ma manière de contribuer, à ma petite échelle, à faire découvrir cette vaste discipline de l'informatique qu'est le Test logiciel 
+et aussi sa consoeur quasi indissociable : la Qualité logicielle.
+   
+J'espère, par ces quelques articles, aider à mieux comprendre et appréhender le formidable métier de Testeur.
+   
+*Bonne lecture !*
 
-Je ne fais étalage de mon identité - bien que l'anonymat n'existe pas complètement sur Internet :-) - par prévenance envers mes anciens/actuels/futurs employeurs.
+-- *Alexis*
+
+.. image:: {filename}/images/me.jpg
+   :align: left
+   :alt: Alexis Pallier
+   :width: 80
+
+`Mon profil LinkedIn <https://www.linkedin.com/in/alexispallier/>`_

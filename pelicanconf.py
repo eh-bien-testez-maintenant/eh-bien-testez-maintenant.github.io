@@ -7,7 +7,7 @@ PLUGINS = ['i18n_subsites']
 
 AUTHOR = 'apallier'
 SITENAME = 'Eh Bien Testez Maintenant !'
-SITESUBTITLE = "Vous codiez ? j'en suis fort aise.<br/> Eh bien : testez maintenant !"
+SITESUBTITLE = "Vous codiez ? J'en suis fort aise.<br/> Eh bien : testez maintenant !"
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
@@ -24,10 +24,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 FEED_RSS = 'rss.xml'
 
-# Blogroll
-LINKS = (('Archives', '/archives.html'),
-         ('Catégories', '/categories.html'),
-         ('Tags', '/tags.html'),)
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Catégories', '/categories.html'),
+             ('Tags', '/tags.html'),)
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/eh-bien-testez-maintenant'),

@@ -6,7 +6,7 @@ Compilation 2017: Interviews de Testeur Logiciels
 :tags: interviews, test logiciel
 :slug: compilation-2017-interviews-de-testeur-logiciels
 
-.. image:: {filename}/images/2018_interviews.jpg
+.. image:: {filename}/images/2018-interviews.jpg
    :width: 200px
    :height: 111px
    :align: center
@@ -44,7 +44,7 @@ de partager ces témoignages.
    : https://www.lyontesting.fr/fr/interview-dun-testeur-1-julien-blanc/
 
 
-Cela nous montrent que nous sommes souvent confronter aux mêmes
+Cela nous montre que nous sommes souvent confrontés aux mêmes
 problèmes, heureusement ! ou malheureusement selon le point de vue :-)
 
 PS : si vous connaissez d'autres interviews de testeurs, n'hésitez pas à
