@@ -63,7 +63,7 @@ OG_LOCALE = 'fr_FR'
 
 # Flex theme configuration
 SITELOGO = SITEURL + '/images/logo_400x400.jpg'
-SITEDESCRIPTION = "Test logiciel, Qualité, Assurance Qualité, QA"
+SITEDESCRIPTION = "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA"
 MAIN_MENU = True
 
 EXTRA_PATH_METADATA = {
