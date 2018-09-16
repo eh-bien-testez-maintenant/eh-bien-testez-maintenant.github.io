@@ -47,7 +47,7 @@ PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
 
-STATIC_PATHS = ['images', 'extra']
+STATIC_PATHS = ['images', 'extra', 'doc']
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
