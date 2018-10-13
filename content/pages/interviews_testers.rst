@@ -8,6 +8,8 @@ Cette page est une compilation d'interviews de Testeurs Logiciels que j'ai pu rÃ
 [2018]
 ------
 
+* 17/09 : https://latavernedutesteur.fr/2018/09/17/remi-poulin-specialiste-test-de-performance/
+* 14/05 : https://latavernedutesteur.fr/2018/05/14/sara-abdelhak-chef-de-projet-test/
 * 24/04 : https://latavernedutesteur.fr/2018/04/24/emna-ayadi-testeur-agile/
 * 06/04 : https://latavernedutesteur.fr/2018/04/05/rajae-aouchi-ingenieur-test-et-validation/
 * 29/03 : https://www.lyontesting.fr/fr/interview-dun-testeur-5-yann-person/
