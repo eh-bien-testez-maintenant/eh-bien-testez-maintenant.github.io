@@ -17,9 +17,7 @@ Voici donc la liste de blogs français sur le Test Logiciel que j'ai dans mon le
 
 * `La Taverne du Testeur <https://www.lyontesting.fr>`_ existe depuis un peu moins d'un an et rédigé par un collectif de testeurs.  L'approche est plus "ISTQB". Il y a beaucoup d'articles et ce que j'apprécie c'est leurs nombreux interviews que je compile, entre autres, soigneusement dans `cette page <{filename}/pages/interviews_testers.rst :)
 
-* `Hightest <https://www.hightest.nc/blog>`_ est une société basée en Nouvelle-Calédonie. Leur blog est sympa avec des articles quelques fois, comment dire ?, `un peu "décalés" <https://www.hightest.nc/blog/posts/les-7-principes-generaux-du-test-en-illustrations>`_  👍
-
-* `Testwik <http://blog.testwik.com>`_ à lire
+* `Testwik <http://blog.testwik.com>`_, à lire aussi
 
 * `Parlons Test <https://parlonstest.wordpress.com/>`_ par `@StephDesby <https://twitter.com/StephDesby>`_
 
@@ -31,7 +29,9 @@ Voici donc la liste de blogs français sur le Test Logiciel que j'ai dans mon le
 
 * `Qualifiez <http://www.qualifiez.fr/journaldutesteur/index.php?blog>`_ ne semble malheureusement plus rédiger d'articles depuis un certains temps.
 
-Coté "entreprise" (en plus de Hightest déjà cité ci-dessus :
+Coté "entreprise" :
+
+* `Hightest <https://www.hightest.nc/blog>`_ est une société basée en Nouvelle-Calédonie. Leur blog est sympa avec des articles quelques fois, comment dire ?, `un peu "décalés" <https://www.hightest.nc/blog/posts/les-7-principes-generaux-du-test-en-illustrations>`_  👍
 
 * `Blog de StarDust <https://www2.stardust-testing.com/blog-fr>`_, entreprise qui travaille dans le Test et l'Assuance Qualité
 
