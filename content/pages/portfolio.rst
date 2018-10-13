@@ -19,14 +19,14 @@ Exemples de travaux réalisés :
 
 * Gestion complète de l'activité de Test d'un produit en cycle en V et en Agilité : 
    * Conception, exécution et planification de campagnes de Test
-   * Débogage et investigations d'anomalie
-   * Rapports de test
-* Formations au Test automatique, Test unitaire, à l'Intégration Continue
+   * Débogage et investigation d'anomalie
+   * Rapport de test
+* Formation au Test automatique, Test unitaire, à l'Intégration Continue
 * Accompagnement (coaching) de profils Junior
 * Définition de la stratégie de Test d'une entreprise
 * Mise en place d'une Gestion des Exigences à l'échelle de l'entreprise
 * Mise place d'un cursus de formation (type "Academy") sur le Test
-* Rédactions d'`articles sur le Test Logiciel </archives.html>`_
+* Rédaction d'`articles sur le Test Logiciel </archives.html>`_
 * Conception de salle de tests
 
 Exemples de résultat obtenus :
@@ -34,7 +34,7 @@ Exemples de résultat obtenus :
 * Diminution de 80% des anomalies majeures détectées en production
 * Automatisation des tests de régression
 * Amélioration des compétences "Test" des équipes
-* Instoration d'une culture "Test" dans l'entreprise
+* Instauration d'une culture "Test" dans l'entreprise
 
 .. image:: {filename}/images/portfolio-testauto.jpg
    :width: 1024px
@@ -56,6 +56,7 @@ Exemples de travaux réalisés :
 * Ecriture de nombreux tests en `Robot Framework <https://robotframework.org>`_
 * Référent technique et formateur à Robot Framework
 * Développement et maintenance de plusieurs frameworks de Test automatique
+* Librairies de test pour l'automatisation
 
 .. image:: {filename}/images/portfolio-code.jpg
    :width: 1024px
@@ -66,12 +67,12 @@ Développement en Python
 -----------------------
 
 J'ai **commencé à coder avec Python en 2004** puis après une formation avancée en 2012, j'ai utilisé Python
-de manière beaucoup plus importantes. Pour arriver aujourd'hui à **former des développeurs** à ce langage.
+de manière beaucoup plus importante. Pour arriver aujourd'hui à **former des développeurs** à ce langage.
 
 Exemples de travaux réalisés :
 
 * Framework de test automatique
-* Librairies de test
+* Librairies de test pour l'automatisation
 * Plusieurs serveurs Web en Flask + Bootstrap
 * Des API REST
 * Outil de provisionning de machines "bare-metal" ou virtuelles
@@ -86,18 +87,18 @@ Exemples de travaux réalisés :
 Urbanisation du système d'information
 -------------------------------------
 
-   "On reconnaît le bon ouvrier à ces outils" -- Proverbe français
+   *"On reconnaît le bon ouvrier à ses outils"* - Proverbe français
    
 Les outils informatiques sont indispensables à l'activité du Développement informatique. Dans mon métier de Testeur,
 j'ai eu la charge de l'administration d'outils nécessaires aux activités de Développement et de Test.
 
 Exemples de travaux réalisés :
 
-* Administration système des outils techniques pour les R&D : installation, mise à jour et sauvegardes
+* Administration système des outils techniques pour les R&D : installation, mise à jour et sauvegarde
 * Administrateur de GitLab, JIRA, Bugzilla, Testlink, Jenkins...
 * Formation à ces outils
 * Benchmark, choix et déploiement d'un outil de Gestion des exigences
-* Deploiement de l'outil d'Intégration Continue Jenkins
+* Déploiement de l'outil d'Intégration Continue Jenkins
 
 .. _open-source:
 
