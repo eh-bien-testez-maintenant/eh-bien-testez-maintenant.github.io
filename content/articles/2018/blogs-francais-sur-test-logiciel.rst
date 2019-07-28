@@ -7,7 +7,7 @@ Compilation de blogs français sur le Test Logiciel
 :tags: blog, test logiciel
 :slug: blogs-francais-sur-test-logiciel
 
-.. image:: {filename}/images/2018-blogs.jpg
+.. image:: {static}/images/2018-blogs.jpg
    :width: 400px
    :align: center
    :alt: Blogs en français
@@ -24,7 +24,7 @@ Voici donc la liste de blogs français sur le Test Logiciel que j'ai dans mon le
 
 * `Lyon Testing <https://www.lyontesting.fr>`_ a commencé il y a deux ans à peu près commme moi mais ils (3 testeurs) sont beaucoup plus prolifiques :) De plus ils font l'effort de la double traduction (français et anglais). J'aime bien leur approche `Context Driven <http://context-driven-testing.com/>`_. Leurs articles sont très intéressants. Bref, je ne peux que recommander !
 
-* `La Taverne du Testeur <https://www.lyontesting.fr>`_ existe depuis un peu moins d'un an et est rédigé par un collectif de testeurs. L'approche est plus "ISTQB". Il y a beaucoup d'articles et ce que j'apprécie c'est leurs nombreux interviews que je compile d'ailleurs, entre autres, dans `cette page <{filename}/pages/interviews_testers.rst>`_ :)
+* `La Taverne du Testeur <https://www.lyontesting.fr>`_ existe depuis un peu moins d'un an et est rédigé par un collectif de testeurs. L'approche est plus "ISTQB". Il y a beaucoup d'articles et ce que j'apprécie c'est leurs nombreux interviews que je compile d'ailleurs, entre autres, dans `cette page <{static}/pages/interviews_testers.rst>`_ :)
 
 * `Testwik <http://blog.testwik.com>`_, à lire aussi
 

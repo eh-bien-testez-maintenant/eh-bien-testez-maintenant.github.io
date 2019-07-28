@@ -6,7 +6,7 @@ Les environnements de test logiciel
 :tags: environnement de test, test logiciel
 :slug: les-environnements-de-test-logiciel
 
-.. image:: {filename}/images/2017-les-environnements-de-test-logiciel.jpg
+.. image:: {static}/images/2017-les-environnements-de-test-logiciel.jpg
    :width: 200px
    :height: 133px
    :align: center
@@ -79,6 +79,6 @@ Parmi les outils qui existent pour faciliter la mise en place d'environnement de
    Puppet, Ansible, Chef
 -  **les outils de déploiements** :  Open stack, Cobbler, Foreman (Voir
    mon `memo à ce
-   sujet <{filename}../2016/memo-deploiement-denvironnement-de-test-ou-autres.rst>`__)
+   sujet <{static}../2016/memo-deploiement-denvironnement-de-test-ou-autres.rst>`__)
 
 .. [#f1] J'ai l'exemple d'une entreprise où un environnement de test nécessitait plusieurs jours de travail !

@@ -12,7 +12,7 @@ J'espère, par ces quelques articles, aider à mieux comprendre et appréhender 
 
 -- *Alexis*
 
-.. image:: {filename}/images/me.jpg
+.. image:: {static}/images/me.jpg
    :align: left
    :alt: Alexis Pallier
    :width: 80

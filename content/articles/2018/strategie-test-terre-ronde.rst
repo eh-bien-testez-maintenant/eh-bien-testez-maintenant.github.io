@@ -8,7 +8,7 @@ La stratégie de test de la "Terre ronde"
 :slug: strategie-test-terre-ronde
 
 
-.. image:: {filename}/images/2018-terre-globe.jpg
+.. image:: {static}/images/2018-terre-globe.jpg
    :width: 400px
    :align: center
    :alt: La stratégie de la "Terre ronde"
@@ -45,10 +45,10 @@ Ce modèle permet d'expliquer un aspect du Test automatique par analogie avec un
 C'est ce que fait James Bach en utilisant l'analogie de la "Terre ronde". Il utilise la forme sphérique répartie
 en couches concentriques de la Terre pour modéliser un aspect du Test logiciel :
 
-.. image:: {filename}/images/2018-strategie-test-terre-ronde.png
+.. image:: {static}/images/2018-strategie-test-terre-ronde.png
    :width: 800px
    :align: center
-   :target: {filename}/doc/strategie-test-terre-ronde.pdf
+   :target: {static}/doc/strategie-test-terre-ronde.pdf
    :alt: La stratégie de la "Terre ronde"
 
 Un modèle qui montre les enjeux du test à différents niveaux

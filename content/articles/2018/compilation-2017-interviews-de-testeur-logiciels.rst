@@ -6,7 +6,7 @@ Compilation 2017: Interviews de Testeur Logiciels
 :tags: interviews, test logiciel
 :slug: compilation-2017-interviews-de-testeur-logiciels
 
-.. image:: {filename}/images/2018-interviews.jpg
+.. image:: {static}/images/2018-interviews.jpg
    :width: 200px
    :height: 111px
    :align: center
@@ -48,4 +48,4 @@ Cela nous montre que nous sommes souvent confrontés aux mêmes
 problèmes, heureusement ! ou malheureusement selon le point de vue :-)
 
 PS : si vous connaissez d'autres interviews de testeurs, n'hésitez pas à
-`me le faire savoir <{filename}/pages/a_propos.rst>`_.
+`me le faire savoir <{static}/pages/a_propos.rst>`_.

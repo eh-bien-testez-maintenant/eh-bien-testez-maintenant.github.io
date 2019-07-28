@@ -7,7 +7,7 @@ Test automatique : l'écueil de la maintenance
 :slug: test-automatique-lecueil-de-la-maintenance
 
 
-.. image:: {filename}/images/2018-test-automatique-lecueil-de-la-maintenance.jpg
+.. image:: {static}/images/2018-test-automatique-lecueil-de-la-maintenance.jpg
    :width: 200px
    :height: 150px
    :align: center

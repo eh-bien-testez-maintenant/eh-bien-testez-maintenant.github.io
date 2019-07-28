@@ -1,7 +1,7 @@
 Portfolio
 #########
 
-.. image:: {filename}/images/portfolio-header.jpg
+.. image:: {static}/images/portfolio-header.jpg
    :width: 1024px
    :align: center
    :alt: Portfolio
@@ -44,7 +44,7 @@ Exemples de résultats obtenus :
 Automatisation de Test
 ----------------------
 
-.. image:: {filename}/images/portfolio-testauto.jpg
+.. image:: {static}/images/portfolio-testauto.jpg
    :width: 1024px
    :align: left
    :alt: Automatisation de Test
@@ -53,7 +53,7 @@ Automatisation de Test
 Le Test automatique est un outil indispensable au Testeur "moderne", je le pratique **depuis 2012**.
 J'aime accompagner les projets de Test Automatique que ce soit par du conseil ou directement par l'écriture de tests.
 
-De plus, j'ai remarqué qu'il y avait de nombreux `pièges à éviter <{filename}/articles/2018/test-automatique-lecueil-de-la-maintenance.rst>`_,
+De plus, j'ai remarqué qu'il y avait de nombreux `pièges à éviter <{static}/articles/2018/test-automatique-lecueil-de-la-maintenance.rst>`_,
 ainsi que des compétences spécifiques à développer, lorsqu'on se lance dans un projet d'automatisation.
 Je veille donc à ce que les Testeurs pratiquent l'automatisation en "connaissance de cause".
 
@@ -69,7 +69,7 @@ Exemples de travaux réalisés :
 Développement en Python
 -----------------------
 
-.. image:: {filename}/images/portfolio-code.jpg
+.. image:: {static}/images/portfolio-code.jpg
    :width: 1024px
    :align: center
    :alt: Développement
@@ -85,14 +85,14 @@ Exemples de travaux réalisés :
 * Des API REST
 * Outil de provisionning de machines "bare-metal" ou virtuelles
 * Formation "débutant" et "intermédiaire" à Python
-* `Projets Open-source <{filename}/pages/portfolio.rst#open-source>`_
+* `Projets Open-source <{static}/pages/portfolio.rst#open-source>`_
 
 ----------------------------------------------------------------------------------------
 
 Sciences de l'éducation
 -----------------------
 
-.. image:: {filename}/images/portfolio-education.jpg
+.. image:: {static}/images/portfolio-education.jpg
    :width: 1024px
    :align: center
    :alt: sciences de l'éducation
@@ -111,7 +111,7 @@ Urbanisation du système d'information
 
    *"On reconnaît le bon ouvrier à ses outils"* - Proverbe français
 
-.. image:: {filename}/images/portfolio-urbanisation.jpg
+.. image:: {static}/images/portfolio-urbanisation.jpg
    :width: 1024px
    :align: center
    :alt: Urbanisation du système d'information
