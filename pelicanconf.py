@@ -16,13 +16,14 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'fr'
 
-# Feed generation is usually not desired when developing
+# Feed configuration
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 FEED_RSS = 'rss.xml'
+RSS_FEED_SUMMARY_ONLY = False
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Catégories', '/categories.html'),
