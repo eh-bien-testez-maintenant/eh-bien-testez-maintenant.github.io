@@ -1,6 +1,7 @@
 Livre : Les tests logiciels en Agile
 ####################################
 :date: 2019-07-28 23:40
+:modified: 2019-07-29 21:00
 :author: apallier
 :category: revue
 :tags: livre, test logiciel, agile
@@ -22,9 +23,10 @@ sujet où les pratiques sont très dépendantes du contexte. L'idée de compiler
 expériences est vraiment intéressante. Associée à une mise en pages aérée et illustrée, la lecture est d'autant plus
 agréable.
 
-L'intérêt de cette approche "collective" est aussi par moment un inconvénient, car l'ensemble est par conséquent
-hétérogène. J'ai trouvé que certains chapitres étaient aboutis et d'autres plus "légers", voire un peu hors-sujet
-(ie. traitant plus de techniques de Test que de Test en Agilité). Cependant, cela ne nuit pas globalement à la lecture.
+Cette approche d'écriture "collective" a aussi des inconvénients. En effet, l'ensemble m'est apparu un peu hétérogène
+par moment. J'ai trouvé que certains chapitres étaient aboutis et d'autres plus "légers", voire hors-sujet
+(ie. traitant plus de techniques de Test que de Test en Agilité). Cependant, cela ne nuit pas globalement à la lecture,
+surtout si le sujet reste intéressant.
 
 Voici quelques citations, en vrac, qui ont retenu particulièrement mon attention :
 
