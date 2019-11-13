@@ -53,7 +53,7 @@ Automatisation de Test
 Le Test automatique est un outil indispensable au Testeur "moderne", je le pratique **depuis 2012**.
 J'aime accompagner les projets de Test Automatique que ce soit par du conseil ou directement par l'écriture de tests.
 
-De plus, j'ai remarqué qu'il y avait de nombreux `pièges à éviter <{static}/articles/2018/test-automatique-lecueil-de-la-maintenance.rst>`_,
+De plus, j'ai remarqué qu'il y avait de nombreux `pièges à éviter <{filename}/articles/2018/test-automatique-lecueil-de-la-maintenance.rst>`_,
 ainsi que des compétences spécifiques à développer, lorsqu'on se lance dans un projet d'automatisation.
 Je veille donc à ce que les Testeurs pratiquent l'automatisation en "connaissance de cause".
 
@@ -85,7 +85,7 @@ Exemples de travaux réalisés :
 * Des API REST
 * Outil de provisionning de machines "bare-metal" ou virtuelles
 * Formation "débutant" et "intermédiaire" à Python
-* `Projets Open-source <{static}/pages/portfolio.rst#open-source>`_
+* `Projets Open-source <{filename}/pages/portfolio.rst#open-source>`_
 
 ----------------------------------------------------------------------------------------
 

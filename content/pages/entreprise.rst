@@ -26,7 +26,7 @@ Mon travail s'oriente sur 3 axes :
    de mémorisation) afin de maximiser le bénéfice de la formation.
 
 Vous pourrez vous faire une idée plus précise des prestations que je propose en visitant
-`mon portfolio <{static}/pages/portfolio.rst>`_.
+`mon portfolio <{filename}/pages/portfolio.rst>`_.
 
 
 Mon bureau
