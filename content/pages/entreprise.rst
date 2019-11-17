@@ -21,7 +21,7 @@ Mon travail s'oriente sur 3 axes :
 * **Formation à Robot Framework**
    Je dispense des formations à l'outil `Robot Framework <https://robotframework.org/>`_, un outil générique
    d'automatisation de tests et de RPA (Robotic Process Automation).
-   Mes formations s'appuient sur un "mix" entre théorie et pratique. Je les enrichie d'outils pédagogiques
+   Mes formations s'appuient sur un "mix" entre théorie et pratique. Je les enrichis d'outils pédagogiques
    issus de la Recherche en `Sciences Cognitives <https://sciences-cognitives.fr/>`_ (Quiz, Flashcard, Techniques
    de mémorisation) afin de maximiser le bénéfice de la formation.
 
