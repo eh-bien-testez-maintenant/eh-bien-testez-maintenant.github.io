@@ -48,14 +48,20 @@ Espace "conseil"
    :align: center
    :alt: Espace "conseil"
    
-Bureau privatif
-^^^^^^^^^^^^^^^
+Bureaux privatifs
+^^^^^^^^^^^^^^^^^
 
 .. image:: {static}/images/entreprise-bureau-privatif.jpg
    :width: 480px
    :align: center
    :alt: Bureau privatif
    
+.. image:: {static}/images/entreprise-bureau-privatif2.jpg
+   :width: 480px
+   :align: center
+   :alt: Bureau privatif
+
+
 Salle de réunion
 ^^^^^^^^^^^^^^^^
 
@@ -63,6 +69,12 @@ Salle de réunion
    :width: 480px
    :align: center
    :alt: Salle de réunion
+
+.. image:: {static}/images/entreprise-salle-reunion2.jpg
+   :width: 480px
+   :align: center
+   :alt: Salle de réunion
+
 
 Salle d'attente
 ^^^^^^^^^^^^^^^
