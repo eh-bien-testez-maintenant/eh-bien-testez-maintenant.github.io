@@ -14,8 +14,6 @@ PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = 'fr'
-
 # Feed configuration
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -37,10 +35,9 @@ SOCIAL = (('github', 'https://github.com/eh-bien-testez-maintenant'),
 # Pages
 DISPLAY_PAGES_ON_MENU = True
 
-DEFAULT_PAGINATION = True
 DEFAULT_PAGINATION = 10
 
-THEME = 'themes/flex'
+THEME = 'themes/Flex'
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
@@ -64,7 +61,7 @@ OG_LOCALE = 'fr_FR'
 
 # Flex theme configuration
 SITELOGO = SITEURL + '/images/logo_400x400.jpg'
-SITEDESCRIPTION = "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA"
+SITEDESCRIPTION = "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA, Test automatique, Test automation"
 MAIN_MENU = True
 
 EXTRA_PATH_METADATA = {

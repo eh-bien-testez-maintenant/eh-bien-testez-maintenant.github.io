@@ -24,4 +24,4 @@ GOOGLE_ANALYTICS = "UA-124431565-1"
 
 # Flex theme configuration
 SITELOGO = SITEURL + '/images/logo_400x400.jpg'
-COPYRIGHT_YEAR = 2020
+COPYRIGHT_YEAR = 2021
