@@ -18,3 +18,4 @@ jobs:
           GH_PAGES_BRANCH: master
           GH_PAGES_CNAME: none
           PELICAN_CONFIG_FILE: publishconf.py
+          PELICAN_THEME_FOLDER: themes/Flex
