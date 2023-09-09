@@ -1,2 +1,1 @@
-cd output
-..\venv\scripts\python -m http.server
+venv\scripts\python -m http.server -d output

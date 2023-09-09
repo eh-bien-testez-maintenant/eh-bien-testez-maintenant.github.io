@@ -56,7 +56,7 @@ Il y a autant de solutions spécifiques que de causes différentes mais on peut 
 
 * Maitriser la configuration de son environnement à l'aide de fixtures (setup/teardown des tests)
 * Limiter ou maîtriser les dépendances.
-   Solutions : virtualiser les `environnements de test <{static}/articles/2016/memo-deploiement-denvironnement-de-test-ou-autres.rst>`_, 
+   Solutions : virtualiser les `environnements de test <{filename}/articles/2016/memo-deploiement-denvironnement-de-test-ou-autres.rst>`_,
    bouchonnner les outils tiers...
 * Utiliser des attentes actives [#f4]_ plutôt que des attentes incompressibles pour attendre la fin d'une exécution
 * Eviter de paralléliser les exécutions
@@ -67,7 +67,7 @@ Conclusion
 ----------
 
 La *flakiness* est un véritable problème lorsque l'on fait du Test automatique. Il faut en prendre conscience pour ne pas être déçu
-car, oui, cela engendre du `travail de maintenance des tests <{static}/articles/2018/test-automatique-lecueil-de-la-maintenance.rst>`_.
+car, oui, cela engendre du `travail de maintenance des tests <{filename}/articles/2018/test-automatique-lecueil-de-la-maintenance.rst>`_.
 Mais elle permet également, si elle est vraiment prise en compte, de mieux comprendre comment fonctionne le logiciel que l'on teste.
 
 Enfin, elle permet aussi de relativiser l'importance - quelque fois irraisonnable - que l'on place dans les résulats 

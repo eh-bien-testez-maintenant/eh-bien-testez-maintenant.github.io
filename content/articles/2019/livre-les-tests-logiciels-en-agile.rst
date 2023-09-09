@@ -17,7 +17,7 @@ Avis
 
 Il s'agit d'un ouvrage "collectif" publié par le `CFTL <http://www.cftl.fr/cf-tl/a-propos-du-cftl/>`_.
 Venant du CFTL, je m'attendais donc à un ouvrage un peu "dogmatique" dans la lignée du livre
-"`Les tests logiciels fondamentaux <{static}/articles/2016/livre-les-tests-logiciels-fondamentaux.rst>`_".
+"`Les tests logiciels fondamentaux <{filename}/articles/2016/livre-les-tests-logiciels-fondamentaux.rst>`_".
 Ce n'est pas du tout le cas et c'est plutôt heureux. Le pragmatisme est de rigueur, à mon avis, lorsqu'on aborde un tel
 sujet où les pratiques sont très dépendantes du contexte. L'idée de compiler différents auteurs et
 expériences est vraiment intéressante. Associée à une mise en pages aérée et illustrée, la lecture est d'autant plus
