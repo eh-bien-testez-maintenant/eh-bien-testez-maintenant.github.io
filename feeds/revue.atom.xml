@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Eh Bien Testez Maintenant ! - revue</title><link href="https://eh-bien-testez-maintenant.github.io/" rel="alternate"></link><link href="https://eh-bien-testez-maintenant.github.io/feeds/revue.atom.xml" rel="self"></link><id>https://eh-bien-testez-maintenant.github.io/</id><updated>2019-07-29T21:00:00+02:00</updated><subtitle>Vous codiez ? J'en suis fort aise.&lt;br/&gt; Eh bien : testez maintenant !</subtitle><entry><title>Livre : Les tests logiciels en Agile</title><link href="https://eh-bien-testez-maintenant.github.io/2019/07/28/livre-les-tests-logiciels-en-agile/" rel="alternate"></link><published>2019-07-28T23:40:00+02:00</published><updated>2019-07-29T21:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2019-07-28:/2019/07/28/livre-les-tests-logiciels-en-agile/</id><summary type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2019-livre-les-tests-logiciels-en-agile.jpg" style="width: 250px;" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Il s'agit d'un ouvrage &amp;quot;collectif&amp;quot; publié par le &lt;a class="reference external" href="http://www.cftl.fr/cf-tl/a-propos-du-cftl/"&gt;CFTL&lt;/a&gt;.
+Venant du CFTL, je m'attendais donc à un ouvrage un peu &amp;quot;dogmatique&amp;quot; dans la lignée du livre
+&amp;quot;&lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/11/03/livre-les-tests-logiciels-fondamentaux/"&gt;Les tests logiciels fondamentaux&lt;/a&gt;&amp;quot;.
+Ce n'est pas du tout le cas et c'est plutôt heureux. Le pragmatisme est de rigueur, à mon avis …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2019-livre-les-tests-logiciels-en-agile.jpg" style="width: 250px;" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Il s'agit d'un ouvrage &amp;quot;collectif&amp;quot; publié par le &lt;a class="reference external" href="http://www.cftl.fr/cf-tl/a-propos-du-cftl/"&gt;CFTL&lt;/a&gt;.
+Venant du CFTL, je m'attendais donc à un ouvrage un peu &amp;quot;dogmatique&amp;quot; dans la lignée du livre
+&amp;quot;&lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/11/03/livre-les-tests-logiciels-fondamentaux/"&gt;Les tests logiciels fondamentaux&lt;/a&gt;&amp;quot;.
+Ce n'est pas du tout le cas et c'est plutôt heureux. Le pragmatisme est de rigueur, à mon avis, lorsqu'on aborde un tel
+sujet où les pratiques sont très dépendantes du contexte. L'idée de compiler différents auteurs et
+expériences est vraiment intéressante. Associée à une mise en pages aérée et illustrée, la lecture est d'autant plus
+agréable.&lt;/p&gt;
+&lt;p&gt;Cette approche d'écriture &amp;quot;collective&amp;quot; a aussi des inconvénients. En effet, l'ensemble m'est apparu un peu hétérogène
+par moment. J'ai trouvé que certains chapitres étaient aboutis et d'autres plus &amp;quot;légers&amp;quot;, voire hors-sujet
+(ie. traitant plus de techniques de Test que de Test en Agilité). Cependant, cela ne nuit pas globalement à la lecture,
+surtout si le sujet reste intéressant.&lt;/p&gt;
+&lt;p&gt;Voici quelques citations, en vrac, qui ont retenu particulièrement mon attention :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Les tests dans une méthode agile vont prendre plus d'importance que dans une méthode classique&amp;quot;
+-- &lt;strong&gt;Marc Hage Chanine&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Dans un projet Agile, le rôle du Test Manager se trouve dilué, incombant souvent au testeur lui-même, qui prend
+donc en charge une large partie de ses responsabilités&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;[L'ATDD] exige de tous les membres de l'équipe de sortir de leur zone de compétence, voire d'intérêt, pour
+travailler sur des cas de test&amp;quot; -- &lt;strong&gt;Reynald Stevens&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;J'ai fait face à plusieurs reprises à [un] rejet quand les tâches de tests étaient attribuées à une personne
+non-incluse à l'équipe QA&amp;quot; -- &lt;strong&gt;Marcelo Kamenetz Szwarcbarg, Amadeus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Les équipes sont focalisées sur les engagements opérationnels et il est toujours difficile de les mobiliser sur
+les travaux d'amélioration continue&amp;quot; -- &lt;strong&gt;Collectif, Axa&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;J'ai trouvé ce livre pertinent, car les expériences relatées correspondent assez bien à ce que j'ai vu dans les
+entreprises pour lesquelles j'ai travaillé. Je souligne en particulier le retour d'expérience de l'équipe qui développe
+le site &amp;quot;oui.sncf&amp;quot; dans lequel je me retrouve en de nombreux points.&lt;/p&gt;
+&lt;p&gt;Aux travers du regard des auteurs, j'ai appris et mieux compris certains aspects. J'ai notamment
+réalisé d'une manière plus précise que &lt;strong&gt;le Test dans le contexte Agile, était un levier important pour aligner
+le &amp;quot;Développement&amp;quot; avec le &amp;quot;Business&amp;quot;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;C'est le premier livre publié en français sur le sujet du &amp;quot;Test logiciel en Agilité&amp;quot; et, ne serait-ce qu'à ce titre,
+il mérite le détour.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr class="docutils" /&gt;
+&lt;div class="section" id="eme-de-couverture"&gt;
+&lt;h2&gt;4ème de couverture&lt;/h2&gt;
+&lt;p&gt;Ce livre collectif répond au besoin de partager des connaissances de la communauté francophone des tests logiciels.
+Comment l’Agilité s’intègre et modifie nos pratiques ? Quelles sont les nouvelles approches de tests,
+les techniques et l’organisation des activités les plus pertinentes ? Quels sont les retours d’expérience ?
+Autant de questions auxquelles ce livre cherche à répondre, en fournissant de l’information actualisée par
+des praticiens et en montrant la diversité des problématiques et des solutions mises en œuvre.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sommaire"&gt;
+&lt;h2&gt;Sommaire&lt;/h2&gt;
+&lt;p&gt;Le livre du CFTL « Les tests logiciels en Agile » est un ouvrage collectif, organisé en trois parties :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Partie I – Aspects spécifiques des tests en Agile&lt;/dt&gt;
+&lt;dd&gt;nous introduisons les aspects spécifiques des tests dans l’Agilité en termes d’état d’esprit, de rôle des testeurs
+et d’organisation des équipes.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Partie II – Pratiques des tests en Agile&lt;/dt&gt;
+&lt;dd&gt;nous offrons un catalogue de pratiques, couvrant à la fois les techniques de test (ATDD/BDD, Automatisation,
+Tests exploratoires, …), la façon d’organiser les tests (Agilité à l’échelle – SAFe, métriques, tests basés sur
+les risques, …) mais aussi les contextes spécifiques tels l’IoT ou le test en production.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Partie III – Retours d’expérience&lt;/dt&gt;
+&lt;dd&gt;nous présentons des analyses pratiques des réussites et des échecs de terrain.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="livre"></category><category term="test logiciel"></category><category term="agile"></category></entry><entry><title>La stratégie de test de la "Terre ronde"</title><link href="https://eh-bien-testez-maintenant.github.io/2018/09/16/strategie-test-terre-ronde/" rel="alternate"></link><published>2018-09-16T18:00:00+02:00</published><updated>2018-09-16T18:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-09-16:/2018/09/16/strategie-test-terre-ronde/</id><summary type="html">&lt;img alt="La stratégie de la &amp;quot;Terre ronde&amp;quot;" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-terre-globe.jpg" style="width: 400px;" /&gt;
+&lt;!-- Photo by Suzy Hazelwood from Pexels --&gt;
+&lt;p&gt;James Bach vient de publier (le 08/09/2018) sur son blog &lt;a class="reference external" href="http://www.satisfice.com/blog/archives/4947"&gt;un article&lt;/a&gt;  dans
+lequel il explique l'analogie qu'il fait entre le forme sphérique de la Terre et le Test logiciel.&lt;/p&gt;
+&lt;p&gt;Il a appelé ce modèle la &lt;strong&gt;stratégie de test de la &amp;quot;Terre ronde&amp;quot;&lt;/strong&gt; et je vais tenter d'en …&lt;/p&gt;</summary><content type="html">&lt;img alt="La stratégie de la &amp;quot;Terre ronde&amp;quot;" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-terre-globe.jpg" style="width: 400px;" /&gt;
+&lt;!-- Photo by Suzy Hazelwood from Pexels --&gt;
+&lt;p&gt;James Bach vient de publier (le 08/09/2018) sur son blog &lt;a class="reference external" href="http://www.satisfice.com/blog/archives/4947"&gt;un article&lt;/a&gt;  dans
+lequel il explique l'analogie qu'il fait entre le forme sphérique de la Terre et le Test logiciel.&lt;/p&gt;
+&lt;p&gt;Il a appelé ce modèle la &lt;strong&gt;stratégie de test de la &amp;quot;Terre ronde&amp;quot;&lt;/strong&gt; et je vais tenter d'en expliquer les grandes lignes &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="qu-est-ce-que-la-strategie-de-test-de-la-terre-ronde"&gt;
+&lt;h2&gt;Qu'est-ce que la stratégie de test de la &amp;quot;Terre ronde&amp;quot; ?&lt;/h2&gt;
+&lt;div class="section" id="un-modele-pour-expliquer-le-test-logiciel"&gt;
+&lt;h3&gt;Un modèle pour expliquer le Test logiciel&lt;/h3&gt;
+&lt;p&gt;Avant de parler du modèle de la &amp;quot;Terre ronde&amp;quot;, nous allons parler d'un autre modèle similaire,
+bien connu des testeurs : la &amp;quot;&lt;strong&gt;Pyramide du Test automatique&lt;/strong&gt;&amp;quot; &lt;a class="footnote-reference" href="#f2" id="footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/p&gt;
+&lt;img alt="Pyramide du Test automatique" class="align-center" src="http://www.mountaingoatsoftware.com/uploads/blog/Testpyramid.jpg" style="width: 200px;" /&gt;
+&lt;p&gt;Ce modèle part d'une pyramide - plutôt un triangle - découpée en couches ou strates horizontales successives.
+Chaque strate représente un niveau de test.
+L'analogie est faite entre la forme évasée du triangle et la proportion de tests automatiques à réaliser.
+Dans les couches basses, il doit y avoir plus de tests que dans les hautes avec une diminution progressive,
+d'où la forme triangulaire.&lt;/p&gt;
+&lt;p&gt;Ce modèle permet d'expliquer un aspect du Test automatique par analogie avec une forme géométrique.&lt;/p&gt;
+&lt;p&gt;C'est ce que fait James Bach en utilisant l'analogie de la &amp;quot;Terre ronde&amp;quot;. Il utilise la forme sphérique répartie
+en couches concentriques de la Terre pour modéliser un aspect du Test logiciel :&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://eh-bien-testez-maintenant.github.io/doc/strategie-test-terre-ronde.pdf"&gt;&lt;img alt="La stratégie de la &amp;quot;Terre ronde&amp;quot;" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-strategie-test-terre-ronde.png" style="width: 800px;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="section" id="un-modele-qui-montre-les-enjeux-du-test-a-differents-niveaux"&gt;
+&lt;h3&gt;Un modèle qui montre les enjeux du test à différents niveaux&lt;/h3&gt;
+&lt;p&gt;L'idée derrière le modèle de la &amp;quot;Terre ronde&amp;quot; est de penser les technologies comme les &lt;strong&gt;couches terrestres concentriques&lt;/strong&gt;.
+Chaque couche a un volume qui représente les possibilités, c'est-à-dire &lt;strong&gt;l'espace des états possibles du produit à tester&lt;/strong&gt;.
+Ce volume tend donc à augmenter de façon drastique à chaque couche.
+On imagine alors facilement les problématiques de test qui en découlent à chaque niveau.&lt;/p&gt;
+&lt;p&gt;En bas du modèle, au niveau du noyau terrestre, se trouvent les frameworks, les systèmes d'exploitation et les environnements de développement, en d'autres termes,
+tout ce qu'on ne va pas tester. Les développements reposent sur cette &amp;quot;fondation solide&amp;quot; de suppositions.
+Ces suppositions sont généralement sûres, bien que quelques fois de la lave ou du gaz radon ou une source souterraine toxique, peuvent traverser cette fondation.&lt;/p&gt;
+&lt;p&gt;Si on monte d'un niveau, on arrive au code du produit que l'on peut tester de façon unitaire puisque nous en sommes les auteurs.
+Ces tests sont typiquement écrits par des développeurs de manière &amp;quot;souterraines&amp;quot; à un niveau relativement bas.
+Cependant, les utilisateurs eux vivent tout en haut, à la lumière. Les développeurs peuvent donc avoir des difficultés à adopter
+le point de vue des utilisateurs car ils sont &amp;quot;empêtrés&amp;quot; dans les détails de leur travail et biaisés par leur haut-niveau d'expertise.&lt;/p&gt;
+&lt;p&gt;En montant dans les couches, on arrive alors à l'endroit où interagissent les sous-systèmes.
+Ceux-ci peuvent typiquement être testés via une API ou en ligne de commande.
+C'est à ce niveau que les outils de test excellent.
+On peut d'ailleurs s'imaginer les outils de test comme des sous-marins évoluant sous la tempête.&lt;/p&gt;
+&lt;p&gt;Enfin, la surface de la Terre, lieu où peuvent sévir des intempéries, il y a l'interface graphique (GUI).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="un-modele-qui-nous-rappelle-l-importance-des-donnees"&gt;
+&lt;h3&gt;Un modèle qui nous rappelle l'importance des données&lt;/h3&gt;
+&lt;p&gt;James Bach donne une importance particulière aux données.
+Il les représente comme les flux d'énergies qui agissent au dessus de la surface (le soleil, le vent, l'eau)
+et en dessous (eaux souterraines, magma, tremblements de terre).
+Lorsque l'on teste, les données sont partout, dans des bases, dans le cloud si on fait du micro-service.
+Il y en a même dans le code.
+Enfin, les données sont bien sûr dans ce que les utilisateurs saisissent mais aussi dans la manière dont ils manipulent le produit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="un-modele-qui-nous-rappelle-l-importance-de-la-testabilite"&gt;
+&lt;h3&gt;Un modèle qui nous rappelle l'importance de la testabilité&lt;/h3&gt;
+&lt;p&gt;Un produit &amp;quot;testable&amp;quot; est un produit qui peut être décomposé en parties testables séparément.
+On doit également pouvoir observer et contrôler son comportement.
+Cela signifie que les testeurs doivent avoir accès à des parties plus &amp;quot;internes&amp;quot; du logiciel via une interface (comme une ligne de commande ou une API),
+et à un système de journalisation (logging).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Pour conclure son propos, James Bach finit par ces quelques remarques :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;La qualité apparente (à la surface) nécessite de la qualité sous-jacente (en souterrain)&lt;/li&gt;
+&lt;li&gt;La qualité apparente réduit la dépendance à de coûteux tests de haut-niveau&lt;/li&gt;
+&lt;li&gt;Les tests de bas-niveau, peu coûteux, réduisent la dépendance à de coûteux tests de haut-niveau&lt;/li&gt;
+&lt;li&gt;Le risque augmente jusqu'à l'utilisateur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p class="rubric"&gt;Notes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cet article n'est pas une traduction mot pour mot de l'article de James Bach mais plutôt un résumé librement interprété, en français
+mais qui, je l'espère, reste assez fidèle à l'original. Merci à James Bach pour ce travail.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;Quelques références sur la &amp;quot;Pyramide du Test Automatique&amp;quot; :&lt;/p&gt;
+&lt;ul class="last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://watirmelon.blog/testing-pyramids/"&gt;https://watirmelon.blog/testing-pyramids/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://martinfowler.com/bliki/TestPyramid.html"&gt;https://martinfowler.com/bliki/TestPyramid.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid"&gt;https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="strategie"></category><category term="test logiciel"></category></entry><entry><title>Livre : Les tests logiciels fondamentaux</title><link href="https://eh-bien-testez-maintenant.github.io/2016/11/03/livre-les-tests-logiciels-fondamentaux/" rel="alternate"></link><published>2016-11-03T08:19:00+01:00</published><updated>2016-11-03T08:19:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2016-11-03:/2016/11/03/livre-les-tests-logiciels-fondamentaux/</id><summary type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://static.eyrolles.com/img/2/7/4/6/2/3/1/5/9782746231559_h430.jpg" style="width: 213px; height: 320px;" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Le livre &amp;quot;Les tests logiciels fondamentaux&amp;quot; de l'éditeur
+Hermès-Lavoisier est surement le livre de référence en langue française
+sur le sujet.&lt;/p&gt;
+&lt;p&gt;L'auteur, Bernard Homès, est un spécialiste reconnu du test logiciel en
+France. Il est l'ancien président du &amp;quot;Comité français des tests
+logiciels&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Cet ouvrage est en quelques sortes …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://static.eyrolles.com/img/2/7/4/6/2/3/1/5/9782746231559_h430.jpg" style="width: 213px; height: 320px;" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Le livre &amp;quot;Les tests logiciels fondamentaux&amp;quot; de l'éditeur
+Hermès-Lavoisier est surement le livre de référence en langue française
+sur le sujet.&lt;/p&gt;
+&lt;p&gt;L'auteur, Bernard Homès, est un spécialiste reconnu du test logiciel en
+France. Il est l'ancien président du &amp;quot;Comité français des tests
+logiciels&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Cet ouvrage est en quelques sortes une somme sur le sujet. Il développe
+une quantité importante de concepts, d'outils et de méthodes sur le
+test. C'est un livre auquel on peut venir se référer pour avoir des
+informations sur des points précis. Idéal pour préparer l'examen de la
+certification ISTQB, son contenu suit de près le syllabus de l'ISTQB. A
+chaque fin de chapitre, il y a des questions d'examen blanc et un examen
+complet à la fin.&lt;/p&gt;
+&lt;p&gt;Un livre de référence, en français, qui sera utile pour ceux qui
+souhaitent préparer la certification ISTQB.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="eme-de-couverture"&gt;
+&lt;h2&gt;4ème de couverture&lt;/h2&gt;
+&lt;p&gt;Le test de logiciel est aujourd'hui une activité industrielle régie par
+des processus. Ces processus fondamentaux sont décrits dans le syllabus
+(cahier des charges) de niveau fondation du CFTL-ISTQB 2010 utilisé pour
+la formation des testeurs. Illustré par de nombreux exemples, Les tests
+logiciels présente les différents concepts et analyse les phases
+d'exécution des processus. Il permet aux candidats testeurs de préparer
+avec succès l'examen de certification. Cet ouvrage apporte également des
+solutions aux professionnels du test comme les tests basés sur les
+risques (Risk Based Testing), la justification du retour sur
+investissement du test ou sa rentabilité. Le reporting, les techniques
+d'estimation de la charge de test et les standards sont aussi traités,
+faisant de cet ouvrage une référence pour les assistants à maîtrise
+d'ouvrage ou à maîtrise d'œuvre. Il s'adresse aussi aux DSI, aux chefs
+de projets, aux développeurs voulant améliorer leur code et aux testeurs
+souhaitant acquérir la certification CFTL.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sommaire"&gt;
+&lt;h2&gt;Sommaire&lt;/h2&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Avant-propos&lt;/div&gt;
+&lt;div class="line"&gt;Principes fondamentaux&lt;/div&gt;
+&lt;div class="line"&gt;Les tests dans le cycle de vie des logiciels&lt;/div&gt;
+&lt;div class="line"&gt;Techniques statiques&lt;/div&gt;
+&lt;div class="line"&gt;Technique de conception de tests&lt;/div&gt;
+&lt;div class="line"&gt;Gestion des tests&lt;/div&gt;
+&lt;div class="line"&gt;Outils et automatisation&lt;/div&gt;
+&lt;div class="line"&gt;Examen blanc&lt;/div&gt;
+&lt;div class="line"&gt;Gabarits et modèles&lt;/div&gt;
+&lt;div class="line"&gt;Corrigés des questions&lt;/div&gt;
+&lt;div class="line"&gt;Glossaire&lt;/div&gt;
+&lt;div class="line"&gt;Bibliographie&lt;/div&gt;
+&lt;div class="line"&gt;Index&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="livre"></category><category term="test logiciel"></category></entry><entry><title>Livre : Pratique des tests logiciels</title><link href="https://eh-bien-testez-maintenant.github.io/2016/10/23/livre-pratique-des-tests-logiciels/" rel="alternate"></link><published>2016-10-23T21:05:00+02:00</published><updated>2016-10-23T21:05:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2016-10-23:/2016/10/23/livre-pratique-des-tests-logiciels/</id><summary type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://books.google.fr/books/content?id=UWj2yEt78l0C&amp;amp;printsec=frontcover&amp;amp;img=1&amp;amp;zoom=5&amp;amp;edge=curl&amp;amp;imgtk=AFLRE70GJsU-dpETfg7XS-XIp52pCoETKtMS-W2RQ-OXFwWZ7OiNS27uiLOEEduHkwv1I1nh2vGlV_48J1DmVhiA78oF1gbKVAeXj_SwAVHhMu6D_jfHcNjtamZw489s_mEpUD9zGHI9" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Le livre &amp;quot;Pratique des tests logiciels&amp;quot; de l'éditeur Dunod (1ère édition) est une bonne entrée en matière pour
+aborder de façon concrète la problématique du test logiciel.&lt;/p&gt;
+&lt;p&gt;Sa lecture se fait de façon progressive. Les chapitres 1 et 2 décrivent
+les grands enjeux du test logiciel et s'adressent à …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://books.google.fr/books/content?id=UWj2yEt78l0C&amp;amp;printsec=frontcover&amp;amp;img=1&amp;amp;zoom=5&amp;amp;edge=curl&amp;amp;imgtk=AFLRE70GJsU-dpETfg7XS-XIp52pCoETKtMS-W2RQ-OXFwWZ7OiNS27uiLOEEduHkwv1I1nh2vGlV_48J1DmVhiA78oF1gbKVAeXj_SwAVHhMu6D_jfHcNjtamZw489s_mEpUD9zGHI9" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Le livre &amp;quot;Pratique des tests logiciels&amp;quot; de l'éditeur Dunod (1ère édition) est une bonne entrée en matière pour
+aborder de façon concrète la problématique du test logiciel.&lt;/p&gt;
+&lt;p&gt;Sa lecture se fait de façon progressive. Les chapitres 1 et 2 décrivent
+les grands enjeux du test logiciel et s'adressent à ce titre à tous ceux
+qui font du logiciel, de près ou de loin (chef de projets, développeur,
+testeur, voire maîtrise d'ouvrage...). Ensuite, on entre dans le vif du
+sujet avec la présentation de différentes techniques de tests. Le
+dernier chapitre est lui consacré à la gestion des tests et s'adressera
+donc aux chefs de projets de test.&lt;/p&gt;
+&lt;p&gt;Personnellement, je trouve que le chapitre &amp;quot;Processus et tests
+d’intégration&amp;quot; est disproportionné par rapport au reste. Cette partie
+est très académique, on a l'impression de lire une véritable &amp;quot;thèse&amp;quot; sur
+l'intégration logicielle.&lt;/p&gt;
+&lt;p&gt;Ce livre annonce aussi qu'il permet la préparation de la certification
+ISTQB. Il aborde effectivement les principaux points de la certification
+(niveau &amp;quot;Fondation&amp;quot; uniquement) mais pas tous. Il ne suffira donc pas et
+il viendra plutôt en complément. Remarque : l'édition 2 du livre (celle
+que je n'ai pas...) semble combler ce manque et propose des chapitres en
+plus.&lt;/p&gt;
+&lt;p&gt;En résumé, je conseille vivement la lecture de ce livre, surtout les deux premiers chapitres.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sommaire"&gt;
+&lt;h2&gt;Sommaire&lt;/h2&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Chapitre 1 - Quelques idées essentielles sur les tests. (10 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 2 - Tester à chaque niveau du cycle de vie. (27 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 3 - Tester efficacement : les différentes stratégies. (18 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 4 - Concevoir efficacement des jeux de tests grâce aux spécifications. (31 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 5 - Utiliser les détails d’implémentation dans les tests. (23 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 6 - Processus et tests d’intégration. (51 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 7 - Gérer les tests. (15 pages)&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="eme-de-couverture"&gt;
+&lt;h2&gt;4ème de couverture&lt;/h2&gt;
+&lt;p&gt;Ce livre s'adresse aux développeurs, concepteurs et intégrateurs de
+logiciels ainsi qu'aux chefs de projets et aux architectes. Il
+intéressera également les élèves ingénieurs ainsi que les étudiants de
+fin de licence ou de master en informatique et toute personne préparant
+la certification ISTQB du métier de testeur. Concevoir du premier coup
+et sans aucune erreur un logiciel qui comporte plusieurs millions de
+lignes de code et plusieurs centaines de composants est évidemment
+impossible. La nécessité des tests au cours des différentes phases de
+conception paraît évidente et pourtant, dans la pratique, les tests ont
+été longtemps négligés et relégués au second rang. On voit cependant
+apparaître une forte volonté de la part de tous les acteurs concernés de
+faire évoluer ces pratiques et de remettre au premier plan les tests
+logiciels. L'objectif de cet ouvrage est triple : donner les bases et
+les bonnes pratiques pour concevoir et mener à bien les tests
+nécessaires et efficaces tout au long du cycle de vie du logiciel ;
+fournir un référentiel en termes de méthodes, de vocabulaire et de
+savoir faire ; préparer au passage de la certification ISTQB du métier
+de testeur.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="livre"></category><category term="test logiciel"></category></entry></feed>

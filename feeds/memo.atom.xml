@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Eh Bien Testez Maintenant ! - memo</title><link href="https://eh-bien-testez-maintenant.github.io/" rel="alternate"></link><link href="https://eh-bien-testez-maintenant.github.io/feeds/memo.atom.xml" rel="self"></link><id>https://eh-bien-testez-maintenant.github.io/</id><updated>2016-12-17T23:07:00+01:00</updated><subtitle>Vous codiez ? J'en suis fort aise.&lt;br/&gt; Eh bien : testez maintenant !</subtitle><entry><title>Memo : Déploiement d'environnement de test (ou autres)</title><link href="https://eh-bien-testez-maintenant.github.io/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/" rel="alternate"></link><published>2016-12-17T23:07:00+01:00</published><updated>2016-12-17T23:07:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2016-12-17:/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/</id><content type="html">&lt;p&gt;Liens concernant le déploiement d'environnement de test.&lt;/p&gt;
+&lt;div class="section" id="cobbler"&gt;
+&lt;h2&gt;Cobbler&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://cobbler-doc.readthedocs.io/"&gt;My Cobbler documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.olindata.com/blog/2015/07/cobbler-setup-centos7"&gt;Cobbler Setup on
+CentOS7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.linuxtechi.com/install-and-configure-cobbler-on-centos-7/"&gt;How to Install and Configure Cobbler on CentOS
+7.x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="foreman"&gt;
+&lt;h2&gt;Foreman&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.linuxtechi.com/install-and-configure-foreman-on-centos-7-x/"&gt;Steps to Install and Configure Foreman 1.11 on CentOS
+7.x&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.linuxtechi.com/bare-metal-provisioning-through-foreman-server/"&gt;Bare metal and Virtual Machine Provisioning through Foreman
+Server&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="memo"></category><category term="environnement de test"></category><category term="test logiciel"></category></entry></feed>
