@@ -7,6 +7,7 @@ AUTHOR = 'apallier'
 SITENAME = 'Eh Bien Testez Maintenant !'
 SITESUBTITLE = "Vous codiez ? J'en suis fort aise.<br/> Eh bien : testez maintenant !"
 SITEURL = 'http://localhost:8000'
+FAVICON = '/images/favicon.ico'
 
 PATH = 'content'
 
