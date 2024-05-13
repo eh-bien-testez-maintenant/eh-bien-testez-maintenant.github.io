@@ -1,7 +1,7 @@
 Conventions pour les messages de commit sous Git
 ################################################
 
-:date: 2024-05-10
+:date: 2024-05-13
 :author: apallier
 :category: revue
 :tags: code, git
@@ -14,11 +14,11 @@ Conventions pour les messages de commit sous Git
 
 .. Photo de Karolina Grabowska: https://www.pexels.com/fr-fr/photo/cahier-bureau-stylo-ecrite-4195401/
 
-Est-ce que vous pensez aussi que les messages de commit dans Git font aussi partie de la qualité d’un logiciel au sens
+Est-ce que vous pensez aussi que les messages de commit dans Git font partie de la qualité d’un logiciel au sens
 large ?
 
 J’ai creusé un peu la question ces derniers temps et je présente ici un résumé des différentes conventions que j’ai
-trouvé pour les messages de commit sous Git.
+trouvées pour les messages de commit sous Git.
 
 |
 
@@ -31,7 +31,6 @@ avec des préfixes définis tels que “feat” (pour les nouvelles fonctionnali
 
 * Site Web : https://www.conventionalcommits.org
 * Outils qui permettent de générer les messages de commit
-
     * `better-commit <https://github.com/Everduin94/better-commits>`_
     * `Commitizen <https://github.com/commitizen/cz-cli>`_
 
@@ -56,7 +55,7 @@ Exemple de message de type commit :
 2. La Convention Angular
 ------------------------
 
-Il me semble que les “Conventional commits” vient d’Angular qui a développé ses propres directives de messages de
+Il me semble que les “Conventional commits” viennent d’Angular qui a développé ses propres directives de messages de
 commit. Ces directives recommandent un format structuré pour les messages de commit, en utilisant des en-têtes avec
 des mots-clés spécifiques pour indiquer le type de changement.
 
@@ -111,25 +110,26 @@ Exemples de messages de commit avec Gitmoji :
 4. La convention Atom
 ---------------------
 
-Bien que l'éditeur Atom ne soit plus maintenu, l'éditeur avait créer un guide pour les messages de commit qui a
+Bien que l'éditeur Atom ne soit plus maintenu, il avait créé un guide pour les messages de commit qui a
 l'intérêt d'être très concis.
 
 * GitHub Repository : https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages
 
 
 .. note::
-    Pour l'anecdote, on peut noter que, par exemple même
-    `la Commission Européenne a adoptée la convention Angular <https://ec.europa.eu/component-library/v1.15.0/eu/docs/conventions/git/>`_.
+    Pour l'anecdote, on peut noter que
+    `la Commission Européenne <https://ec.europa.eu/component-library/v1.15.0/eu/docs/conventions/git/>`_
+    utilise la convention "Angular" pour les messages de commit dans ses projets.
 
 
 Conclusion
 ----------
 
-Il existe plusieurs conventions pour les messages de commit. La "Conventional Commit Convention" semble être une
-référence aujourd'hui.
+Il existe plusieurs conventions pour les messages de commit sous Git. La "Conventional Commit Convention" semble être
+une référence aujourd'hui.
 
 L'adoption d'une convention pour les messages de commit dans un projet Git améliore la traçabilité du développement,
 favorise la cohérence au sein de l'équipe, et facilite l'automatisation de certaines tâches liées à la gestion du code
 source et permet de créer de l'outillage.
 
-Bref, c'est un outil au service de la qualité logicielle.
+Bref, c'est un outil au service de la Qualité logicielle.
