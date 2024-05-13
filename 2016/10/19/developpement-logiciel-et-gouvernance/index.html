@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+    href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/native.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/default.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/custom.css">
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Eh Bien Testez Maintenant ! Atom">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKML3CYE6E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKML3CYE6E');
+</script>
+
+ 
+
+<meta name="author" content="apallier" />
+<meta name="description" content="&#34;Pour qu’on ne puisse abuser du pouvoir, il faut que, par la disposition des choses, le pouvoir arrête le pouvoir&#34; —Montesquieu, De l&#39;esprit des lois Cette citation de Montesquieu parle bien sûr de politique et de la séparation de ses pouvoirs. Dans cet article, je vais décrire une approche …" />
+<meta name="keywords" content="gouvernance, test logiciel">
+
+
+  <meta property="og:site_name" content="Eh Bien Testez Maintenant !"/>
+  <meta property="og:title" content="Développement logiciel et Gouvernance"/>
+  <meta property="og:description" content="&#34;Pour qu’on ne puisse abuser du pouvoir, il faut que, par la disposition des choses, le pouvoir arrête le pouvoir&#34; —Montesquieu, De l&#39;esprit des lois Cette citation de Montesquieu parle bien sûr de politique et de la séparation de ses pouvoirs. Dans cet article, je vais décrire une approche …"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:url" content="https://eh-bien-testez-maintenant.github.io/2016/10/19/developpement-logiciel-et-gouvernance/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2016-10-19 20:51:00+02:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://eh-bien-testez-maintenant.github.io/author/apallier.html">
+  <meta property="article:section" content="opinion"/>
+  <meta property="article:tag" content="gouvernance"/>
+  <meta property="article:tag" content="test logiciel"/>
+  <meta property="og:image" content="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg">
+
+  <title>Eh Bien Testez Maintenant ! &ndash; Développement logiciel et Gouvernance</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="https://eh-bien-testez-maintenant.github.io/">
+      <img src="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="https://eh-bien-testez-maintenant.github.io/"></a>
+    </h1>
+
+    <p>Vous codiez ? J'en suis fort aise.<br/> Eh bien : testez maintenant !</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/a-propos/#a-propos">
+                A propos
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/curriculum-vitae/#curriculum-vitae">
+                Curriculum Vitae
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/ma-petite-entreprise/#ma-petite-entreprise">
+                Ma petite entreprise
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/interviews-de-testeurs/#interviews-de-testeurs">
+                Interviews de testeurs
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/portfolio/#portfolio">
+                Portfolio
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/alexispallier/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="//eh-bien-testez-maintenant.github.io/rss.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/apallier"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://eh-bien-testez-maintenant.github.io/">Accueil</a>
+
+  <a href="/archives.html">Archives</a>
+  <a href="/categories.html">Catégories</a>
+  <a href="/tags.html">Tags</a>
+
+  <a href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="developpement-logiciel-et-gouvernance">Développement logiciel et Gouvernance</h1>
+    <p>
+      Posté le Wed 19 October 2016 dans <a href="https://eh-bien-testez-maintenant.github.io/category/opinion.html">opinion</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<p>&quot;Pour qu’on ne puisse abuser du pouvoir, il faut que, par la
+disposition des choses, le pouvoir arrête le pouvoir&quot;</p>
+<p class="attribution">&mdash;Montesquieu, <em>De l'esprit des lois</em></p>
+</blockquote>
+<p>Cette citation de Montesquieu parle bien sûr de politique et de la
+séparation de ses pouvoirs. Dans cet article, je vais décrire une
+approche qui me permet de faire rapidement l'audit d'une entreprise sur
+sa maturité en terme de test logiciel.
+Il m'a paru intéressant de rapprocher cette citation du domaine du
+développement logiciel. En essayant de déterminer quels sont les jeux de
+pouvoir qu'il peut exister au sein d'une entreprise qui développe des
+produits logiciels, on peut voir apparaître les forces et les lacunes
+qui conduisent à des dérives et des biais dans la construction d'un
+produit logiciel.</p>
+<div class="section" id="les-pouvoirs-en-presence">
+<h2>Les pouvoirs en présence</h2>
+<p>Les trois pouvoirs politiques définis par Montesquieu <a class="footnote-reference" href="#f1" id="footnote-reference-1">[1]</a> sont&nbsp;:</p>
+<ul class="simple">
+<li>Le pouvoir <strong>législatif</strong></li>
+<li>Le pouvoir&nbsp;<strong>exécutif</strong></li>
+<li>Le pouvoir <strong>judiciaire</strong></li>
+</ul>
+<p>Maintenant, transposons cette vision dans le domaine de l'industrie
+logicielle. On peut définir 3 pouvoirs qui gravitent autour d'un produit
+logiciel :</p>
+<ul class="simple">
+<li>Le pouvoir de&nbsp;<strong>définir</strong>&nbsp;le produit : législatif</li>
+<li>Le pouvoir de&nbsp;<strong>construire</strong> le produit : exécutif</li>
+<li>Le pouvoir de <strong>contrôler</strong> l'état du&nbsp;produit : judiciaire</li>
+</ul>
+<p>Pour illustrer cette notion, on peut par exemple rapprocher ces
+&quot;pouvoirs&quot; de différentes entités qu'il est commun de trouver dans
+l'industrie du logiciel :</p>
+<ul class="simple">
+<li>La MOA <a class="footnote-reference" href="#f2" id="footnote-reference-2">[2]</a>&nbsp;: entité chargée de définir le produit et de formuler les besoins
+des clients et du marché, qui a le pouvoir de définir</li>
+<li>La MOE <a class="footnote-reference" href="#f3" id="footnote-reference-3">[3]</a>&nbsp;: entité de développement du logiciel, peut être appelée aussi &quot;R&amp;D&quot;
+ou &quot;équipes de développement&quot;, qui a le pouvoir de construire</li>
+<li>La QA <a class="footnote-reference" href="#f4" id="footnote-reference-4">[4]</a>&nbsp;: entité chargée de vérifier le bon fonctionnement du produit, qui a
+le pouvoir de contrôler&nbsp;l'état du&nbsp;produit</li>
+</ul>
+</div>
+<div class="section" id="jeu-de-pouvoir">
+<h2>Jeu de pouvoir</h2>
+<p>L'idée consiste maintenant à évaluer les équilibres entre les pouvoirs
+qu'il existe au sein d'une entreprise entre ces entités.</p>
+<p>Il s'agit d'évaluer pour chacune d'elles, leurs effectifs, leurs rôles
+hiérarchiques, les degrés d'indépendance, les processus qui les font
+interagir, etc. On pourra alors avoir une idée des forces en présence
+afin d'évaluer s'il n'y a pas une carence ou un excès de tel ou tel
+pouvoir.</p>
+<div class="section" id="exemples">
+<h3>Exemples</h3>
+<ul class="simple">
+<li>Prenons le cas d'une MOA qui définirait uniquement des exigences
+métiers ou des exigences fonctionnelles. Elle conduirait la MOE à ne
+s'attacher à résoudre que des problématiques d'ordre fonctionnel et à
+construire un produit qui fonctionne peut-être mais mal car ayant des
+lacunes dans le domaine non-fonctionnel (comme la performance,
+l'utilisabilité, la facilité de déploiement, etc).</li>
+<li>Un autre exemple : Prenons le cas d'une société qui aurait une MOE de
+100 personnes et une QA de 5 personnes. La&nbsp;responsabilité&nbsp;de la&nbsp;QA
+étant sous celle de la MOE. On voit bien ici le déséquilibre entre le
+pouvoir de construction et le pouvoir de contrôle. Le risque ici est
+bien de livrer un produit qui est construit de façon non contrôlée et
+qui ne correspondra pas aux attentes en terme de fonctionnalités et
+de qualité.</li>
+<li>Un troisième cas, qui de mon point de vue est sûrement le plus rare,
+la QA est constituée d'une équipe importante, ayant un fort degré
+d'indépendance par rapport à la MOA et la MOE. Son pouvoir de
+contrôle et de veto surdimensionné pourrait nuire au bon déroulement
+de la construction. La QA pourrait demander des exigences
+qualitatives difficiles à atteindre et qui ferait augmenter les coûts
+de développement.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>Cette réflexion m'est venue suite à un audit réalisé dans une entreprise
+qui avait des problèmes de fiabilité sur ses logiciels. Je me suis
+aperçu que selon la définition des pouvoirs que j'ai énoncé ici,
+l'entité QA était réellement sous dimensionnée. Les personnes dédiées au
+Test et à la Qualité représentent moins de 10% de l'effectif et donc
+approximativement du budget, alors que le standard de l'industrie sont
+deux à trois fois supérieurs à cela depuis plusieurs années <a class="footnote-reference" href="#f5" id="footnote-reference-5">[5]</a>.
+Il y avait donc clairement un déficit dans le contre-pouvoir du
+contrôle de la Qualité, expliquant en partie les problèmes de fiabilité
+rencontrés par cette entreprise.</p>
+<p>J'espère que ce petit outil permettra à d'autres d'évaluer les lacunes
+et les forces en présence dans une entreprise ou une équipe de
+développement. C'est un exercice que j'ai trouvé intéressant à faire et
+qui m'a permis de mieux comprendre le contexte d'une entreprise.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><a class="reference external image-reference" href="https://eh-bien-testez-maintenant.github.io/images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg"><img alt="image0" src="https://eh-bien-testez-maintenant.github.io/images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg" style="width: 640px; height: 414px;" /></a></td>
+</tr>
+<tr><td>Sketchnote &quot;Développement logiciel et Gouvernance&quot;</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<p class="rubric">Notes</p>
+<table class="docutils footnote" frame="void" id="f1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-1">[1]</a></td><td><a class="reference external" href="https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pouvoirs#Montesquieu_:_reprise_de_la_philosophie_de_Locke">https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pouvoirs#Montesquieu_:_reprise_de_la_philosophie_de_Locke</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-2">[2]</a></td><td>MOA = Maîtrise d'ouvrage</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f3" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-3">[3]</a></td><td>MOE = Maîtrise d'oeuvre</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f4" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-4">[4]</a></td><td>QA = Quality Assurance ou Assurance Qualité</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="f5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-5">[5]</a></td><td>Voir à ce sujet le &quot;World Quality Report 2015-16&quot; : en 2015, en moyenne 35% du budget IT est alloué à la Qualité et au Test : www.world-quality-report.com</td></tr>
+</tbody>
+</table>
+</div>
+
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/gouvernance.html">gouvernance</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/test-logiciel.html">test logiciel</a>
+    </p>
+  </div>
+
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'eh-bien-testez-maintenant';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Veuillez activer le JavaScript pour voir les commentaires.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>&copy; 2023 </p>
+<p>
+Construit avec <a href="http://getpelican.com" target="_blank">Pelican</a> utilisant le thème <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a>
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="https://eh-bien-testez-maintenant.github.io/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="dark"
+          type="text/javascript">
+  </script>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Eh Bien Testez Maintenant ! ",
+  "url" : "https://eh-bien-testez-maintenant.github.io",
+  "image": "https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg",
+  "description": "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA, Test automatique, Test automation"
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Eh Bien Testez Maintenant ! - automatisation</title><link href="https://eh-bien-testez-maintenant.github.io/" rel="alternate"></link><link href="https://eh-bien-testez-maintenant.github.io/feeds/automatisation.atom.xml" rel="self"></link><id>https://eh-bien-testez-maintenant.github.io/</id><updated>2023-09-09T00:00:00+02:00</updated><subtitle>Vous codiez ? J'en suis fort aise.&lt;br/&gt; Eh bien : testez maintenant !</subtitle><entry><title>Pourquoi Robot Framework ?</title><link href="https://eh-bien-testez-maintenant.github.io/2020/02/12/pourquoi-robotframework/" rel="alternate"></link><published>2020-02-12T00:00:00+01:00</published><updated>2023-09-09T00:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2020-02-12:/2020/02/12/pourquoi-robotframework/</id><summary type="html">&lt;img alt="Image d'un robot en bois sur une pelouse" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2020-pourquoi-robotframework.jpg" style="width: 300px;" /&gt;
+&lt;p&gt;Pour automatiser des tests, il est nécessaire d'utiliser des outils adaptés. Partir la &amp;quot;fleur au fusil&amp;quot; avec  pour seule arme un langage de programmation n'est pas suffisant,
+au risque de devoir réinventer la roue. Nous allons voir ensemble ici les caractéristiques qui font de &lt;a class="reference external" href="https://robotframework.org/"&gt;Robot Framework&lt;/a&gt; un bon candidat pour …&lt;/p&gt;</summary><content type="html">&lt;img alt="Image d'un robot en bois sur une pelouse" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2020-pourquoi-robotframework.jpg" style="width: 300px;" /&gt;
+&lt;p&gt;Pour automatiser des tests, il est nécessaire d'utiliser des outils adaptés. Partir la &amp;quot;fleur au fusil&amp;quot; avec  pour seule arme un langage de programmation n'est pas suffisant,
+au risque de devoir réinventer la roue. Nous allons voir ensemble ici les caractéristiques qui font de &lt;a class="reference external" href="https://robotframework.org/"&gt;Robot Framework&lt;/a&gt; un bon candidat pour automatiser nos tests logiciels.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;09/09/2023: cet article est d'abord paru sur le site &amp;quot;La Taverne du testeur&amp;quot; le 12/02/2020 sous le titre &lt;a class="reference external" href="https://latavernedutesteur.fr/2020/02/12/pourquoi-robot-framework-alexis-pallier/"&gt;&amp;quot;Robot Framework : Le Couteau Suisse De L’Automatisation&amp;quot;&lt;/a&gt;.
+Comme j'en suis l'auteur et que cela fait maintenant un certain temps (&amp;gt; 3 ans...), je le publie maintenant aussi sur mon blog.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Les auteurs de Robot Framework le définissent lui-même comme :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;[...] un framework &lt;strong&gt;générique&lt;/strong&gt; et open-source d'automatisation pour le &lt;strong&gt;Test de Validation&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Très clairement, et nous le verrons dans la suite de cet article, Robot Framework a été conçu pour automatiser les tests du niveau &amp;quot;Validation&amp;quot; (en anglais: &amp;quot;Acceptance Testing&amp;quot;) et pour faire de
+l'ATDD (Acceptance Test Driven Development). C'est-à-dire que son domaine de prédilection est le même que celui de l'utilisateur final &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;.
+&lt;strong&gt;Il va permettre d’automatiser les actions que pourraient réaliser l'utilisateur du logiciel que l'on souhaite tester&lt;/strong&gt;. D'ailleurs, le nom &amp;quot;Robot&amp;quot; porte en lui-même l'idée que l'on cherche à
+reproduire de façon programmatique le comportement d'un humain &lt;a class="footnote-reference" href="#footnote-2" id="footnote-reference-2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="un-outil-generique-de-validation"&gt;
+&lt;h2&gt;Un outil générique de validation&lt;/h2&gt;
+&lt;p&gt;Robot Framework possède des caractéristiques lui permettant de convenir à différentes situations de Test et en particulier de Test de Validation.&lt;/p&gt;
+&lt;div class="section" id="la-polyvalence"&gt;
+&lt;h3&gt;La polyvalence&lt;/h3&gt;
+&lt;p&gt;Les &lt;a class="reference external" href="http://robotframework.org/robotframework/"&gt;librairies &amp;quot;standard&amp;quot; fournies&lt;/a&gt; &lt;a class="footnote-reference" href="#footnote-3" id="footnote-reference-3"&gt;[3]&lt;/a&gt; par Robot Framework permettent de réaliser les multiples actions et vérifications nécessaires que pourrait faire
+un utilisateur pour tester un logiciel.&lt;/p&gt;
+&lt;p&gt;Les librairies standard permettent, entre autres de:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;manipuler des données de base comme les chaines de caractères, les listes ou les dictionnaires&lt;/li&gt;
+&lt;li&gt;manipuler des fichiers, dont des fichiers XML&lt;/li&gt;
+&lt;li&gt;manipuler des processus&lt;/li&gt;
+&lt;li&gt;manipuler des dates&lt;/li&gt;
+&lt;li&gt;faire des assertions, ou autrement dit, faire des vérifications sur tous ces objets&lt;/li&gt;
+&lt;li&gt;prendre des captures d'écran&lt;/li&gt;
+&lt;li&gt;utiliser le protocole Telnet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Voici un exemple de test dans lequel nous allons rechercher une chaîne de caractère dans un fichier et vérifier qu'elle est bien présente (part 1).
+Nous allons ensuite lancer un executable et vérifier qu'il s'est réellement bien exécuté :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gh"&gt;*** Test Cases ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="gu"&gt;Test Example&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="c"&gt;# Part 1&lt;/span&gt;
+&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;resultat_recherche&lt;/span&gt;&lt;span class="p"&gt;}=    &lt;/span&gt;&lt;span class="nf"&gt;Grep File&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;mon_fichier.log&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;chaine_recherchee&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Should contain&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;resultat_recherche&lt;/span&gt;&lt;span class="p"&gt;}    ${&lt;/span&gt;&lt;span class="nv"&gt;chaine_recherchee&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="c"&gt;# Part 2&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Start process&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;mon_executable.exe&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;shell=true&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;alias=process&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;result&lt;/span&gt;&lt;span class="p"&gt;}=    &lt;/span&gt;&lt;span class="nf"&gt;Wait For Process&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;process&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;timeout=10s&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;on_timeout=kill&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Should Be Equal As Integers&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;result.rc&lt;/span&gt;&lt;span class="p"&gt;}    &lt;/span&gt;&lt;span class="s"&gt;0&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="l-adaptabilite"&gt;
+&lt;h3&gt;L'adaptabilité&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;S'adapter au logiciel à tester&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Les librairies &amp;quot;standard&amp;quot; permettent, comme nous l'avons vu, d'écrire des tests basiques. Cependant, cela peut paraître limité pour s'adapter à des contextes de test plus évolués.
+Robot Framework permet aussi d'utiliser des &lt;strong&gt;librairies tierces&lt;/strong&gt;, codées en Python ou en Java. Ceci ouvre la porte à l'automatisation de nombreux logiciels puisqu'il suffit quasiment &lt;a class="footnote-reference" href="#footnote-4" id="footnote-reference-4"&gt;[4]&lt;/a&gt; qu'une librairie
+(type harnais de test) existe pour que Robot Framework soit capable de se &amp;quot;brancher&amp;quot; dessus et d'exécuter des tests.&lt;/p&gt;
+&lt;p&gt;On peut citer surement ce qui est la plus &amp;quot;célèbre&amp;quot; des librairies tierces, &lt;a class="reference external" href="https://robotframework.org/SeleniumLibrary"&gt;Selenium&lt;/a&gt;, qui permet d'automatiser les tests d'interface web.&lt;/p&gt;
+&lt;p&gt;Voici un exemple tiré de la documentation de Selenium. Nous allons ouvrir un navigateur sur le site mon-super-site.com,
+puis saisir notre login et notre mot de passe et enfin vérifier que nous arrivont bien à la page de &amp;quot;bienvenue&amp;quot;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gh"&gt;*** Settings ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="kn"&gt;Library&lt;/span&gt;&lt;span class="p"&gt;           &lt;/span&gt;&lt;span class="nn"&gt;SeleniumLibrary&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+
+&lt;span class="gh"&gt;*** Variables ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LOGIN URL&lt;/span&gt;&lt;span class="p"&gt;}      &lt;/span&gt;&lt;span class="s"&gt;http://mon-super-site.com&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;BROWSER&lt;/span&gt;&lt;span class="p"&gt;}        &lt;/span&gt;&lt;span class="s"&gt;Chrome&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+
+&lt;span class="gh"&gt;*** Test Cases ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="gu"&gt;Valid Login&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Open Browser&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;LOGIN URL&lt;/span&gt;&lt;span class="p"&gt;}    ${&lt;/span&gt;&lt;span class="nv"&gt;BROWSER&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Title Should Be&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;Login Page&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Input Text&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;username_field&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;username&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Input Text&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;password_field&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;password&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Click Button&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;login_button&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Title Should Be&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;Welcome Page&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    [&lt;/span&gt;&lt;span class="kn"&gt;Teardown&lt;/span&gt;&lt;span class="p"&gt;]    &lt;/span&gt;&lt;span class="nf"&gt;Close Browser&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;S'adapter aux testeurs&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nous avons vu comment Robot Framework pouvait s'adapter au logiciel à tester et au contexte de test. Il faut savoir que Robot Framework peut aussi adapter sa manière d'écrire les tests.
+En effet, il est possible d'&lt;strong&gt;écrire les tests de plusieurs manières différentes&lt;/strong&gt;, soit en KDT &lt;a class="footnote-reference" href="#footnote-5" id="footnote-reference-5"&gt;[5]&lt;/a&gt; (ce que nous avons vu jusque ici dans les extraits de code) c'est à dire avec des instructions qui
+&amp;quot;collent&amp;quot; aux actions et vérifications que pourrait faire un utilisateur, soit en utilisant le langage Gherkin, couramment utilisé en BDD &lt;a class="footnote-reference" href="#footnote-6" id="footnote-reference-6"&gt;[6]&lt;/a&gt; &lt;a class="footnote-reference" href="#footnote-7" id="footnote-reference-7"&gt;[7]&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gh"&gt;*** Test Cases ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="gu"&gt;Gherkin Test Example&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;Given &lt;/span&gt;&lt;span class="nf"&gt;login page is open&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;When &lt;/span&gt;&lt;span class="nf"&gt;valid username and password are inserted&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;and &lt;/span&gt;&lt;span class="nf"&gt;credentials are submitted&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;Then &lt;/span&gt;&lt;span class="nf"&gt;welcome page should be open&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Cela signifie que l'on peut d'abord partir sur une démarche ATDD, moins contraignante et évoluer ensuite vers une démarche BDD.
+Cette liberté de choix est aussi intéressante car un même outil peut convenir à plusieurs &amp;quot;populations&amp;quot; différentes au sein d'une même entreprise (Développeur, Testeur, Métier...).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="l-evolutivite"&gt;
+&lt;h3&gt;L'évolutivité&lt;/h3&gt;
+&lt;p&gt;Enfin, je voulais parler d'un aspect, qui je pense est moins connu, mais qui est extrêmement puissant.
+Il est possible de &lt;strong&gt;modifier le cœur du fonctionnement de Robot Framework&lt;/strong&gt; grâce à son API et à un système de plugin &lt;a class="footnote-reference" href="#footnote-8" id="footnote-reference-8"&gt;[8]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sans trop rentrer dans les détails techniques - car il est vrai que cet aspect est plus technique - il est possible d'intercepter et de modifier l'exécution et la manière dont Robot Framework
+réalise ses actions et exécute les tests. Cela offre une multitude de possibilité et pour n'en citer qu'une, je donnerais l'exemple du plugin &lt;a class="reference external" href="https://github.com/ATEME/robotframework-testrail"&gt;robotframework-testrail&lt;/a&gt;
+qui permet de pousser les résultats d'exécutions des tests Robot Framework dans l'outil de gestion de tests &lt;a class="reference external" href="https://www.gurock.com/testrail"&gt;TestRail&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dans l'exemple ci-dessous, on a ajouté un tag avec le numéro du test qui correspond à celui du test dans TestRail (&lt;tt class="docutils literal"&gt;test_case_id=1234&lt;/tt&gt;).
+En utilisant l'API de Robot Framework, le plugin est capable de récupérer facilement ce numéro et le résultat du test puis de le publier dans TestRail :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gh"&gt;*** Test Cases ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="gu"&gt;Valid Login&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    [&lt;/span&gt;&lt;span class="kn"&gt;Tags&lt;/span&gt;&lt;span class="p"&gt;]  &lt;/span&gt;&lt;span class="s"&gt;test_case_id=1234&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;Given &lt;/span&gt;&lt;span class="nf"&gt;login page is open&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;When &lt;/span&gt;&lt;span class="nf"&gt;valid username and password are inserted&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;and &lt;/span&gt;&lt;span class="nf"&gt;credentials are submitted&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;Then &lt;/span&gt;&lt;span class="nf"&gt;welcome page should be open&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Dans mon expérience personnelle, j'ai rencontré des tests Robot Framework dans différents domaines (Télécommunication, TV numérique, Web), sur différents types de technologie (Embarqué, API REST,
+webservices, serveurs web, microservices) et programmés dans différents langages (Python, C/C++, Javascript), pour ne citer que quelques exemples que je connais.
+J'ai donc pu constater la polyvalence, l'adaptabilité et les possibilités d'évolution de Robot Framework, qui font de lui un &lt;strong&gt;outil générique pour automatiser les tests de Validation&lt;/strong&gt;.
+Ce n'était pas l'objet de cet article, mais nous aurions pu ajouter bien d'&lt;strong&gt;autres caractéristiques intéressantes&lt;/strong&gt; (lisibilité, dynamisme de la communauté, fiabilité, structure...).&lt;/p&gt;
+&lt;p&gt;Pour conclure, on peut dire que Robot Framework, ayant été réalisé &lt;strong&gt;&amp;quot;par des testeurs&amp;quot;&lt;/strong&gt; &lt;a class="footnote-reference" href="#footnote-9" id="footnote-reference-9"&gt;[9]&lt;/a&gt; et &lt;strong&gt;&amp;quot;pour des testeurs&amp;quot;&lt;/strong&gt; &lt;a class="footnote-reference" href="#footnote-10" id="footnote-reference-10"&gt;[10]&lt;/a&gt;, est particulièrement bien adapté à eux.
+C'est donc un outil de choix lorsqu'on veut faire de l'automatisation de tests.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p class="rubric"&gt;Notes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Cela ne veut pas forcément dire que Robot Framework ne pourra pas être utilisé à d'autres fins et à d'autres niveaux de test bien-sûr. Je pense notamment aux tests d'API qui sont généralement situés au niveau des tests d'Intégration.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: La possibilité de faire du RPA avec Robot Framework est une preuve supplémentaire qu'il s'inscrit bien dans une optique d'automatisation d'actions habituellement réalisées par un humain.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-3"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Les librairies fournies par Robot Framework sont ce qu'on appelle techniquement en Test Logiciel des &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Test_harness"&gt;harnais de test&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-4" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-4"&gt;[4]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Le &amp;quot;il suffit&amp;quot; peut paraître un raccourci un peu trop facile. Cependant, de nos jours, de nombreuses librairies existent avec une interface en Python ou en Java. Ces langages étant nativement &amp;quot;lisibles&amp;quot; par Robot Framework, le travail d'adaptation est généralement simple.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-5" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-5"&gt;[5]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: KDT = Keyword Driven Testing. Voir &lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/kdt-keyword-driven-testing/"&gt;https://latavernedutesteur.fr/2017/11/03/kdt-keyword-driven-testing/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-6" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-6"&gt;[6]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: BDD = Behavior Driven Development. Voir ces articles : &lt;a class="reference external" href="https://latavernedutesteur.fr/tag/bdd/"&gt;https://latavernedutesteur.fr/tag/bdd/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-7" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-7"&gt;[7]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: On pourrait également ajouter l'écriture en DDT (Data Driven Testing) mais il constitue une variante du KDT&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-8" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-8"&gt;[8]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Voir &lt;a class="reference external" href="http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#listener-interface"&gt;l'interface &amp;quot;Listener&amp;quot;&lt;/a&gt; de Robot Framework&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-9" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-9"&gt;[9]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: &lt;cite&gt;Pekka Klarke &amp;lt;http://eliga.fi/&amp;gt;&lt;/cite&gt;, le créateur de Robot Framework, se définit lui-même comme un &amp;quot;Testeur Agile&amp;quot;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-10" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-10"&gt;[10]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Voir à ce sujet cet &lt;a class="reference external" href="https://jp-lambert.me/comparatif-outils-de-r%C3%A9daction-de-sp%C3%A9cifications-ex%C3%A9cutables-acd83266f273"&gt;article de JP Lambert&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="automatisation"></category><category term="outil"></category><category term="automatisation"></category><category term="robotframework"></category></entry></feed>

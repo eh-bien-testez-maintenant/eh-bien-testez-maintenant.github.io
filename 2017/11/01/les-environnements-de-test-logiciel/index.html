@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+    href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/native.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/default.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/custom.css">
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Eh Bien Testez Maintenant ! Atom">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKML3CYE6E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKML3CYE6E');
+</script>
+
+ 
+
+<meta name="author" content="apallier" />
+<meta name="description" content="Le déploiement d&#39;environnement de test est une activité importante du test logiciel. En effet, il peut devenir un point critique s&#39;il est complexe à mettre en place [1]. C&#39;est une lapalissade : &#34;plus le temps de mise en place d&#39;un environnement de test est long, moins on testera&#34;. Le temps qui …" />
+<meta name="keywords" content="environnement de test, test logiciel">
+
+
+  <meta property="og:site_name" content="Eh Bien Testez Maintenant !"/>
+  <meta property="og:title" content="Les environnements de test logiciel"/>
+  <meta property="og:description" content="Le déploiement d&#39;environnement de test est une activité importante du test logiciel. En effet, il peut devenir un point critique s&#39;il est complexe à mettre en place [1]. C&#39;est une lapalissade : &#34;plus le temps de mise en place d&#39;un environnement de test est long, moins on testera&#34;. Le temps qui …"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:url" content="https://eh-bien-testez-maintenant.github.io/2017/11/01/les-environnements-de-test-logiciel/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2017-11-01 21:37:00+01:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://eh-bien-testez-maintenant.github.io/author/apallier.html">
+  <meta property="article:section" content="opinion"/>
+  <meta property="article:tag" content="environnement de test"/>
+  <meta property="article:tag" content="test logiciel"/>
+  <meta property="og:image" content="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg">
+
+  <title>Eh Bien Testez Maintenant ! &ndash; Les environnements de test logiciel</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="https://eh-bien-testez-maintenant.github.io/">
+      <img src="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="https://eh-bien-testez-maintenant.github.io/"></a>
+    </h1>
+
+    <p>Vous codiez ? J'en suis fort aise.<br/> Eh bien : testez maintenant !</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/a-propos/#a-propos">
+                A propos
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/curriculum-vitae/#curriculum-vitae">
+                Curriculum Vitae
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/ma-petite-entreprise/#ma-petite-entreprise">
+                Ma petite entreprise
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/interviews-de-testeurs/#interviews-de-testeurs">
+                Interviews de testeurs
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/portfolio/#portfolio">
+                Portfolio
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/alexispallier/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="//eh-bien-testez-maintenant.github.io/rss.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/apallier"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://eh-bien-testez-maintenant.github.io/">Accueil</a>
+
+  <a href="/archives.html">Archives</a>
+  <a href="/categories.html">Catégories</a>
+  <a href="/tags.html">Tags</a>
+
+  <a href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="les-environnements-de-test-logiciel">Les environnements de test logiciel</h1>
+    <p>
+      Posté le Wed 01 November 2017 dans <a href="https://eh-bien-testez-maintenant.github.io/category/opinion.html">opinion</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2017-les-environnements-de-test-logiciel.jpg" style="width: 200px; height: 133px;" />
+<p>Le déploiement d'environnement de test est une activité importante du
+test logiciel. En effet, il peut devenir un point critique s'il est
+complexe à mettre en place <a class="footnote-reference" href="#f1" id="footnote-reference-1">[1]</a>. C'est une lapalissade : &quot;plus le
+temps de mise en place d'un environnement de test est long, moins on
+testera&quot;. Le temps qui est investi pour mettre en place l'environnement
+de test diminue le temps pendant lequel on pourrait faire des tests.</p>
+<blockquote>
+<em>&quot;Plus le temps de mise en place d'un environnement de test est long
+et difficile, moins on testera et plus la barrière psychologique
+pour tester sera importante.&quot;</em></blockquote>
+<p>Mais là n'est pas mon propos. Je voulais parler d'une autre conséquence
+néfaste qui est <strong>la barrière psychologique</strong> que représente l'obstacle
+de la mise en route. En effet, si votre environnement de test est
+difficile à mettre en place, vous allez - peut-être même inconsciemment
+- vous limiter dans vos tests. C'est un biais simplement humain, nous
+préférons les tâches &quot;simples&quot; et courtes aux activités plus complexes.
+Surtout que la mise en place d'un environnement de test logiciel n'est
+pas non plus l'activité la plus &quot;intéressante&quot; qui existe :-)</p>
+<p>Je prends deux illustrations très concrètes :</p>
+<ul class="simple">
+<li>vous avez mis 1 journée entière pour mettre en place votre
+environnement. Vous allez éviter les cas de tests aux limites qui
+viendrait &quot;casser&quot; votre environnement (suppression de fichiers,
+arrêt électrique, corruption de la base de données...), cas qui
+pourtant pourraient s'avérer très intéressants d'un point de vue
+&quot;test&quot;.</li>
+<li>vous êtes à quelques heures d'une livraison et vous n'avez plus aucun
+environnement de test &quot;propre&quot; ou &quot;standard&quot;. Vous avez un doute sur
+une partie du logiciel mais vous allez pourtant omettre ce petit test
+(qui quelque fois vous sauve la mise) avant la livraison car
+(consciemment ou inconsciemment) vous avez envisagé le temps de mise
+en place d'un nouvel environnement propre et que ce n'est peut-être
+pas le moment d'en perdre avant une livraison importante...</li>
+</ul>
+<div class="section" id="diminuer-le-temps-de-mise-en-place">
+<h2>Diminuer le temps de mise en place</h2>
+<p>Il devient donc important de faciliter la phase de mise en place des
+environnements de test. Il faut inciter ou du moins ne pas &quot;décourager&quot;
+les testeurs à tester en facilitant l'accès à un environnement prêt à
+tester.</p>
+<blockquote>
+<em>&quot;Ne pas décourager les testeurs à tester, en facilitant le
+déploiement des environnements de test&quot;</em></blockquote>
+<p><em>Comment ?</em> Plus facile à dire qu'à faire ! La mise en place
+d'environnement nécessite du <strong>matériel</strong>, des <strong>compétences en
+virtualisation</strong> ou conteneurisation, et des <strong>compétences en
+administration système</strong>. Si vous développez ces compétences, vous aller
+pouvoir optimiser votre temps de mise en place d'environnements de test
+et globalement augmenter vos capacités de test.</p>
+</div>
+<div class="section" id="outils-pour-aller-plus-loin">
+<h2>Outils pour aller plus loin</h2>
+<p>Parmi les outils qui existent pour faciliter la mise en place d'environnement de test, on peut citer :</p>
+<ul class="simple">
+<li><strong>les outils de type virtualisation / conteneurisation</strong> : Docker,
+Vagrant et toutes les solutions de virtualisation (Virtual box,
+ESXi...)</li>
+<li><strong>les outils de gestion de configuration système</strong> : Salt Stack,
+Puppet, Ansible, Chef</li>
+<li><strong>les outils de déploiements</strong> : &nbsp;Open stack, Cobbler, Foreman (Voir
+mon <a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/">memo à ce
+sujet</a>)</li>
+</ul>
+<table class="docutils footnote" frame="void" id="f1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-1">[1]</a></td><td>J'ai l'exemple d'une entreprise où un environnement de test nécessitait plusieurs jours de travail !</td></tr>
+</tbody>
+</table>
+</div>
+
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/environnement-de-test.html">environnement de test</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/test-logiciel.html">test logiciel</a>
+    </p>
+  </div>
+
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'eh-bien-testez-maintenant';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Veuillez activer le JavaScript pour voir les commentaires.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>&copy; 2023 </p>
+<p>
+Construit avec <a href="http://getpelican.com" target="_blank">Pelican</a> utilisant le thème <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a>
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="https://eh-bien-testez-maintenant.github.io/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="dark"
+          type="text/javascript">
+  </script>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Eh Bien Testez Maintenant ! ",
+  "url" : "https://eh-bien-testez-maintenant.github.io",
+  "image": "https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg",
+  "description": "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA, Test automatique, Test automation"
+}
+</script>
+</body>
+</html>

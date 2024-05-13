@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+    href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/native.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/default.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/custom.css">
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Eh Bien Testez Maintenant ! Atom">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKML3CYE6E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKML3CYE6E');
+</script>
+
+ 
+
+<meta name="author" content="apallier" />
+<meta name="description" content="Pour automatiser des tests, il est nécessaire d&#39;utiliser des outils adaptés. Partir la &#34;fleur au fusil&#34; avec pour seule arme un langage de programmation n&#39;est pas suffisant, au risque de devoir réinventer la roue. Nous allons voir ensemble ici les caractéristiques qui font de Robot Framework un bon candidat pour …" />
+<meta name="keywords" content="outil, automatisation, robotframework">
+
+
+  <meta property="og:site_name" content="Eh Bien Testez Maintenant !"/>
+  <meta property="og:title" content="Pourquoi Robot Framework ?"/>
+  <meta property="og:description" content="Pour automatiser des tests, il est nécessaire d&#39;utiliser des outils adaptés. Partir la &#34;fleur au fusil&#34; avec pour seule arme un langage de programmation n&#39;est pas suffisant, au risque de devoir réinventer la roue. Nous allons voir ensemble ici les caractéristiques qui font de Robot Framework un bon candidat pour …"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:url" content="https://eh-bien-testez-maintenant.github.io/2020/02/12/pourquoi-robotframework/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2020-02-12 00:00:00+01:00"/>
+  <meta property="article:modified_time" content="2023-09-09 00:00:00+02:00"/>
+  <meta property="article:author" content="https://eh-bien-testez-maintenant.github.io/author/apallier.html">
+  <meta property="article:section" content="automatisation"/>
+  <meta property="article:tag" content="outil"/>
+  <meta property="article:tag" content="automatisation"/>
+  <meta property="article:tag" content="robotframework"/>
+  <meta property="og:image" content="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg">
+
+  <title>Eh Bien Testez Maintenant ! &ndash; Pourquoi Robot Framework ?</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="https://eh-bien-testez-maintenant.github.io/">
+      <img src="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="https://eh-bien-testez-maintenant.github.io/"></a>
+    </h1>
+
+    <p>Vous codiez ? J'en suis fort aise.<br/> Eh bien : testez maintenant !</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/a-propos/#a-propos">
+                A propos
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/curriculum-vitae/#curriculum-vitae">
+                Curriculum Vitae
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/ma-petite-entreprise/#ma-petite-entreprise">
+                Ma petite entreprise
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/interviews-de-testeurs/#interviews-de-testeurs">
+                Interviews de testeurs
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/portfolio/#portfolio">
+                Portfolio
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/alexispallier/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="//eh-bien-testez-maintenant.github.io/rss.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/apallier"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://eh-bien-testez-maintenant.github.io/">Accueil</a>
+
+  <a href="/archives.html">Archives</a>
+  <a href="/categories.html">Catégories</a>
+  <a href="/tags.html">Tags</a>
+
+  <a href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="pourquoi-robotframework">Pourquoi Robot Framework ?</h1>
+    <p>
+      Posté le Wed 12 February 2020 dans <a href="https://eh-bien-testez-maintenant.github.io/category/automatisation.html">automatisation</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <img alt="Image d'un robot en bois sur une pelouse" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2020-pourquoi-robotframework.jpg" style="width: 300px;" />
+<p>Pour automatiser des tests, il est nécessaire d'utiliser des outils adaptés. Partir la &quot;fleur au fusil&quot; avec  pour seule arme un langage de programmation n'est pas suffisant,
+au risque de devoir réinventer la roue. Nous allons voir ensemble ici les caractéristiques qui font de <a class="reference external" href="https://robotframework.org/">Robot Framework</a> un bon candidat pour automatiser nos tests logiciels.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">09/09/2023: cet article est d'abord paru sur le site &quot;La Taverne du testeur&quot; le 12/02/2020 sous le titre <a class="reference external" href="https://latavernedutesteur.fr/2020/02/12/pourquoi-robot-framework-alexis-pallier/">&quot;Robot Framework : Le Couteau Suisse De L’Automatisation&quot;</a>.
+Comme j'en suis l'auteur et que cela fait maintenant un certain temps (&gt; 3 ans...), je le publie maintenant aussi sur mon blog.</p>
+</div>
+<p>Les auteurs de Robot Framework le définissent lui-même comme :</p>
+<blockquote>
+<div class="line-block">
+<div class="line">[...] un framework <strong>générique</strong> et open-source d'automatisation pour le <strong>Test de Validation</strong></div>
+</div>
+</blockquote>
+<p>Très clairement, et nous le verrons dans la suite de cet article, Robot Framework a été conçu pour automatiser les tests du niveau &quot;Validation&quot; (en anglais: &quot;Acceptance Testing&quot;) et pour faire de
+l'ATDD (Acceptance Test Driven Development). C'est-à-dire que son domaine de prédilection est le même que celui de l'utilisateur final <a class="footnote-reference" href="#footnote-1" id="footnote-reference-1">[1]</a>.
+<strong>Il va permettre d’automatiser les actions que pourraient réaliser l'utilisateur du logiciel que l'on souhaite tester</strong>. D'ailleurs, le nom &quot;Robot&quot; porte en lui-même l'idée que l'on cherche à
+reproduire de façon programmatique le comportement d'un humain <a class="footnote-reference" href="#footnote-2" id="footnote-reference-2">[2]</a>.</p>
+<div class="section" id="un-outil-generique-de-validation">
+<h2>Un outil générique de validation</h2>
+<p>Robot Framework possède des caractéristiques lui permettant de convenir à différentes situations de Test et en particulier de Test de Validation.</p>
+<div class="section" id="la-polyvalence">
+<h3>La polyvalence</h3>
+<p>Les <a class="reference external" href="http://robotframework.org/robotframework/">librairies &quot;standard&quot; fournies</a> <a class="footnote-reference" href="#footnote-3" id="footnote-reference-3">[3]</a> par Robot Framework permettent de réaliser les multiples actions et vérifications nécessaires que pourrait faire
+un utilisateur pour tester un logiciel.</p>
+<p>Les librairies standard permettent, entre autres de:</p>
+<ul class="simple">
+<li>manipuler des données de base comme les chaines de caractères, les listes ou les dictionnaires</li>
+<li>manipuler des fichiers, dont des fichiers XML</li>
+<li>manipuler des processus</li>
+<li>manipuler des dates</li>
+<li>faire des assertions, ou autrement dit, faire des vérifications sur tous ces objets</li>
+<li>prendre des captures d'écran</li>
+<li>utiliser le protocole Telnet</li>
+</ul>
+<p>Voici un exemple de test dans lequel nous allons rechercher une chaîne de caractère dans un fichier et vérifier qu'elle est bien présente (part 1).
+Nous allons ensuite lancer un executable et vérifier qu'il s'est réellement bien exécuté :</p>
+<div class="highlight"><pre><span></span><span class="gh">*** Test Cases ***</span><span class="p"></span>
+<span class="gu">Test Example</span><span class="p"></span>
+<span class="p">    </span><span class="c"># Part 1</span>
+<span class="p">    ${</span><span class="nv">resultat_recherche</span><span class="p">}=    </span><span class="nf">Grep File</span><span class="p">    </span><span class="s">mon_fichier.log</span><span class="p">    ${</span><span class="nv">chaine_recherchee</span><span class="p">}</span>
+<span class="p">    </span><span class="nf">Should contain</span><span class="p">    ${</span><span class="nv">resultat_recherche</span><span class="p">}    ${</span><span class="nv">chaine_recherchee</span><span class="p">}</span>
+<span class="p">    </span><span class="c"># Part 2</span>
+<span class="p">    </span><span class="nf">Start process</span><span class="p">    </span><span class="s">mon_executable.exe</span><span class="p">    </span><span class="s">shell=true</span><span class="p">    </span><span class="s">alias=process</span><span class="p"></span>
+<span class="p">    ${</span><span class="nv">result</span><span class="p">}=    </span><span class="nf">Wait For Process</span><span class="p">    </span><span class="s">process</span><span class="p">    </span><span class="s">timeout=10s</span><span class="p">    </span><span class="s">on_timeout=kill</span><span class="p"></span>
+<span class="p">    </span><span class="nf">Should Be Equal As Integers</span><span class="p">    ${</span><span class="nv">result.rc</span><span class="p">}    </span><span class="s">0</span><span class="p"></span>
+</pre></div>
+</div>
+<div class="section" id="l-adaptabilite">
+<h3>L'adaptabilité</h3>
+<p><strong>S'adapter au logiciel à tester</strong></p>
+<p>Les librairies &quot;standard&quot; permettent, comme nous l'avons vu, d'écrire des tests basiques. Cependant, cela peut paraître limité pour s'adapter à des contextes de test plus évolués.
+Robot Framework permet aussi d'utiliser des <strong>librairies tierces</strong>, codées en Python ou en Java. Ceci ouvre la porte à l'automatisation de nombreux logiciels puisqu'il suffit quasiment <a class="footnote-reference" href="#footnote-4" id="footnote-reference-4">[4]</a> qu'une librairie
+(type harnais de test) existe pour que Robot Framework soit capable de se &quot;brancher&quot; dessus et d'exécuter des tests.</p>
+<p>On peut citer surement ce qui est la plus &quot;célèbre&quot; des librairies tierces, <a class="reference external" href="https://robotframework.org/SeleniumLibrary">Selenium</a>, qui permet d'automatiser les tests d'interface web.</p>
+<p>Voici un exemple tiré de la documentation de Selenium. Nous allons ouvrir un navigateur sur le site mon-super-site.com,
+puis saisir notre login et notre mot de passe et enfin vérifier que nous arrivont bien à la page de &quot;bienvenue&quot;.</p>
+<div class="highlight"><pre><span></span><span class="gh">*** Settings ***</span><span class="p"></span>
+<span class="kn">Library</span><span class="p">           </span><span class="nn">SeleniumLibrary</span><span class="p"></span>
+
+<span class="gh">*** Variables ***</span><span class="p"></span>
+<span class="p">${</span><span class="nv">LOGIN URL</span><span class="p">}      </span><span class="s">http://mon-super-site.com</span><span class="p"></span>
+<span class="p">${</span><span class="nv">BROWSER</span><span class="p">}        </span><span class="s">Chrome</span><span class="p"></span>
+
+<span class="gh">*** Test Cases ***</span><span class="p"></span>
+<span class="gu">Valid Login</span><span class="p"></span>
+<span class="p">    </span><span class="nf">Open Browser</span><span class="p">    ${</span><span class="nv">LOGIN URL</span><span class="p">}    ${</span><span class="nv">BROWSER</span><span class="p">}</span>
+<span class="p">    </span><span class="nf">Title Should Be</span><span class="p">    </span><span class="s">Login Page</span><span class="p"></span>
+<span class="p">    </span><span class="nf">Input Text</span><span class="p">    </span><span class="s">username_field</span><span class="p">    ${</span><span class="nv">username</span><span class="p">}</span>
+<span class="p">    </span><span class="nf">Input Text</span><span class="p">    </span><span class="s">password_field</span><span class="p">    ${</span><span class="nv">password</span><span class="p">}</span>
+<span class="p">    </span><span class="nf">Click Button</span><span class="p">    </span><span class="s">login_button</span><span class="p"></span>
+<span class="p">    </span><span class="nf">Title Should Be</span><span class="p">    </span><span class="s">Welcome Page</span><span class="p"></span>
+<span class="p">    [</span><span class="kn">Teardown</span><span class="p">]    </span><span class="nf">Close Browser</span><span class="p"></span>
+</pre></div>
+<p><strong>S'adapter aux testeurs</strong></p>
+<p>Nous avons vu comment Robot Framework pouvait s'adapter au logiciel à tester et au contexte de test. Il faut savoir que Robot Framework peut aussi adapter sa manière d'écrire les tests.
+En effet, il est possible d'<strong>écrire les tests de plusieurs manières différentes</strong>, soit en KDT <a class="footnote-reference" href="#footnote-5" id="footnote-reference-5">[5]</a> (ce que nous avons vu jusque ici dans les extraits de code) c'est à dire avec des instructions qui
+&quot;collent&quot; aux actions et vérifications que pourrait faire un utilisateur, soit en utilisant le langage Gherkin, couramment utilisé en BDD <a class="footnote-reference" href="#footnote-6" id="footnote-reference-6">[6]</a> <a class="footnote-reference" href="#footnote-7" id="footnote-reference-7">[7]</a>.</p>
+<div class="highlight"><pre><span></span><span class="gh">*** Test Cases ***</span><span class="p"></span>
+<span class="gu">Gherkin Test Example</span><span class="p"></span>
+<span class="p">    </span><span class="ge">Given </span><span class="nf">login page is open</span><span class="p"></span>
+<span class="p">    </span><span class="ge">When </span><span class="nf">valid username and password are inserted</span><span class="p"></span>
+<span class="p">    </span><span class="ge">and </span><span class="nf">credentials are submitted</span><span class="p"></span>
+<span class="p">    </span><span class="ge">Then </span><span class="nf">welcome page should be open</span><span class="p"></span>
+</pre></div>
+<p>Cela signifie que l'on peut d'abord partir sur une démarche ATDD, moins contraignante et évoluer ensuite vers une démarche BDD.
+Cette liberté de choix est aussi intéressante car un même outil peut convenir à plusieurs &quot;populations&quot; différentes au sein d'une même entreprise (Développeur, Testeur, Métier...).</p>
+</div>
+<div class="section" id="l-evolutivite">
+<h3>L'évolutivité</h3>
+<p>Enfin, je voulais parler d'un aspect, qui je pense est moins connu, mais qui est extrêmement puissant.
+Il est possible de <strong>modifier le cœur du fonctionnement de Robot Framework</strong> grâce à son API et à un système de plugin <a class="footnote-reference" href="#footnote-8" id="footnote-reference-8">[8]</a>.</p>
+<p>Sans trop rentrer dans les détails techniques - car il est vrai que cet aspect est plus technique - il est possible d'intercepter et de modifier l'exécution et la manière dont Robot Framework
+réalise ses actions et exécute les tests. Cela offre une multitude de possibilité et pour n'en citer qu'une, je donnerais l'exemple du plugin <a class="reference external" href="https://github.com/ATEME/robotframework-testrail">robotframework-testrail</a>
+qui permet de pousser les résultats d'exécutions des tests Robot Framework dans l'outil de gestion de tests <a class="reference external" href="https://www.gurock.com/testrail">TestRail</a>.</p>
+<p>Dans l'exemple ci-dessous, on a ajouté un tag avec le numéro du test qui correspond à celui du test dans TestRail (<tt class="docutils literal">test_case_id=1234</tt>).
+En utilisant l'API de Robot Framework, le plugin est capable de récupérer facilement ce numéro et le résultat du test puis de le publier dans TestRail :</p>
+<div class="highlight"><pre><span></span><span class="gh">*** Test Cases ***</span><span class="p"></span>
+<span class="gu">Valid Login</span><span class="p"></span>
+<span class="p">    [</span><span class="kn">Tags</span><span class="p">]  </span><span class="s">test_case_id=1234</span><span class="p"></span>
+<span class="p">    </span><span class="ge">Given </span><span class="nf">login page is open</span><span class="p"></span>
+<span class="p">    </span><span class="ge">When </span><span class="nf">valid username and password are inserted</span><span class="p"></span>
+<span class="p">    </span><span class="ge">and </span><span class="nf">credentials are submitted</span><span class="p"></span>
+<span class="p">    </span><span class="ge">Then </span><span class="nf">welcome page should be open</span><span class="p"></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>Dans mon expérience personnelle, j'ai rencontré des tests Robot Framework dans différents domaines (Télécommunication, TV numérique, Web), sur différents types de technologie (Embarqué, API REST,
+webservices, serveurs web, microservices) et programmés dans différents langages (Python, C/C++, Javascript), pour ne citer que quelques exemples que je connais.
+J'ai donc pu constater la polyvalence, l'adaptabilité et les possibilités d'évolution de Robot Framework, qui font de lui un <strong>outil générique pour automatiser les tests de Validation</strong>.
+Ce n'était pas l'objet de cet article, mais nous aurions pu ajouter bien d'<strong>autres caractéristiques intéressantes</strong> (lisibilité, dynamisme de la communauté, fiabilité, structure...).</p>
+<p>Pour conclure, on peut dire que Robot Framework, ayant été réalisé <strong>&quot;par des testeurs&quot;</strong> <a class="footnote-reference" href="#footnote-9" id="footnote-reference-9">[9]</a> et <strong>&quot;pour des testeurs&quot;</strong> <a class="footnote-reference" href="#footnote-10" id="footnote-reference-10">[10]</a>, est particulièrement bien adapté à eux.
+C'est donc un outil de choix lorsqu'on veut faire de l'automatisation de tests.</p>
+<hr class="docutils" />
+<p class="rubric">Notes</p>
+<table class="docutils footnote" frame="void" id="footnote-1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-1">[1]</a></td><td>: Cela ne veut pas forcément dire que Robot Framework ne pourra pas être utilisé à d'autres fins et à d'autres niveaux de test bien-sûr. Je pense notamment aux tests d'API qui sont généralement situés au niveau des tests d'Intégration.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-2">[2]</a></td><td>: La possibilité de faire du RPA avec Robot Framework est une preuve supplémentaire qu'il s'inscrit bien dans une optique d'automatisation d'actions habituellement réalisées par un humain.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-3" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-3">[3]</a></td><td>: Les librairies fournies par Robot Framework sont ce qu'on appelle techniquement en Test Logiciel des <a class="reference external" href="https://en.wikipedia.org/wiki/Test_harness">harnais de test</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-4" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-4">[4]</a></td><td>: Le &quot;il suffit&quot; peut paraître un raccourci un peu trop facile. Cependant, de nos jours, de nombreuses librairies existent avec une interface en Python ou en Java. Ces langages étant nativement &quot;lisibles&quot; par Robot Framework, le travail d'adaptation est généralement simple.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-5">[5]</a></td><td>: KDT = Keyword Driven Testing. Voir <a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/kdt-keyword-driven-testing/">https://latavernedutesteur.fr/2017/11/03/kdt-keyword-driven-testing/</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-6" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-6">[6]</a></td><td>: BDD = Behavior Driven Development. Voir ces articles : <a class="reference external" href="https://latavernedutesteur.fr/tag/bdd/">https://latavernedutesteur.fr/tag/bdd/</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-7" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-7">[7]</a></td><td>: On pourrait également ajouter l'écriture en DDT (Data Driven Testing) mais il constitue une variante du KDT</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-8" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-8">[8]</a></td><td>: Voir <a class="reference external" href="http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#listener-interface">l'interface &quot;Listener&quot;</a> de Robot Framework</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-9" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-9">[9]</a></td><td>: <cite>Pekka Klarke &lt;http://eliga.fi/&gt;</cite>, le créateur de Robot Framework, se définit lui-même comme un &quot;Testeur Agile&quot;</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-10" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-10">[10]</a></td><td>: Voir à ce sujet cet <a class="reference external" href="https://jp-lambert.me/comparatif-outils-de-r%C3%A9daction-de-sp%C3%A9cifications-ex%C3%A9cutables-acd83266f273">article de JP Lambert</a></td></tr>
+</tbody>
+</table>
+</div>
+
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/outil.html">outil</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/automatisation.html">automatisation</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/robotframework.html">robotframework</a>
+    </p>
+  </div>
+
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'eh-bien-testez-maintenant';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Veuillez activer le JavaScript pour voir les commentaires.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>&copy; 2023 </p>
+<p>
+Construit avec <a href="http://getpelican.com" target="_blank">Pelican</a> utilisant le thème <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a>
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="https://eh-bien-testez-maintenant.github.io/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="dark"
+          type="text/javascript">
+  </script>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Eh Bien Testez Maintenant ! ",
+  "url" : "https://eh-bien-testez-maintenant.github.io",
+  "image": "https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg",
+  "description": "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA, Test automatique, Test automation"
+}
+</script>
+</body>
+</html>
