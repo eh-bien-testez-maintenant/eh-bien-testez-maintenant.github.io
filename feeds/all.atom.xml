@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Eh Bien Testez Maintenant !</title><link href="https://eh-bien-testez-maintenant.github.io/" rel="alternate"></link><link href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml" rel="self"></link><id>https://eh-bien-testez-maintenant.github.io/</id><updated>2024-09-06T00:00:00+02:00</updated><subtitle>Vous codiez ? J'en suis fort aise.&lt;br/&gt; Eh bien : testez maintenant !</subtitle><entry><title>Expérience développeur et Qualité logicielle</title><link href="https://eh-bien-testez-maintenant.github.io/2024/09/06/experience-developpeur-qualite-logicielle/" rel="alternate"></link><published>2024-09-06T00:00:00+02:00</published><updated>2024-09-06T00:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2024-09-06:/2024/09/06/experience-developpeur-qualite-logicielle/</id><summary type="html">&lt;img alt="Image d'un tableau abstrait avec des carrés colorés" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2024-experience-developpeur-qualite-logicielle.jpg" style="width: 300px;" /&gt;
+&lt;!-- Photo de Edward Jenner: https://www.pexels.com/fr-fr/photo/art-colore-concevoir-designer-4252895/ --&gt;
+&lt;p&gt;Je m’intéresse depuis quelques mois à l’“Expérience développeur” ou “devex” ou “DX” pour “Developer Experience”.&lt;/p&gt;
+&lt;p&gt;En résumé, la “devex” fait référence à la qualité globale des interactions et des perceptions qu'une personne qui
+travaille dans le développement informatique a lorsqu’elle utilise un produit, un outil ou une …&lt;/p&gt;</summary><content type="html">&lt;img alt="Image d'un tableau abstrait avec des carrés colorés" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2024-experience-developpeur-qualite-logicielle.jpg" style="width: 300px;" /&gt;
+&lt;!-- Photo de Edward Jenner: https://www.pexels.com/fr-fr/photo/art-colore-concevoir-designer-4252895/ --&gt;
+&lt;p&gt;Je m’intéresse depuis quelques mois à l’“Expérience développeur” ou “devex” ou “DX” pour “Developer Experience”.&lt;/p&gt;
+&lt;p&gt;En résumé, la “devex” fait référence à la qualité globale des interactions et des perceptions qu'une personne qui
+travaille dans le développement informatique a lorsqu’elle utilise un produit, un outil ou une plateforme de
+développement.&lt;/p&gt;
+&lt;p&gt;Après avoir vu travailler un certain nombre d’équipes depuis le début de ma carrière :) je suis persuadé que la &amp;quot;devex&amp;quot;
+a un impact aussi sur la qualité du produit développé. Et donc forcément, ça m’intéresse en tant que QA/Testeur.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Voici notamment les 4 aspects de la “devex” qui me paraissent cruciaux pour la Qualité logicielle&lt;/em&gt; :&lt;/p&gt;
+&lt;div class="section" id="une-bonne-documentation"&gt;
+&lt;h2&gt;Une bonne documentation&lt;/h2&gt;
+&lt;p&gt;La qualité de la documentation est souvent un point noir des équipes de dev. Une certaine interprétation de l’Agilité
+n’y a pas aidé. On a cru à tort que l’Agilité prônait le moins de documentation possible… Le paradoxe est que, dans le
+développement logiciel, on passe une grande partie de notre temps à lire des informations, y compris notre propre
+documentation qui n'est des fois pas toujours la meilleure :/&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conseil&lt;/strong&gt; : créez une documentation de qualité, pas forcément exhaustive mais à jour et facilement accessible. Tâche
+difficile mais on peut commencer par des choses simples comme nettoyer, ranger et référencer puis ensuite appliquer un
+framework de documentation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="lautomatisation"&gt;
+&lt;h2&gt;L’automatisation&lt;/h2&gt;
+&lt;p&gt;L'automatisation des tâches courantes peut grandement améliorer la productivité. Je ne parle pas ici forcément que des
+tests mais aussi de toutes les autres tâches comme le déploiement, les tâches administratives, le monitoring de KPI,
+etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conseil&lt;/strong&gt; : automatisez toutes les tâches répétitives que vous pouvez. Pour cela, je conseille d’aller voir aussi du
+côté du no code/low code (outils comme Make.com, Zapier, JIRA automation, Robot Framework, …)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="des-outils-et-environnements-communs"&gt;
+&lt;h2&gt;Des outils et environnements communs&lt;/h2&gt;
+&lt;p&gt;La présence de templates, d’images Docker communes, de librairies de code, etc… va jouer sur la productivité et la
+satisfaction globale. Pourquoi passer du temps à refaire (des fois en moins bien) ce que les collègues ont déjà fait ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conseil&lt;/strong&gt; : observez ce qui fonctionne bien et industrialisez-le pour votre équipe (l’automatisation peut aider).
+Créez des templates avec Cookiecutter, utilisez les templates de GitLab CI, JIRA, … Pour les librairies, distribuez-les
+sous forme de package installable, et pour vos outils internes sous forme d’images Docker.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="support-et-communaute"&gt;
+&lt;h2&gt;Support et communauté&lt;/h2&gt;
+&lt;p&gt;Dans les équipes de développement plus larges, la présence de canaux de communication thématiques ou de formations
+internes permet d’arriver plus vite au niveau de connaissance nécessaire.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conseil&lt;/strong&gt; : mettez en place des canaux thématiques (code, outil, test, …) dans votre messagerie instantanée
+d’entreprises. Créez des tutoriels sur les points douloureux récurrents que rencontrent les nouveaux arrivants.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Les bénéfices de la &amp;quot;devex&amp;quot; sur la Qualité logicielle sont réels mais, soyons réalistes, la &amp;quot;devex&amp;quot; n’est pas facile à
+mettre en place. Elle nécessite une vision plus large que la vision “produit” qui prédomine aujourd’hui. Elle n’est
+néanmoins pas incompatible et a même pour objectif de la soutenir.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="experience developpeur"></category><category term="developer experience"></category><category term="devex"></category><category term="DX"></category><category term="qualité"></category><category term="QA"></category></entry><entry><title>Conventions pour les messages de commit sous Git</title><link href="https://eh-bien-testez-maintenant.github.io/2024/05/13/conventions-messages-commit-git/" rel="alternate"></link><published>2024-05-13T00:00:00+02:00</published><updated>2024-05-13T00:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2024-05-13:/2024/05/13/conventions-messages-commit-git/</id><summary type="html">&lt;img alt="Image d'un bloc-note avec une main qui tient un crayon" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2024-conventions-messages-commit.jpg" style="width: 300px;" /&gt;
+&lt;!-- Photo de Karolina Grabowska: https://www.pexels.com/fr-fr/photo/cahier-bureau-stylo-ecrite-4195401/ --&gt;
+&lt;p&gt;Est-ce que vous pensez aussi que les messages de commit dans Git font partie de la qualité d’un logiciel au sens
+large ?&lt;/p&gt;
+&lt;p&gt;J’ai creusé un peu la question ces derniers temps et je présente ici un résumé des différentes conventions que j’ai
+trouvées pour les messages de …&lt;/p&gt;</summary><content type="html">&lt;img alt="Image d'un bloc-note avec une main qui tient un crayon" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2024-conventions-messages-commit.jpg" style="width: 300px;" /&gt;
+&lt;!-- Photo de Karolina Grabowska: https://www.pexels.com/fr-fr/photo/cahier-bureau-stylo-ecrite-4195401/ --&gt;
+&lt;p&gt;Est-ce que vous pensez aussi que les messages de commit dans Git font partie de la qualité d’un logiciel au sens
+large ?&lt;/p&gt;
+&lt;p&gt;J’ai creusé un peu la question ces derniers temps et je présente ici un résumé des différentes conventions que j’ai
+trouvées pour les messages de commit sous Git.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="les-conventional-commits"&gt;
+&lt;h2&gt;1. Les Conventional Commits&lt;/h2&gt;
+&lt;p&gt;Sûrement le plus connu, &amp;quot;Conventional Commits&amp;quot; propose un standard pour la création de messages de commit,
+avec des préfixes définis tels que “feat” (pour les nouvelles fonctionnalités), “fix” (pour les corrections de bugs),
+“chore” (pour les tâches de maintenance), etc.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Site Web : &lt;a class="reference external" href="https://www.conventionalcommits.org"&gt;https://www.conventionalcommits.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Outils qui permettent de générer les messages de commit&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/Everduin94/better-commits"&gt;better-commit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/commitizen/cz-cli"&gt;Commitizen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;Linter de message : &lt;a class="reference external" href="https://github.com/conventional-changelog/commitlint"&gt;Commitlint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exemple de message de type commit :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;fix(api): prevent racing of requests
+
+Introduce a request id and a reference to latest request. Dismiss
+incoming responses other than from latest request.
+
+Remove timeouts which were used to mitigate the racing issue but are
+obsolete now.
+
+Reviewed-by: ABC
+Refs: #123
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="la-convention-angular"&gt;
+&lt;h2&gt;2. La Convention Angular&lt;/h2&gt;
+&lt;p&gt;Il me semble que les “Conventional commits” viennent d’Angular qui a développé ses propres directives de messages de
+commit. Ces directives recommandent un format structuré pour les messages de commit, en utilisant des en-têtes avec
+des mots-clés spécifiques pour indiquer le type de changement.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;GitHub Repository : &lt;a class="reference external" href="https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit"&gt;https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Résumé de l'en-tête de la Convention Angular :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;short summary&amp;gt;
+  │       │             │
+  │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
+  │       │
+  │       └─⫸ Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
+  │                          elements|forms|http|language-service|localize|platform-browser|
+  │                          platform-browser-dynamic|platform-server|router|service-worker|
+  │                          upgrade|zone.js|packaging|changelog|docs-infra|migrations|
+  │                          devtools
+  │
+  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="gitmoji"&gt;
+&lt;h2&gt;3. Gitmoji&lt;/h2&gt;
+&lt;p&gt;Gitmoji propose une approche plus ludique pour ajouter des émojis aux messages de commit afin d'indiquer le type de
+changement introduit par le commit. Chaque emoji a une signification spécifique (comme 🐛 pour les corrections de bugs,
+✨ pour les nouvelles fonctionnalités, etc.), ce qui rend les messages de commit plus visuels et expressifs.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Site web : &lt;a class="reference external" href="https://gitmoji.dev/"&gt;https://gitmoji.dev/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exemples de messages de commit avec Gitmoji :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;🏗️ Transform project into a monorepo (#1235)
+* 🏗️ Define monorepo architecture
+* 🚚 Extract `gitmojis` as an isolated package
+* 🚚 Extract `website` as an isolated package
+* 🚚 Clean-up root package.json
+* ➕ Install `turbo`
+* 🔧 Setup turborepo
+* 👷 Use `turbo` in `ci` workflow
+* 👷 Update `npm-publish` workflow with `turbo`
+* ♻️ Migrate yarn from `classic` to `berry`
+* 📝 Update contributing guide
+* 🎨 Update readme
+* 📝 Add readme file for `gitmojis` package
+* 🚚 Move `public` folder to `website` package
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="la-convention-atom"&gt;
+&lt;h2&gt;4. La convention Atom&lt;/h2&gt;
+&lt;p&gt;Bien que l'éditeur Atom ne soit plus maintenu, il avait créé un guide pour les messages de commit qui a
+l'intérêt d'être très concis.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;GitHub Repository : &lt;a class="reference external" href="https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages"&gt;https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;Pour l'anecdote, on peut noter que
+&lt;a class="reference external" href="https://ec.europa.eu/component-library/v1.15.0/eu/docs/conventions/git/"&gt;la Commission Européenne&lt;/a&gt;
+utilise la convention &amp;quot;Angular&amp;quot; pour les messages de commit dans ses projets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Il existe plusieurs conventions pour les messages de commit sous Git. La &amp;quot;Conventional Commit Convention&amp;quot; semble être
+une référence aujourd'hui.&lt;/p&gt;
+&lt;p&gt;L'adoption d'une convention pour les messages de commit dans un projet Git améliore la traçabilité du développement,
+favorise la cohérence au sein de l'équipe, et facilite l'automatisation de certaines tâches liées à la gestion du code
+source et permet de créer de l'outillage.&lt;/p&gt;
+&lt;p&gt;Bref, c'est un outil au service de la Qualité logicielle.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="code"></category><category term="git"></category></entry><entry><title>Pourquoi Robot Framework ?</title><link href="https://eh-bien-testez-maintenant.github.io/2020/02/12/pourquoi-robotframework/" rel="alternate"></link><published>2020-02-12T00:00:00+01:00</published><updated>2023-09-09T00:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2020-02-12:/2020/02/12/pourquoi-robotframework/</id><summary type="html">&lt;img alt="Image d'un robot en bois sur une pelouse" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2020-pourquoi-robotframework.jpg" style="width: 300px;" /&gt;
+&lt;p&gt;Pour automatiser des tests, il est nécessaire d'utiliser des outils adaptés. Partir la &amp;quot;fleur au fusil&amp;quot; avec  pour seule arme un langage de programmation n'est pas suffisant,
+au risque de devoir réinventer la roue. Nous allons voir ensemble ici les caractéristiques qui font de &lt;a class="reference external" href="https://robotframework.org/"&gt;Robot Framework&lt;/a&gt; un bon candidat pour …&lt;/p&gt;</summary><content type="html">&lt;img alt="Image d'un robot en bois sur une pelouse" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2020-pourquoi-robotframework.jpg" style="width: 300px;" /&gt;
+&lt;p&gt;Pour automatiser des tests, il est nécessaire d'utiliser des outils adaptés. Partir la &amp;quot;fleur au fusil&amp;quot; avec  pour seule arme un langage de programmation n'est pas suffisant,
+au risque de devoir réinventer la roue. Nous allons voir ensemble ici les caractéristiques qui font de &lt;a class="reference external" href="https://robotframework.org/"&gt;Robot Framework&lt;/a&gt; un bon candidat pour automatiser nos tests logiciels.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;09/09/2023: cet article est d'abord paru sur le site &amp;quot;La Taverne du testeur&amp;quot; le 12/02/2020 sous le titre &lt;a class="reference external" href="https://latavernedutesteur.fr/2020/02/12/pourquoi-robot-framework-alexis-pallier/"&gt;&amp;quot;Robot Framework : Le Couteau Suisse De L’Automatisation&amp;quot;&lt;/a&gt;.
+Comme j'en suis l'auteur et que cela fait maintenant un certain temps (&amp;gt; 3 ans...), je le publie maintenant aussi sur mon blog.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Les auteurs de Robot Framework le définissent lui-même comme :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;[...] un framework &lt;strong&gt;générique&lt;/strong&gt; et open-source d'automatisation pour le &lt;strong&gt;Test de Validation&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Très clairement, et nous le verrons dans la suite de cet article, Robot Framework a été conçu pour automatiser les tests du niveau &amp;quot;Validation&amp;quot; (en anglais: &amp;quot;Acceptance Testing&amp;quot;) et pour faire de
+l'ATDD (Acceptance Test Driven Development). C'est-à-dire que son domaine de prédilection est le même que celui de l'utilisateur final &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;.
+&lt;strong&gt;Il va permettre d’automatiser les actions que pourraient réaliser l'utilisateur du logiciel que l'on souhaite tester&lt;/strong&gt;. D'ailleurs, le nom &amp;quot;Robot&amp;quot; porte en lui-même l'idée que l'on cherche à
+reproduire de façon programmatique le comportement d'un humain &lt;a class="footnote-reference" href="#footnote-2" id="footnote-reference-2"&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="un-outil-generique-de-validation"&gt;
+&lt;h2&gt;Un outil générique de validation&lt;/h2&gt;
+&lt;p&gt;Robot Framework possède des caractéristiques lui permettant de convenir à différentes situations de Test et en particulier de Test de Validation.&lt;/p&gt;
+&lt;div class="section" id="la-polyvalence"&gt;
+&lt;h3&gt;La polyvalence&lt;/h3&gt;
+&lt;p&gt;Les &lt;a class="reference external" href="http://robotframework.org/robotframework/"&gt;librairies &amp;quot;standard&amp;quot; fournies&lt;/a&gt; &lt;a class="footnote-reference" href="#footnote-3" id="footnote-reference-3"&gt;[3]&lt;/a&gt; par Robot Framework permettent de réaliser les multiples actions et vérifications nécessaires que pourrait faire
+un utilisateur pour tester un logiciel.&lt;/p&gt;
+&lt;p&gt;Les librairies standard permettent, entre autres de:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;manipuler des données de base comme les chaines de caractères, les listes ou les dictionnaires&lt;/li&gt;
+&lt;li&gt;manipuler des fichiers, dont des fichiers XML&lt;/li&gt;
+&lt;li&gt;manipuler des processus&lt;/li&gt;
+&lt;li&gt;manipuler des dates&lt;/li&gt;
+&lt;li&gt;faire des assertions, ou autrement dit, faire des vérifications sur tous ces objets&lt;/li&gt;
+&lt;li&gt;prendre des captures d'écran&lt;/li&gt;
+&lt;li&gt;utiliser le protocole Telnet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Voici un exemple de test dans lequel nous allons rechercher une chaîne de caractère dans un fichier et vérifier qu'elle est bien présente (part 1).
+Nous allons ensuite lancer un executable et vérifier qu'il s'est réellement bien exécuté :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gh"&gt;*** Test Cases ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="gu"&gt;Test Example&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="c"&gt;# Part 1&lt;/span&gt;
+&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;resultat_recherche&lt;/span&gt;&lt;span class="p"&gt;}=    &lt;/span&gt;&lt;span class="nf"&gt;Grep File&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;mon_fichier.log&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;chaine_recherchee&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Should contain&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;resultat_recherche&lt;/span&gt;&lt;span class="p"&gt;}    ${&lt;/span&gt;&lt;span class="nv"&gt;chaine_recherchee&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="c"&gt;# Part 2&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Start process&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;mon_executable.exe&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;shell=true&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;alias=process&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;result&lt;/span&gt;&lt;span class="p"&gt;}=    &lt;/span&gt;&lt;span class="nf"&gt;Wait For Process&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;process&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;timeout=10s&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;on_timeout=kill&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Should Be Equal As Integers&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;result.rc&lt;/span&gt;&lt;span class="p"&gt;}    &lt;/span&gt;&lt;span class="s"&gt;0&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="l-adaptabilite"&gt;
+&lt;h3&gt;L'adaptabilité&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;S'adapter au logiciel à tester&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Les librairies &amp;quot;standard&amp;quot; permettent, comme nous l'avons vu, d'écrire des tests basiques. Cependant, cela peut paraître limité pour s'adapter à des contextes de test plus évolués.
+Robot Framework permet aussi d'utiliser des &lt;strong&gt;librairies tierces&lt;/strong&gt;, codées en Python ou en Java. Ceci ouvre la porte à l'automatisation de nombreux logiciels puisqu'il suffit quasiment &lt;a class="footnote-reference" href="#footnote-4" id="footnote-reference-4"&gt;[4]&lt;/a&gt; qu'une librairie
+(type harnais de test) existe pour que Robot Framework soit capable de se &amp;quot;brancher&amp;quot; dessus et d'exécuter des tests.&lt;/p&gt;
+&lt;p&gt;On peut citer surement ce qui est la plus &amp;quot;célèbre&amp;quot; des librairies tierces, &lt;a class="reference external" href="https://robotframework.org/SeleniumLibrary"&gt;Selenium&lt;/a&gt;, qui permet d'automatiser les tests d'interface web.&lt;/p&gt;
+&lt;p&gt;Voici un exemple tiré de la documentation de Selenium. Nous allons ouvrir un navigateur sur le site mon-super-site.com,
+puis saisir notre login et notre mot de passe et enfin vérifier que nous arrivont bien à la page de &amp;quot;bienvenue&amp;quot;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gh"&gt;*** Settings ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="kn"&gt;Library&lt;/span&gt;&lt;span class="p"&gt;           &lt;/span&gt;&lt;span class="nn"&gt;SeleniumLibrary&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+
+&lt;span class="gh"&gt;*** Variables ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;LOGIN URL&lt;/span&gt;&lt;span class="p"&gt;}      &lt;/span&gt;&lt;span class="s"&gt;http://mon-super-site.com&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;BROWSER&lt;/span&gt;&lt;span class="p"&gt;}        &lt;/span&gt;&lt;span class="s"&gt;Chrome&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+
+&lt;span class="gh"&gt;*** Test Cases ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="gu"&gt;Valid Login&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Open Browser&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;LOGIN URL&lt;/span&gt;&lt;span class="p"&gt;}    ${&lt;/span&gt;&lt;span class="nv"&gt;BROWSER&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Title Should Be&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;Login Page&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Input Text&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;username_field&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;username&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Input Text&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;password_field&lt;/span&gt;&lt;span class="p"&gt;    ${&lt;/span&gt;&lt;span class="nv"&gt;password&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Click Button&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;login_button&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="nf"&gt;Title Should Be&lt;/span&gt;&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="s"&gt;Welcome Page&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    [&lt;/span&gt;&lt;span class="kn"&gt;Teardown&lt;/span&gt;&lt;span class="p"&gt;]    &lt;/span&gt;&lt;span class="nf"&gt;Close Browser&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;S'adapter aux testeurs&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nous avons vu comment Robot Framework pouvait s'adapter au logiciel à tester et au contexte de test. Il faut savoir que Robot Framework peut aussi adapter sa manière d'écrire les tests.
+En effet, il est possible d'&lt;strong&gt;écrire les tests de plusieurs manières différentes&lt;/strong&gt;, soit en KDT &lt;a class="footnote-reference" href="#footnote-5" id="footnote-reference-5"&gt;[5]&lt;/a&gt; (ce que nous avons vu jusque ici dans les extraits de code) c'est à dire avec des instructions qui
+&amp;quot;collent&amp;quot; aux actions et vérifications que pourrait faire un utilisateur, soit en utilisant le langage Gherkin, couramment utilisé en BDD &lt;a class="footnote-reference" href="#footnote-6" id="footnote-reference-6"&gt;[6]&lt;/a&gt; &lt;a class="footnote-reference" href="#footnote-7" id="footnote-reference-7"&gt;[7]&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gh"&gt;*** Test Cases ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="gu"&gt;Gherkin Test Example&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;Given &lt;/span&gt;&lt;span class="nf"&gt;login page is open&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;When &lt;/span&gt;&lt;span class="nf"&gt;valid username and password are inserted&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;and &lt;/span&gt;&lt;span class="nf"&gt;credentials are submitted&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;Then &lt;/span&gt;&lt;span class="nf"&gt;welcome page should be open&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Cela signifie que l'on peut d'abord partir sur une démarche ATDD, moins contraignante et évoluer ensuite vers une démarche BDD.
+Cette liberté de choix est aussi intéressante car un même outil peut convenir à plusieurs &amp;quot;populations&amp;quot; différentes au sein d'une même entreprise (Développeur, Testeur, Métier...).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="l-evolutivite"&gt;
+&lt;h3&gt;L'évolutivité&lt;/h3&gt;
+&lt;p&gt;Enfin, je voulais parler d'un aspect, qui je pense est moins connu, mais qui est extrêmement puissant.
+Il est possible de &lt;strong&gt;modifier le cœur du fonctionnement de Robot Framework&lt;/strong&gt; grâce à son API et à un système de plugin &lt;a class="footnote-reference" href="#footnote-8" id="footnote-reference-8"&gt;[8]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sans trop rentrer dans les détails techniques - car il est vrai que cet aspect est plus technique - il est possible d'intercepter et de modifier l'exécution et la manière dont Robot Framework
+réalise ses actions et exécute les tests. Cela offre une multitude de possibilité et pour n'en citer qu'une, je donnerais l'exemple du plugin &lt;a class="reference external" href="https://github.com/ATEME/robotframework-testrail"&gt;robotframework-testrail&lt;/a&gt;
+qui permet de pousser les résultats d'exécutions des tests Robot Framework dans l'outil de gestion de tests &lt;a class="reference external" href="https://www.gurock.com/testrail"&gt;TestRail&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dans l'exemple ci-dessous, on a ajouté un tag avec le numéro du test qui correspond à celui du test dans TestRail (&lt;tt class="docutils literal"&gt;test_case_id=1234&lt;/tt&gt;).
+En utilisant l'API de Robot Framework, le plugin est capable de récupérer facilement ce numéro et le résultat du test puis de le publier dans TestRail :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gh"&gt;*** Test Cases ***&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="gu"&gt;Valid Login&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    [&lt;/span&gt;&lt;span class="kn"&gt;Tags&lt;/span&gt;&lt;span class="p"&gt;]  &lt;/span&gt;&lt;span class="s"&gt;test_case_id=1234&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;Given &lt;/span&gt;&lt;span class="nf"&gt;login page is open&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;When &lt;/span&gt;&lt;span class="nf"&gt;valid username and password are inserted&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;and &lt;/span&gt;&lt;span class="nf"&gt;credentials are submitted&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;    &lt;/span&gt;&lt;span class="ge"&gt;Then &lt;/span&gt;&lt;span class="nf"&gt;welcome page should be open&lt;/span&gt;&lt;span class="p"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Dans mon expérience personnelle, j'ai rencontré des tests Robot Framework dans différents domaines (Télécommunication, TV numérique, Web), sur différents types de technologie (Embarqué, API REST,
+webservices, serveurs web, microservices) et programmés dans différents langages (Python, C/C++, Javascript), pour ne citer que quelques exemples que je connais.
+J'ai donc pu constater la polyvalence, l'adaptabilité et les possibilités d'évolution de Robot Framework, qui font de lui un &lt;strong&gt;outil générique pour automatiser les tests de Validation&lt;/strong&gt;.
+Ce n'était pas l'objet de cet article, mais nous aurions pu ajouter bien d'&lt;strong&gt;autres caractéristiques intéressantes&lt;/strong&gt; (lisibilité, dynamisme de la communauté, fiabilité, structure...).&lt;/p&gt;
+&lt;p&gt;Pour conclure, on peut dire que Robot Framework, ayant été réalisé &lt;strong&gt;&amp;quot;par des testeurs&amp;quot;&lt;/strong&gt; &lt;a class="footnote-reference" href="#footnote-9" id="footnote-reference-9"&gt;[9]&lt;/a&gt; et &lt;strong&gt;&amp;quot;pour des testeurs&amp;quot;&lt;/strong&gt; &lt;a class="footnote-reference" href="#footnote-10" id="footnote-reference-10"&gt;[10]&lt;/a&gt;, est particulièrement bien adapté à eux.
+C'est donc un outil de choix lorsqu'on veut faire de l'automatisation de tests.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p class="rubric"&gt;Notes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Cela ne veut pas forcément dire que Robot Framework ne pourra pas être utilisé à d'autres fins et à d'autres niveaux de test bien-sûr. Je pense notamment aux tests d'API qui sont généralement situés au niveau des tests d'Intégration.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: La possibilité de faire du RPA avec Robot Framework est une preuve supplémentaire qu'il s'inscrit bien dans une optique d'automatisation d'actions habituellement réalisées par un humain.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-3"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Les librairies fournies par Robot Framework sont ce qu'on appelle techniquement en Test Logiciel des &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Test_harness"&gt;harnais de test&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-4" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-4"&gt;[4]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Le &amp;quot;il suffit&amp;quot; peut paraître un raccourci un peu trop facile. Cependant, de nos jours, de nombreuses librairies existent avec une interface en Python ou en Java. Ces langages étant nativement &amp;quot;lisibles&amp;quot; par Robot Framework, le travail d'adaptation est généralement simple.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-5" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-5"&gt;[5]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: KDT = Keyword Driven Testing. Voir &lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/kdt-keyword-driven-testing/"&gt;https://latavernedutesteur.fr/2017/11/03/kdt-keyword-driven-testing/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-6" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-6"&gt;[6]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: BDD = Behavior Driven Development. Voir ces articles : &lt;a class="reference external" href="https://latavernedutesteur.fr/tag/bdd/"&gt;https://latavernedutesteur.fr/tag/bdd/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-7" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-7"&gt;[7]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: On pourrait également ajouter l'écriture en DDT (Data Driven Testing) mais il constitue une variante du KDT&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-8" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-8"&gt;[8]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Voir &lt;a class="reference external" href="http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#listener-interface"&gt;l'interface &amp;quot;Listener&amp;quot;&lt;/a&gt; de Robot Framework&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-9" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-9"&gt;[9]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: &lt;cite&gt;Pekka Klarke &amp;lt;http://eliga.fi/&amp;gt;&lt;/cite&gt;, le créateur de Robot Framework, se définit lui-même comme un &amp;quot;Testeur Agile&amp;quot;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-10" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-10"&gt;[10]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;: Voir à ce sujet cet &lt;a class="reference external" href="https://jp-lambert.me/comparatif-outils-de-r%C3%A9daction-de-sp%C3%A9cifications-ex%C3%A9cutables-acd83266f273"&gt;article de JP Lambert&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="automatisation"></category><category term="outil"></category><category term="automatisation"></category><category term="robotframework"></category></entry><entry><title>Livre : Les tests logiciels en Agile</title><link href="https://eh-bien-testez-maintenant.github.io/2019/07/28/livre-les-tests-logiciels-en-agile/" rel="alternate"></link><published>2019-07-28T23:40:00+02:00</published><updated>2019-07-29T21:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2019-07-28:/2019/07/28/livre-les-tests-logiciels-en-agile/</id><summary type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2019-livre-les-tests-logiciels-en-agile.jpg" style="width: 250px;" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Il s'agit d'un ouvrage &amp;quot;collectif&amp;quot; publié par le &lt;a class="reference external" href="http://www.cftl.fr/cf-tl/a-propos-du-cftl/"&gt;CFTL&lt;/a&gt;.
+Venant du CFTL, je m'attendais donc à un ouvrage un peu &amp;quot;dogmatique&amp;quot; dans la lignée du livre
+&amp;quot;&lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/11/03/livre-les-tests-logiciels-fondamentaux/"&gt;Les tests logiciels fondamentaux&lt;/a&gt;&amp;quot;.
+Ce n'est pas du tout le cas et c'est plutôt heureux. Le pragmatisme est de rigueur, à mon avis …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2019-livre-les-tests-logiciels-en-agile.jpg" style="width: 250px;" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Il s'agit d'un ouvrage &amp;quot;collectif&amp;quot; publié par le &lt;a class="reference external" href="http://www.cftl.fr/cf-tl/a-propos-du-cftl/"&gt;CFTL&lt;/a&gt;.
+Venant du CFTL, je m'attendais donc à un ouvrage un peu &amp;quot;dogmatique&amp;quot; dans la lignée du livre
+&amp;quot;&lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/11/03/livre-les-tests-logiciels-fondamentaux/"&gt;Les tests logiciels fondamentaux&lt;/a&gt;&amp;quot;.
+Ce n'est pas du tout le cas et c'est plutôt heureux. Le pragmatisme est de rigueur, à mon avis, lorsqu'on aborde un tel
+sujet où les pratiques sont très dépendantes du contexte. L'idée de compiler différents auteurs et
+expériences est vraiment intéressante. Associée à une mise en pages aérée et illustrée, la lecture est d'autant plus
+agréable.&lt;/p&gt;
+&lt;p&gt;Cette approche d'écriture &amp;quot;collective&amp;quot; a aussi des inconvénients. En effet, l'ensemble m'est apparu un peu hétérogène
+par moment. J'ai trouvé que certains chapitres étaient aboutis et d'autres plus &amp;quot;légers&amp;quot;, voire hors-sujet
+(ie. traitant plus de techniques de Test que de Test en Agilité). Cependant, cela ne nuit pas globalement à la lecture,
+surtout si le sujet reste intéressant.&lt;/p&gt;
+&lt;p&gt;Voici quelques citations, en vrac, qui ont retenu particulièrement mon attention :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Les tests dans une méthode agile vont prendre plus d'importance que dans une méthode classique&amp;quot;
+-- &lt;strong&gt;Marc Hage Chanine&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Dans un projet Agile, le rôle du Test Manager se trouve dilué, incombant souvent au testeur lui-même, qui prend
+donc en charge une large partie de ses responsabilités&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;[L'ATDD] exige de tous les membres de l'équipe de sortir de leur zone de compétence, voire d'intérêt, pour
+travailler sur des cas de test&amp;quot; -- &lt;strong&gt;Reynald Stevens&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;J'ai fait face à plusieurs reprises à [un] rejet quand les tâches de tests étaient attribuées à une personne
+non-incluse à l'équipe QA&amp;quot; -- &lt;strong&gt;Marcelo Kamenetz Szwarcbarg, Amadeus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Les équipes sont focalisées sur les engagements opérationnels et il est toujours difficile de les mobiliser sur
+les travaux d'amélioration continue&amp;quot; -- &lt;strong&gt;Collectif, Axa&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;J'ai trouvé ce livre pertinent, car les expériences relatées correspondent assez bien à ce que j'ai vu dans les
+entreprises pour lesquelles j'ai travaillé. Je souligne en particulier le retour d'expérience de l'équipe qui développe
+le site &amp;quot;oui.sncf&amp;quot; dans lequel je me retrouve en de nombreux points.&lt;/p&gt;
+&lt;p&gt;Aux travers du regard des auteurs, j'ai appris et mieux compris certains aspects. J'ai notamment
+réalisé d'une manière plus précise que &lt;strong&gt;le Test dans le contexte Agile, était un levier important pour aligner
+le &amp;quot;Développement&amp;quot; avec le &amp;quot;Business&amp;quot;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;C'est le premier livre publié en français sur le sujet du &amp;quot;Test logiciel en Agilité&amp;quot; et, ne serait-ce qu'à ce titre,
+il mérite le détour.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr class="docutils" /&gt;
+&lt;div class="section" id="eme-de-couverture"&gt;
+&lt;h2&gt;4ème de couverture&lt;/h2&gt;
+&lt;p&gt;Ce livre collectif répond au besoin de partager des connaissances de la communauté francophone des tests logiciels.
+Comment l’Agilité s’intègre et modifie nos pratiques ? Quelles sont les nouvelles approches de tests,
+les techniques et l’organisation des activités les plus pertinentes ? Quels sont les retours d’expérience ?
+Autant de questions auxquelles ce livre cherche à répondre, en fournissant de l’information actualisée par
+des praticiens et en montrant la diversité des problématiques et des solutions mises en œuvre.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sommaire"&gt;
+&lt;h2&gt;Sommaire&lt;/h2&gt;
+&lt;p&gt;Le livre du CFTL « Les tests logiciels en Agile » est un ouvrage collectif, organisé en trois parties :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Partie I – Aspects spécifiques des tests en Agile&lt;/dt&gt;
+&lt;dd&gt;nous introduisons les aspects spécifiques des tests dans l’Agilité en termes d’état d’esprit, de rôle des testeurs
+et d’organisation des équipes.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Partie II – Pratiques des tests en Agile&lt;/dt&gt;
+&lt;dd&gt;nous offrons un catalogue de pratiques, couvrant à la fois les techniques de test (ATDD/BDD, Automatisation,
+Tests exploratoires, …), la façon d’organiser les tests (Agilité à l’échelle – SAFe, métriques, tests basés sur
+les risques, …) mais aussi les contextes spécifiques tels l’IoT ou le test en production.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Partie III – Retours d’expérience&lt;/dt&gt;
+&lt;dd&gt;nous présentons des analyses pratiques des réussites et des échecs de terrain.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="livre"></category><category term="test logiciel"></category><category term="agile"></category></entry><entry><title>Compilation de blogs français sur le Test Logiciel</title><link href="https://eh-bien-testez-maintenant.github.io/2018/10/14/blogs-francais-sur-test-logiciel/" rel="alternate"></link><published>2018-10-14T21:23:00+02:00</published><updated>2018-10-14T21:23:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-10-14:/2018/10/14/blogs-francais-sur-test-logiciel/</id><summary type="html">&lt;img alt="Blogs en français" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-blogs.jpg" style="width: 400px;" /&gt;
+&lt;p&gt;Il y a peu de blogs qui publient en français sur le thème du Test Logiciel (ou alors je n'ai pas assez cherché 😅 et
+dans ce cas vous pouvez me le faire savoir dans les commentaires en bas).&lt;/p&gt;
+&lt;p&gt;Je souhaite mettre en avant ces blogs car je trouve qu'en France …&lt;/p&gt;</summary><content type="html">&lt;img alt="Blogs en français" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-blogs.jpg" style="width: 400px;" /&gt;
+&lt;p&gt;Il y a peu de blogs qui publient en français sur le thème du Test Logiciel (ou alors je n'ai pas assez cherché 😅 et
+dans ce cas vous pouvez me le faire savoir dans les commentaires en bas).&lt;/p&gt;
+&lt;p&gt;Je souhaite mettre en avant ces blogs car je trouve qu'en France le métier de Testeur est trop méconnu et que
+parallèlement à cela, il y a peu de ressources et d'informations sur le Test Logiciel dans notre langue, l'un pouvant
+d'ailleurs être la conséquence de l'autre. Pourtant, quoi de mieux que de s'adresser à quelqu'un dans sa langue
+maternelle pour se faire connaitre ?&lt;/p&gt;
+&lt;p&gt;Voici donc la liste de blogs français sur le Test Logiciel que j'ai dans mon lecteur RSS :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.lyontesting.fr"&gt;Lyon Testing&lt;/a&gt; a commencé il y a deux ans à peu près commme moi mais ils (3 testeurs) sont beaucoup plus prolifiques :) De plus ils font l'effort de la double traduction (français et anglais). J'aime bien leur approche &lt;a class="reference external" href="http://context-driven-testing.com/"&gt;Context Driven&lt;/a&gt;. Leurs articles sont très intéressants. Bref, je ne peux que recommander !&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.lyontesting.fr"&gt;La Taverne du Testeur&lt;/a&gt; existe depuis un peu moins d'un an et est rédigé par un collectif de testeurs. L'approche est plus &amp;quot;ISTQB&amp;quot;. Il y a beaucoup d'articles et ce que j'apprécie c'est leurs nombreux interviews que je compile d'ailleurs, entre autres, dans &lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/pages/interviews-de-testeurs/"&gt;cette page&lt;/a&gt; :)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.testwik.com"&gt;Testwik&lt;/a&gt;, à lire aussi&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://parlonstest.wordpress.com/"&gt;Parlons Test&lt;/a&gt; par &lt;a class="reference external" href="https://twitter.com/StephDesby"&gt;&amp;#64;StephDesby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://laurent.bristiel.com"&gt;Blog de Laurent Bristiel&lt;/a&gt;, souvent rédigé dans la langue de Shakespeare mais pertinant, notamment pour ceux qui s'intéressent à &lt;a class="reference external" href="https:\robotframework.org"&gt;Robot Framework&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.test-recette.fr/"&gt;Test et Recette&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.univ-angers.fr/qsfs/"&gt;Blog de la formation QSF d'Angers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.qualifiez.fr/journaldutesteur/index.php?blog"&gt;Qualifiez&lt;/a&gt; ne semble malheureusement plus rédiger d'articles depuis un certain temps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Du coté des &amp;quot;entreprises&amp;quot; :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.hightest.nc/blog"&gt;Hightest&lt;/a&gt; est une société basée en Nouvelle-Calédonie. Leur blog est sympa avec des articles quelquefois, comment dire ?, &lt;a class="reference external" href="https://www.hightest.nc/blog/posts/les-7-principes-generaux-du-test-en-illustrations"&gt;un peu &amp;quot;décalés&amp;quot;&lt;/a&gt; 👍&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www2.stardust-testing.com/blog-fr"&gt;Blog de StarDust&lt;/a&gt;, entreprise qui travaille dans le Test et l'Assurance Qualité&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.all4test.fr/dossiers-thematiques/"&gt;Blog de All4Test&lt;/a&gt;, entreprise créée en 2006, se présente comme un &amp;quot;pure player&amp;quot; dans le domaine du Test Logiciel&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.testingdigital.com"&gt;Blog de Testing Digital&lt;/a&gt;, entreprise qui travaille dans le Test et la Qualité Logiciels sur Paris&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Voilà, avec tous ces blogs dans votre liste, vous devriez avoir de quoi lire !&lt;/p&gt;
+&lt;p&gt;Si vous en connaissez d'autres ou si le votre n'apparait pas sur votre liste : faites le moi savoir dans les
+commentaires ci-dessous ⬇️&lt;/p&gt;
+</content><category term="compilation"></category><category term="blog"></category><category term="test logiciel"></category></entry><entry><title>La stratégie de test de la "Terre ronde"</title><link href="https://eh-bien-testez-maintenant.github.io/2018/09/16/strategie-test-terre-ronde/" rel="alternate"></link><published>2018-09-16T18:00:00+02:00</published><updated>2018-09-16T18:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-09-16:/2018/09/16/strategie-test-terre-ronde/</id><summary type="html">&lt;img alt="La stratégie de la &amp;quot;Terre ronde&amp;quot;" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-terre-globe.jpg" style="width: 400px;" /&gt;
+&lt;!-- Photo by Suzy Hazelwood from Pexels --&gt;
+&lt;p&gt;James Bach vient de publier (le 08/09/2018) sur son blog &lt;a class="reference external" href="http://www.satisfice.com/blog/archives/4947"&gt;un article&lt;/a&gt;  dans
+lequel il explique l'analogie qu'il fait entre le forme sphérique de la Terre et le Test logiciel.&lt;/p&gt;
+&lt;p&gt;Il a appelé ce modèle la &lt;strong&gt;stratégie de test de la &amp;quot;Terre ronde&amp;quot;&lt;/strong&gt; et je vais tenter d'en …&lt;/p&gt;</summary><content type="html">&lt;img alt="La stratégie de la &amp;quot;Terre ronde&amp;quot;" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-terre-globe.jpg" style="width: 400px;" /&gt;
+&lt;!-- Photo by Suzy Hazelwood from Pexels --&gt;
+&lt;p&gt;James Bach vient de publier (le 08/09/2018) sur son blog &lt;a class="reference external" href="http://www.satisfice.com/blog/archives/4947"&gt;un article&lt;/a&gt;  dans
+lequel il explique l'analogie qu'il fait entre le forme sphérique de la Terre et le Test logiciel.&lt;/p&gt;
+&lt;p&gt;Il a appelé ce modèle la &lt;strong&gt;stratégie de test de la &amp;quot;Terre ronde&amp;quot;&lt;/strong&gt; et je vais tenter d'en expliquer les grandes lignes &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="qu-est-ce-que-la-strategie-de-test-de-la-terre-ronde"&gt;
+&lt;h2&gt;Qu'est-ce que la stratégie de test de la &amp;quot;Terre ronde&amp;quot; ?&lt;/h2&gt;
+&lt;div class="section" id="un-modele-pour-expliquer-le-test-logiciel"&gt;
+&lt;h3&gt;Un modèle pour expliquer le Test logiciel&lt;/h3&gt;
+&lt;p&gt;Avant de parler du modèle de la &amp;quot;Terre ronde&amp;quot;, nous allons parler d'un autre modèle similaire,
+bien connu des testeurs : la &amp;quot;&lt;strong&gt;Pyramide du Test automatique&lt;/strong&gt;&amp;quot; &lt;a class="footnote-reference" href="#f2" id="footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/p&gt;
+&lt;img alt="Pyramide du Test automatique" class="align-center" src="http://www.mountaingoatsoftware.com/uploads/blog/Testpyramid.jpg" style="width: 200px;" /&gt;
+&lt;p&gt;Ce modèle part d'une pyramide - plutôt un triangle - découpée en couches ou strates horizontales successives.
+Chaque strate représente un niveau de test.
+L'analogie est faite entre la forme évasée du triangle et la proportion de tests automatiques à réaliser.
+Dans les couches basses, il doit y avoir plus de tests que dans les hautes avec une diminution progressive,
+d'où la forme triangulaire.&lt;/p&gt;
+&lt;p&gt;Ce modèle permet d'expliquer un aspect du Test automatique par analogie avec une forme géométrique.&lt;/p&gt;
+&lt;p&gt;C'est ce que fait James Bach en utilisant l'analogie de la &amp;quot;Terre ronde&amp;quot;. Il utilise la forme sphérique répartie
+en couches concentriques de la Terre pour modéliser un aspect du Test logiciel :&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://eh-bien-testez-maintenant.github.io/doc/strategie-test-terre-ronde.pdf"&gt;&lt;img alt="La stratégie de la &amp;quot;Terre ronde&amp;quot;" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-strategie-test-terre-ronde.png" style="width: 800px;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="section" id="un-modele-qui-montre-les-enjeux-du-test-a-differents-niveaux"&gt;
+&lt;h3&gt;Un modèle qui montre les enjeux du test à différents niveaux&lt;/h3&gt;
+&lt;p&gt;L'idée derrière le modèle de la &amp;quot;Terre ronde&amp;quot; est de penser les technologies comme les &lt;strong&gt;couches terrestres concentriques&lt;/strong&gt;.
+Chaque couche a un volume qui représente les possibilités, c'est-à-dire &lt;strong&gt;l'espace des états possibles du produit à tester&lt;/strong&gt;.
+Ce volume tend donc à augmenter de façon drastique à chaque couche.
+On imagine alors facilement les problématiques de test qui en découlent à chaque niveau.&lt;/p&gt;
+&lt;p&gt;En bas du modèle, au niveau du noyau terrestre, se trouvent les frameworks, les systèmes d'exploitation et les environnements de développement, en d'autres termes,
+tout ce qu'on ne va pas tester. Les développements reposent sur cette &amp;quot;fondation solide&amp;quot; de suppositions.
+Ces suppositions sont généralement sûres, bien que quelques fois de la lave ou du gaz radon ou une source souterraine toxique, peuvent traverser cette fondation.&lt;/p&gt;
+&lt;p&gt;Si on monte d'un niveau, on arrive au code du produit que l'on peut tester de façon unitaire puisque nous en sommes les auteurs.
+Ces tests sont typiquement écrits par des développeurs de manière &amp;quot;souterraines&amp;quot; à un niveau relativement bas.
+Cependant, les utilisateurs eux vivent tout en haut, à la lumière. Les développeurs peuvent donc avoir des difficultés à adopter
+le point de vue des utilisateurs car ils sont &amp;quot;empêtrés&amp;quot; dans les détails de leur travail et biaisés par leur haut-niveau d'expertise.&lt;/p&gt;
+&lt;p&gt;En montant dans les couches, on arrive alors à l'endroit où interagissent les sous-systèmes.
+Ceux-ci peuvent typiquement être testés via une API ou en ligne de commande.
+C'est à ce niveau que les outils de test excellent.
+On peut d'ailleurs s'imaginer les outils de test comme des sous-marins évoluant sous la tempête.&lt;/p&gt;
+&lt;p&gt;Enfin, la surface de la Terre, lieu où peuvent sévir des intempéries, il y a l'interface graphique (GUI).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="un-modele-qui-nous-rappelle-l-importance-des-donnees"&gt;
+&lt;h3&gt;Un modèle qui nous rappelle l'importance des données&lt;/h3&gt;
+&lt;p&gt;James Bach donne une importance particulière aux données.
+Il les représente comme les flux d'énergies qui agissent au dessus de la surface (le soleil, le vent, l'eau)
+et en dessous (eaux souterraines, magma, tremblements de terre).
+Lorsque l'on teste, les données sont partout, dans des bases, dans le cloud si on fait du micro-service.
+Il y en a même dans le code.
+Enfin, les données sont bien sûr dans ce que les utilisateurs saisissent mais aussi dans la manière dont ils manipulent le produit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="un-modele-qui-nous-rappelle-l-importance-de-la-testabilite"&gt;
+&lt;h3&gt;Un modèle qui nous rappelle l'importance de la testabilité&lt;/h3&gt;
+&lt;p&gt;Un produit &amp;quot;testable&amp;quot; est un produit qui peut être décomposé en parties testables séparément.
+On doit également pouvoir observer et contrôler son comportement.
+Cela signifie que les testeurs doivent avoir accès à des parties plus &amp;quot;internes&amp;quot; du logiciel via une interface (comme une ligne de commande ou une API),
+et à un système de journalisation (logging).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Pour conclure son propos, James Bach finit par ces quelques remarques :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;La qualité apparente (à la surface) nécessite de la qualité sous-jacente (en souterrain)&lt;/li&gt;
+&lt;li&gt;La qualité apparente réduit la dépendance à de coûteux tests de haut-niveau&lt;/li&gt;
+&lt;li&gt;Les tests de bas-niveau, peu coûteux, réduisent la dépendance à de coûteux tests de haut-niveau&lt;/li&gt;
+&lt;li&gt;Le risque augmente jusqu'à l'utilisateur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p class="rubric"&gt;Notes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cet article n'est pas une traduction mot pour mot de l'article de James Bach mais plutôt un résumé librement interprété, en français
+mais qui, je l'espère, reste assez fidèle à l'original. Merci à James Bach pour ce travail.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;Quelques références sur la &amp;quot;Pyramide du Test Automatique&amp;quot; :&lt;/p&gt;
+&lt;ul class="last simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://watirmelon.blog/testing-pyramids/"&gt;https://watirmelon.blog/testing-pyramids/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://martinfowler.com/bliki/TestPyramid.html"&gt;https://martinfowler.com/bliki/TestPyramid.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid"&gt;https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="strategie"></category><category term="test logiciel"></category></entry><entry><title>Test automatique : la Flakiness</title><link href="https://eh-bien-testez-maintenant.github.io/2018/09/02/test-automatique-flakiness/" rel="alternate"></link><published>2018-09-02T08:30:00+02:00</published><updated>2018-09-02T08:30:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-09-02:/2018/09/02/test-automatique-flakiness/</id><summary type="html">&lt;img alt="Test automatique : la Flakiness" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-flakiness.jpg" style="width: 300px;" /&gt;
+&lt;div class="section" id="qu-est-ce-que-la-flakiness"&gt;
+&lt;h2&gt;Qu'est-ce que la flakiness ?&lt;/h2&gt;
+&lt;p&gt;Il existe un phénomène peut-être méconnu ou bien sous-estimé lorsque l'on fait du Test automatique : la &amp;quot;&lt;strong&gt;flakiness&lt;/strong&gt;&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Google définit le terme &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; de la façon suivante &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; :&lt;/p&gt;
+&lt;blockquote&gt;
+Un résultat de test est &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; lorsque le test peut à la fois passer et être un échec sur …&lt;/blockquote&gt;&lt;/div&gt;</summary><content type="html">&lt;img alt="Test automatique : la Flakiness" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-flakiness.jpg" style="width: 300px;" /&gt;
+&lt;div class="section" id="qu-est-ce-que-la-flakiness"&gt;
+&lt;h2&gt;Qu'est-ce que la flakiness ?&lt;/h2&gt;
+&lt;p&gt;Il existe un phénomène peut-être méconnu ou bien sous-estimé lorsque l'on fait du Test automatique : la &amp;quot;&lt;strong&gt;flakiness&lt;/strong&gt;&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Google définit le terme &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; de la façon suivante &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; :&lt;/p&gt;
+&lt;blockquote&gt;
+Un résultat de test est &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; lorsque le test peut à la fois passer et être un échec sur le même code&lt;/blockquote&gt;
+&lt;p&gt;La &lt;em&gt;flakiness&lt;/em&gt; est donc ce qui caractérise des tests qui peuvent passer ou être en échec entre deux exécutions exactement identiques
+(mêmes logiciels, versions, environements...). On a donc des résultats contradictoires sur deux campagnes de test identiques.
+Il devient alors difficile de se faire un avis précis de l'état du logiciel testé. On ne peut plus distinguer les &amp;quot;vrais&amp;quot; bugs
+des &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; tests.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="quand-la-rencontre-t-on"&gt;
+&lt;h2&gt;Quand la rencontre-t'on ?&lt;/h2&gt;
+&lt;p&gt;Ce phénomène est une &lt;em&gt;constante lorsqu'on fait du Test automatique&lt;/em&gt; &lt;a class="footnote-reference" href="#f2" id="footnote-reference-2"&gt;[2]&lt;/a&gt;. C'est un peu comme les infections nosocomiales,
+on ne peut pas vraiment y échapper, il faut faire avec, tout en essayant de la mitiger au maximum.&lt;/p&gt;
+&lt;p&gt;Elle a tendance à augmenter avec le niveau de test. Par exemple, on peut en avoir un peu en tests unitaires, plus en intégration et encore
+beaucoup plus en test d'acceptance via l'interface graphique.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pourquoi"&gt;
+&lt;h2&gt;Pourquoi ?&lt;/h2&gt;
+&lt;p&gt;Malheureusement, les causes de la &lt;em&gt;flakiness&lt;/em&gt; sont nombreuses.&lt;/p&gt;
+&lt;p&gt;Pêle-mêle, on peut citer :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Les environnements de test instables / non maitrisés. Un bon exemple : le réseau&lt;/li&gt;
+&lt;li&gt;Les données de test (Test Data) non maitrisées. Exemple : données d'entrée aléatoires ou changeantes&lt;/li&gt;
+&lt;li&gt;L'utilisation de threads, les exécutions parallèles, l'asynchronicité&lt;/li&gt;
+&lt;li&gt;Les dépendances logicielles ou produits tiers non maitrisés. Exemple : des versions qui peuvent changer d'une exécution à l'autre&lt;/li&gt;
+&lt;li&gt;Les tests via une interface graphique&lt;/li&gt;
+&lt;li&gt;La mémoire utilisée et la taille des binaires. Voir l'étude de Google &lt;a class="footnote-reference" href="#f3" id="footnote-reference-3"&gt;[3]&lt;/a&gt; à ce sujet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="que-faire-pour-eviter-la-flakiness"&gt;
+&lt;h2&gt;Que faire pour éviter la flakiness ?&lt;/h2&gt;
+&lt;p&gt;Il y a autant de solutions spécifiques que de causes différentes mais on peut citer les bonnes pratiques suivantes:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Maitriser la configuration de son environnement à l'aide de fixtures (setup/teardown des tests)&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Limiter ou maîtriser les dépendances.&lt;/dt&gt;
+&lt;dd&gt;Solutions : virtualiser les &lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/"&gt;environnements de test&lt;/a&gt;,
+bouchonnner les outils tiers...&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;Utiliser des attentes actives &lt;a class="footnote-reference" href="#f4" id="footnote-reference-4"&gt;[4]&lt;/a&gt; plutôt que des attentes incompressibles pour attendre la fin d'une exécution&lt;/li&gt;
+&lt;li&gt;Eviter de paralléliser les exécutions&lt;/li&gt;
+&lt;li&gt;Limiter les tests via l'interface graphique ou utiliser l'&lt;em&gt;UI encapsulation&lt;/em&gt; &lt;a class="footnote-reference" href="#f5" id="footnote-reference-5"&gt;[5]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rejouer automatiquement les tests en échec&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;La &lt;em&gt;flakiness&lt;/em&gt; est un véritable problème lorsque l'on fait du Test automatique. Il faut en prendre conscience pour ne pas être déçu
+car, oui, cela engendre du &lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2018/01/19/test-automatique-lecueil-de-la-maintenance/"&gt;travail de maintenance des tests&lt;/a&gt;.
+Mais elle permet également, si elle est vraiment prise en compte, de mieux comprendre comment fonctionne le logiciel que l'on teste.&lt;/p&gt;
+&lt;p&gt;Enfin, elle permet aussi de relativiser l'importance - quelque fois irraisonnable - que l'on place dans les résulats
+des tests automatiques ;-)&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p class="rubric"&gt;Notes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;em&gt;&amp;quot;We define a &amp;quot;flaky&amp;quot; test result as a test that exhibits both a passing and a failing result with the same code.&amp;quot;&lt;/em&gt;
+&lt;a class="reference external" href="https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html"&gt;https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Voir paragraphe &amp;quot;A war you can’t win&amp;quot; de cet article : &lt;a class="reference external" href="https://hackernoon.com/flaky-tests-a-war-that-never-ends-9aa32fdef359"&gt;https://hackernoon.com/flaky-tests-a-war-that-never-ends-9aa32fdef359&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-3"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://testing.googleblog.com/2017/04/where-do-our-flaky-tests-come-from.html"&gt;https://testing.googleblog.com/2017/04/where-do-our-flaky-tests-come-from.html&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f4" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-4"&gt;[4]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Exemple d'implémentation d'attente active avec Robot Framework, le keyword &lt;cite&gt;Wait Until Keyword Succeeds&lt;/cite&gt; :
+&lt;a class="reference external" href="http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Wait%20Until%20Keyword%20Succeeds"&gt;http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Wait%20Until%20Keyword%20Succeeds&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f5" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-5"&gt;[5]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Voir le paragraphe &amp;quot;Follow the Testing Pyramid&amp;quot; de cet article : &lt;a class="reference external" href="https://smartbear.com/resources/ebooks/managing-ui-test-flakiness/"&gt;https://smartbear.com/resources/ebooks/managing-ui-test-flakiness/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="automatisation"></category><category term="test logiciel"></category></entry><entry><title>Compilation 2017: Interviews de Testeur Logiciels</title><link href="https://eh-bien-testez-maintenant.github.io/2018/02/27/compilation-2017-interviews-de-testeur-logiciels/" rel="alternate"></link><published>2018-02-27T19:51:00+01:00</published><updated>2018-02-27T19:51:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-02-27:/2018/02/27/compilation-2017-interviews-de-testeur-logiciels/</id><summary type="html">&lt;img alt="Interviews" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-interviews.jpg" style="width: 200px; height: 111px;" /&gt;
+&lt;p&gt;&lt;strong&gt;Compilation 2017&lt;/strong&gt; d'interviews de Testeurs Logiciels qui témoignent
+de leur métier.
+J'ai trouvé de nombreuses interviews de testeurs en 2017, grâce
+notamment au travail de &lt;a class="reference external" href="https://www.lyontesting.fr/"&gt;Lyon Testing&lt;/a&gt;  et
+de &lt;a class="reference external" href="https://latavernedutesteur.fr/"&gt;La Taverne du Testeur&lt;/a&gt;  que je remercie au passage
+de partager ces témoignages.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;28/12
+:&amp;nbsp;&lt;a class="reference external" href="http://www.acpqualife.com/actu/t%C3%A9moignage-emilie-ing%C3%A9nieur-test"&gt;http://www.acpqualife.com/actu/t …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;img alt="Interviews" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-interviews.jpg" style="width: 200px; height: 111px;" /&gt;
+&lt;p&gt;&lt;strong&gt;Compilation 2017&lt;/strong&gt; d'interviews de Testeurs Logiciels qui témoignent
+de leur métier.
+J'ai trouvé de nombreuses interviews de testeurs en 2017, grâce
+notamment au travail de &lt;a class="reference external" href="https://www.lyontesting.fr/"&gt;Lyon Testing&lt;/a&gt;  et
+de &lt;a class="reference external" href="https://latavernedutesteur.fr/"&gt;La Taverne du Testeur&lt;/a&gt;  que je remercie au passage
+de partager ces témoignages.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;28/12
+:&amp;nbsp;&lt;a class="reference external" href="http://www.acpqualife.com/actu/t%C3%A9moignage-emilie-ing%C3%A9nieur-test"&gt;http://www.acpqualife.com/actu/t%C3%A9moignage-emilie-ing%C3%A9nieur-test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;30/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/30/michael-granier-po-et-testeur/"&gt;https://latavernedutesteur.fr/2017/11/30/michael-granier-po-et-testeur/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;23/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/23/benjamin-butel-test-manageur-et-formateur/"&gt;https://latavernedutesteur.fr/2017/11/23/benjamin-butel-test-manageur-et-formateur/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;06/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/16/valentin-guerlesquin-responsable-tests-automatises-et-tests-de-performance/"&gt;https://latavernedutesteur.fr/2017/11/16/valentin-guerlesquin-responsable-tests-automatises-et-tests-de-performance/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;06/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/06/mathieu-pradal-business-developer-it/"&gt;https://latavernedutesteur.fr/2017/11/06/mathieu-pradal-business-developer-it/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;03/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/lydie-niveaux-ingenieure-validation-logicielle/"&gt;https://latavernedutesteur.fr/2017/11/03/lydie-niveaux-ingenieure-validation-logicielle/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;03/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/marc-hage-chahine-passionne-test-logiciel-interview-1/"&gt;https://latavernedutesteur.fr/2017/11/03/marc-hage-chahine-passionne-test-logiciel-interview-1/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;03/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/eric-blanquet-chef-de-projet-test/"&gt;https://latavernedutesteur.fr/2017/11/03/eric-blanquet-chef-de-projet-test/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;07/07
+:&amp;nbsp;&lt;a class="reference external" href="https://www.lyontesting.fr/fr/interview-dune-testeuse-3-stephanie-desby/"&gt;https://www.lyontesting.fr/fr/interview-dune-testeuse-3-stephanie-desby/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;19/05
+:&amp;nbsp;&lt;a class="reference external" href="https://www.lyontesting.fr/fr/interview-dun-testeur-2-thierry-gerbeau/"&gt;https://www.lyontesting.fr/fr/interview-dun-testeur-2-thierry-gerbeau/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;07/04
+:&amp;nbsp;&lt;a class="reference external" href="https://www.lyontesting.fr/fr/interview-dun-testeur-1-julien-blanc/"&gt;https://www.lyontesting.fr/fr/interview-dun-testeur-1-julien-blanc/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cela nous montre que nous sommes souvent confrontés aux mêmes
+problèmes, heureusement ! ou malheureusement selon le point de vue :-)&lt;/p&gt;
+&lt;p&gt;PS : si vous connaissez d'autres interviews de testeurs, n'hésitez pas à
+&lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/pages/a-propos/"&gt;me le faire savoir&lt;/a&gt;.&lt;/p&gt;
+</content><category term="compilation"></category><category term="interviews"></category><category term="test logiciel"></category></entry><entry><title>Test automatique : l'écueil de la maintenance</title><link href="https://eh-bien-testez-maintenant.github.io/2018/01/19/test-automatique-lecueil-de-la-maintenance/" rel="alternate"></link><published>2018-01-19T08:28:00+01:00</published><updated>2018-01-19T08:28:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-01-19:/2018/01/19/test-automatique-lecueil-de-la-maintenance/</id><summary type="html">&lt;img alt="Test automatique : l'écueil de la maintenance" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-lecueil-de-la-maintenance.jpg" style="width: 200px; height: 150px;" /&gt;
+&lt;p&gt;La confusion n'est pas loin - et le terme est trompeur - entre
+&amp;quot;&lt;em&gt;automatiser des tests&lt;/em&gt;&amp;quot; et &amp;quot;&lt;em&gt;tester automatiquement un logiciel&lt;/em&gt;&amp;quot;.
+Or il s'agit bien du premier terme dont on parle lorsqu'on
+dit &amp;quot;Test automatique&amp;quot;. Cette différence tenue est pourtant fondamentale
+car elle nous dit que les tests ne vont pas vraiment …&lt;/p&gt;</summary><content type="html">&lt;img alt="Test automatique : l'écueil de la maintenance" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-lecueil-de-la-maintenance.jpg" style="width: 200px; height: 150px;" /&gt;
+&lt;p&gt;La confusion n'est pas loin - et le terme est trompeur - entre
+&amp;quot;&lt;em&gt;automatiser des tests&lt;/em&gt;&amp;quot; et &amp;quot;&lt;em&gt;tester automatiquement un logiciel&lt;/em&gt;&amp;quot;.
+Or il s'agit bien du premier terme dont on parle lorsqu'on
+dit &amp;quot;Test automatique&amp;quot;. Cette différence tenue est pourtant fondamentale
+car elle nous dit que les tests ne vont pas vraiment fonctionner tout
+seuls. Il va falloir les écrire et les maintenir au même titre
+d'ailleurs que&amp;nbsp; n'importe quel logiciel informatique...&lt;/p&gt;
+&lt;div class="section" id="pourquoi"&gt;
+&lt;h2&gt;Pourquoi ?&lt;/h2&gt;
+&lt;p&gt;Les tests automatiques vérifient un logiciel. Ce logiciel est sujet à
+des modifications, si du moins le projet est &amp;quot;vivant&amp;quot;. Ces changements
+devront nécessairement se répercuter dans les tests et/ou dans
+l'environnement de test. Or ces changements ont un coût. Ce coût englobe
+le temps, les personnes et les compétences qu'il est nécessaire de
+déployer pour que les tests automatiques fonctionnent tout au long de la
+vie du projet.&lt;/p&gt;
+&lt;p&gt;Des tests automatiques non maintenus perdent très vites de leur valeur,
+surtout si le logiciel qu'ils testent évolue vite. On peut même imaginer
+arriver à un point de non retour où il n'est plus rentable de les
+remettre à jour. L'investissement dans les tests auto ne sera jamais
+rentabilisé, créant alors beaucoup de déception.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mieux-vaut-prevenir"&gt;
+&lt;h2&gt;Mieux vaut prévenir...&lt;/h2&gt;
+&lt;p&gt;La négligence des aspects de maintenance est à mon avis l'une des
+principales causes d'échec des projets d'automatisation. Après avoir
+investi dans la mise en place d'un environnement de test, on se rend
+compte que cela ne marche pas exactement &amp;quot;tout seul&amp;quot;, il y a toujours
+besoin de réaliser des ajustements. On est déçu et on abandonne.&lt;/p&gt;
+&lt;p&gt;On rêverait tous d'un logiciel qui s'auto-teste tout seul (pléonasme ?).
+En attendant, à nous testeurs de rappeler aux décideurs que &lt;strong&gt;l'enjeu de
+la maintenance est crucial&lt;/strong&gt; afin qu'il n'y ait pas de déception et que
+l'on puisse se lancer (ou non d'ailleurs) dans des projets
+d'automatisation de tests en &lt;strong&gt;connaissance de cause&lt;/strong&gt;, en sachant sans
+feindre de l'ignorer quel est le vrai &amp;quot;prix&amp;quot; de l'automatisation.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="automatisation"></category><category term="test logiciel"></category></entry><entry><title>Les environnements de test logiciel</title><link href="https://eh-bien-testez-maintenant.github.io/2017/11/01/les-environnements-de-test-logiciel/" rel="alternate"></link><published>2017-11-01T21:37:00+01:00</published><updated>2017-11-01T21:37:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2017-11-01:/2017/11/01/les-environnements-de-test-logiciel/</id><summary type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2017-les-environnements-de-test-logiciel.jpg" style="width: 200px; height: 133px;" /&gt;
+&lt;p&gt;Le déploiement d'environnement de test est une activité importante du
+test logiciel. En effet, il peut devenir un point critique s'il est
+complexe à mettre en place &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;. C'est une lapalissade : &amp;quot;plus le
+temps de mise en place d'un environnement de test est long, moins on
+testera&amp;quot;. Le temps qui …&lt;/p&gt;</summary><content type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2017-les-environnements-de-test-logiciel.jpg" style="width: 200px; height: 133px;" /&gt;
+&lt;p&gt;Le déploiement d'environnement de test est une activité importante du
+test logiciel. En effet, il peut devenir un point critique s'il est
+complexe à mettre en place &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;. C'est une lapalissade : &amp;quot;plus le
+temps de mise en place d'un environnement de test est long, moins on
+testera&amp;quot;. Le temps qui est investi pour mettre en place l'environnement
+de test diminue le temps pendant lequel on pourrait faire des tests.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;em&gt;&amp;quot;Plus le temps de mise en place d'un environnement de test est long
+et difficile, moins on testera et plus la barrière psychologique
+pour tester sera importante.&amp;quot;&lt;/em&gt;&lt;/blockquote&gt;
+&lt;p&gt;Mais là n'est pas mon propos. Je voulais parler d'une autre conséquence
+néfaste qui est &lt;strong&gt;la barrière psychologique&lt;/strong&gt; que représente l'obstacle
+de la mise en route. En effet, si votre environnement de test est
+difficile à mettre en place, vous allez - peut-être même inconsciemment
+- vous limiter dans vos tests. C'est un biais simplement humain, nous
+préférons les tâches &amp;quot;simples&amp;quot; et courtes aux activités plus complexes.
+Surtout que la mise en place d'un environnement de test logiciel n'est
+pas non plus l'activité la plus &amp;quot;intéressante&amp;quot; qui existe :-)&lt;/p&gt;
+&lt;p&gt;Je prends deux illustrations très concrètes :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;vous avez mis 1 journée entière pour mettre en place votre
+environnement. Vous allez éviter les cas de tests aux limites qui
+viendrait &amp;quot;casser&amp;quot; votre environnement (suppression de fichiers,
+arrêt électrique, corruption de la base de données...), cas qui
+pourtant pourraient s'avérer très intéressants d'un point de vue
+&amp;quot;test&amp;quot;.&lt;/li&gt;
+&lt;li&gt;vous êtes à quelques heures d'une livraison et vous n'avez plus aucun
+environnement de test &amp;quot;propre&amp;quot; ou &amp;quot;standard&amp;quot;. Vous avez un doute sur
+une partie du logiciel mais vous allez pourtant omettre ce petit test
+(qui quelque fois vous sauve la mise) avant la livraison car
+(consciemment ou inconsciemment) vous avez envisagé le temps de mise
+en place d'un nouvel environnement propre et que ce n'est peut-être
+pas le moment d'en perdre avant une livraison importante...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="diminuer-le-temps-de-mise-en-place"&gt;
+&lt;h2&gt;Diminuer le temps de mise en place&lt;/h2&gt;
+&lt;p&gt;Il devient donc important de faciliter la phase de mise en place des
+environnements de test. Il faut inciter ou du moins ne pas &amp;quot;décourager&amp;quot;
+les testeurs à tester en facilitant l'accès à un environnement prêt à
+tester.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;em&gt;&amp;quot;Ne pas décourager les testeurs à tester, en facilitant le
+déploiement des environnements de test&amp;quot;&lt;/em&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comment ?&lt;/em&gt; Plus facile à dire qu'à faire ! La mise en place
+d'environnement nécessite du &lt;strong&gt;matériel&lt;/strong&gt;, des &lt;strong&gt;compétences en
+virtualisation&lt;/strong&gt; ou conteneurisation, et des &lt;strong&gt;compétences en
+administration système&lt;/strong&gt;. Si vous développez ces compétences, vous aller
+pouvoir optimiser votre temps de mise en place d'environnements de test
+et globalement augmenter vos capacités de test.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="outils-pour-aller-plus-loin"&gt;
+&lt;h2&gt;Outils pour aller plus loin&lt;/h2&gt;
+&lt;p&gt;Parmi les outils qui existent pour faciliter la mise en place d'environnement de test, on peut citer :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;les outils de type virtualisation / conteneurisation&lt;/strong&gt; : Docker,
+Vagrant et toutes les solutions de virtualisation (Virtual box,
+ESXi...)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;les outils de gestion de configuration système&lt;/strong&gt; : Salt Stack,
+Puppet, Ansible, Chef&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;les outils de déploiements&lt;/strong&gt; : &amp;nbsp;Open stack, Cobbler, Foreman (Voir
+mon &lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/"&gt;memo à ce
+sujet&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;J'ai l'exemple d'une entreprise où un environnement de test nécessitait plusieurs jours de travail !&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="environnement de test"></category><category term="test logiciel"></category></entry><entry><title>Memo : Déploiement d'environnement de test (ou autres)</title><link href="https://eh-bien-testez-maintenant.github.io/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/" rel="alternate"></link><published>2016-12-17T23:07:00+01:00</published><updated>2016-12-17T23:07:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2016-12-17:/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/</id><content type="html">&lt;p&gt;Liens concernant le déploiement d'environnement de test.&lt;/p&gt;
+&lt;div class="section" id="cobbler"&gt;
+&lt;h2&gt;Cobbler&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://cobbler-doc.readthedocs.io/"&gt;My Cobbler documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.olindata.com/blog/2015/07/cobbler-setup-centos7"&gt;Cobbler Setup on
+CentOS7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.linuxtechi.com/install-and-configure-cobbler-on-centos-7/"&gt;How to Install and Configure Cobbler on CentOS
+7.x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="foreman"&gt;
+&lt;h2&gt;Foreman&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.linuxtechi.com/install-and-configure-foreman-on-centos-7-x/"&gt;Steps to Install and Configure Foreman 1.11 on CentOS
+7.x&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.linuxtechi.com/bare-metal-provisioning-through-foreman-server/"&gt;Bare metal and Virtual Machine Provisioning through Foreman
+Server&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="memo"></category><category term="environnement de test"></category><category term="test logiciel"></category></entry><entry><title>Livre : Les tests logiciels fondamentaux</title><link href="https://eh-bien-testez-maintenant.github.io/2016/11/03/livre-les-tests-logiciels-fondamentaux/" rel="alternate"></link><published>2016-11-03T08:19:00+01:00</published><updated>2016-11-03T08:19:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2016-11-03:/2016/11/03/livre-les-tests-logiciels-fondamentaux/</id><summary type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://static.eyrolles.com/img/2/7/4/6/2/3/1/5/9782746231559_h430.jpg" style="width: 213px; height: 320px;" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Le livre &amp;quot;Les tests logiciels fondamentaux&amp;quot; de l'éditeur
+Hermès-Lavoisier est surement le livre de référence en langue française
+sur le sujet.&lt;/p&gt;
+&lt;p&gt;L'auteur, Bernard Homès, est un spécialiste reconnu du test logiciel en
+France. Il est l'ancien président du &amp;quot;Comité français des tests
+logiciels&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Cet ouvrage est en quelques sortes …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://static.eyrolles.com/img/2/7/4/6/2/3/1/5/9782746231559_h430.jpg" style="width: 213px; height: 320px;" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Le livre &amp;quot;Les tests logiciels fondamentaux&amp;quot; de l'éditeur
+Hermès-Lavoisier est surement le livre de référence en langue française
+sur le sujet.&lt;/p&gt;
+&lt;p&gt;L'auteur, Bernard Homès, est un spécialiste reconnu du test logiciel en
+France. Il est l'ancien président du &amp;quot;Comité français des tests
+logiciels&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Cet ouvrage est en quelques sortes une somme sur le sujet. Il développe
+une quantité importante de concepts, d'outils et de méthodes sur le
+test. C'est un livre auquel on peut venir se référer pour avoir des
+informations sur des points précis. Idéal pour préparer l'examen de la
+certification ISTQB, son contenu suit de près le syllabus de l'ISTQB. A
+chaque fin de chapitre, il y a des questions d'examen blanc et un examen
+complet à la fin.&lt;/p&gt;
+&lt;p&gt;Un livre de référence, en français, qui sera utile pour ceux qui
+souhaitent préparer la certification ISTQB.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="eme-de-couverture"&gt;
+&lt;h2&gt;4ème de couverture&lt;/h2&gt;
+&lt;p&gt;Le test de logiciel est aujourd'hui une activité industrielle régie par
+des processus. Ces processus fondamentaux sont décrits dans le syllabus
+(cahier des charges) de niveau fondation du CFTL-ISTQB 2010 utilisé pour
+la formation des testeurs. Illustré par de nombreux exemples, Les tests
+logiciels présente les différents concepts et analyse les phases
+d'exécution des processus. Il permet aux candidats testeurs de préparer
+avec succès l'examen de certification. Cet ouvrage apporte également des
+solutions aux professionnels du test comme les tests basés sur les
+risques (Risk Based Testing), la justification du retour sur
+investissement du test ou sa rentabilité. Le reporting, les techniques
+d'estimation de la charge de test et les standards sont aussi traités,
+faisant de cet ouvrage une référence pour les assistants à maîtrise
+d'ouvrage ou à maîtrise d'œuvre. Il s'adresse aussi aux DSI, aux chefs
+de projets, aux développeurs voulant améliorer leur code et aux testeurs
+souhaitant acquérir la certification CFTL.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sommaire"&gt;
+&lt;h2&gt;Sommaire&lt;/h2&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Avant-propos&lt;/div&gt;
+&lt;div class="line"&gt;Principes fondamentaux&lt;/div&gt;
+&lt;div class="line"&gt;Les tests dans le cycle de vie des logiciels&lt;/div&gt;
+&lt;div class="line"&gt;Techniques statiques&lt;/div&gt;
+&lt;div class="line"&gt;Technique de conception de tests&lt;/div&gt;
+&lt;div class="line"&gt;Gestion des tests&lt;/div&gt;
+&lt;div class="line"&gt;Outils et automatisation&lt;/div&gt;
+&lt;div class="line"&gt;Examen blanc&lt;/div&gt;
+&lt;div class="line"&gt;Gabarits et modèles&lt;/div&gt;
+&lt;div class="line"&gt;Corrigés des questions&lt;/div&gt;
+&lt;div class="line"&gt;Glossaire&lt;/div&gt;
+&lt;div class="line"&gt;Bibliographie&lt;/div&gt;
+&lt;div class="line"&gt;Index&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="livre"></category><category term="test logiciel"></category></entry><entry><title>Livre : Pratique des tests logiciels</title><link href="https://eh-bien-testez-maintenant.github.io/2016/10/23/livre-pratique-des-tests-logiciels/" rel="alternate"></link><published>2016-10-23T21:05:00+02:00</published><updated>2016-10-23T21:05:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2016-10-23:/2016/10/23/livre-pratique-des-tests-logiciels/</id><summary type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://books.google.fr/books/content?id=UWj2yEt78l0C&amp;amp;printsec=frontcover&amp;amp;img=1&amp;amp;zoom=5&amp;amp;edge=curl&amp;amp;imgtk=AFLRE70GJsU-dpETfg7XS-XIp52pCoETKtMS-W2RQ-OXFwWZ7OiNS27uiLOEEduHkwv1I1nh2vGlV_48J1DmVhiA78oF1gbKVAeXj_SwAVHhMu6D_jfHcNjtamZw489s_mEpUD9zGHI9" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Le livre &amp;quot;Pratique des tests logiciels&amp;quot; de l'éditeur Dunod (1ère édition) est une bonne entrée en matière pour
+aborder de façon concrète la problématique du test logiciel.&lt;/p&gt;
+&lt;p&gt;Sa lecture se fait de façon progressive. Les chapitres 1 et 2 décrivent
+les grands enjeux du test logiciel et s'adressent à …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://books.google.fr/books/content?id=UWj2yEt78l0C&amp;amp;printsec=frontcover&amp;amp;img=1&amp;amp;zoom=5&amp;amp;edge=curl&amp;amp;imgtk=AFLRE70GJsU-dpETfg7XS-XIp52pCoETKtMS-W2RQ-OXFwWZ7OiNS27uiLOEEduHkwv1I1nh2vGlV_48J1DmVhiA78oF1gbKVAeXj_SwAVHhMu6D_jfHcNjtamZw489s_mEpUD9zGHI9" /&gt;
+&lt;div class="section" id="avis"&gt;
+&lt;h2&gt;Avis&lt;/h2&gt;
+&lt;p&gt;Le livre &amp;quot;Pratique des tests logiciels&amp;quot; de l'éditeur Dunod (1ère édition) est une bonne entrée en matière pour
+aborder de façon concrète la problématique du test logiciel.&lt;/p&gt;
+&lt;p&gt;Sa lecture se fait de façon progressive. Les chapitres 1 et 2 décrivent
+les grands enjeux du test logiciel et s'adressent à ce titre à tous ceux
+qui font du logiciel, de près ou de loin (chef de projets, développeur,
+testeur, voire maîtrise d'ouvrage...). Ensuite, on entre dans le vif du
+sujet avec la présentation de différentes techniques de tests. Le
+dernier chapitre est lui consacré à la gestion des tests et s'adressera
+donc aux chefs de projets de test.&lt;/p&gt;
+&lt;p&gt;Personnellement, je trouve que le chapitre &amp;quot;Processus et tests
+d’intégration&amp;quot; est disproportionné par rapport au reste. Cette partie
+est très académique, on a l'impression de lire une véritable &amp;quot;thèse&amp;quot; sur
+l'intégration logicielle.&lt;/p&gt;
+&lt;p&gt;Ce livre annonce aussi qu'il permet la préparation de la certification
+ISTQB. Il aborde effectivement les principaux points de la certification
+(niveau &amp;quot;Fondation&amp;quot; uniquement) mais pas tous. Il ne suffira donc pas et
+il viendra plutôt en complément. Remarque : l'édition 2 du livre (celle
+que je n'ai pas...) semble combler ce manque et propose des chapitres en
+plus.&lt;/p&gt;
+&lt;p&gt;En résumé, je conseille vivement la lecture de ce livre, surtout les deux premiers chapitres.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sommaire"&gt;
+&lt;h2&gt;Sommaire&lt;/h2&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Chapitre 1 - Quelques idées essentielles sur les tests. (10 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 2 - Tester à chaque niveau du cycle de vie. (27 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 3 - Tester efficacement : les différentes stratégies. (18 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 4 - Concevoir efficacement des jeux de tests grâce aux spécifications. (31 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 5 - Utiliser les détails d’implémentation dans les tests. (23 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 6 - Processus et tests d’intégration. (51 pages)&lt;/div&gt;
+&lt;div class="line"&gt;Chapitre 7 - Gérer les tests. (15 pages)&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="eme-de-couverture"&gt;
+&lt;h2&gt;4ème de couverture&lt;/h2&gt;
+&lt;p&gt;Ce livre s'adresse aux développeurs, concepteurs et intégrateurs de
+logiciels ainsi qu'aux chefs de projets et aux architectes. Il
+intéressera également les élèves ingénieurs ainsi que les étudiants de
+fin de licence ou de master en informatique et toute personne préparant
+la certification ISTQB du métier de testeur. Concevoir du premier coup
+et sans aucune erreur un logiciel qui comporte plusieurs millions de
+lignes de code et plusieurs centaines de composants est évidemment
+impossible. La nécessité des tests au cours des différentes phases de
+conception paraît évidente et pourtant, dans la pratique, les tests ont
+été longtemps négligés et relégués au second rang. On voit cependant
+apparaître une forte volonté de la part de tous les acteurs concernés de
+faire évoluer ces pratiques et de remettre au premier plan les tests
+logiciels. L'objectif de cet ouvrage est triple : donner les bases et
+les bonnes pratiques pour concevoir et mener à bien les tests
+nécessaires et efficaces tout au long du cycle de vie du logiciel ;
+fournir un référentiel en termes de méthodes, de vocabulaire et de
+savoir faire ; préparer au passage de la certification ISTQB du métier
+de testeur.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="revue"></category><category term="livre"></category><category term="test logiciel"></category></entry><entry><title>Développement logiciel et Gouvernance</title><link href="https://eh-bien-testez-maintenant.github.io/2016/10/19/developpement-logiciel-et-gouvernance/" rel="alternate"></link><published>2016-10-19T20:51:00+02:00</published><updated>2016-10-19T20:51:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2016-10-19:/2016/10/19/developpement-logiciel-et-gouvernance/</id><summary type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Pour qu’on ne puisse abuser du pouvoir, il faut que, par la
+disposition des choses, le pouvoir arrête le pouvoir&amp;quot;&lt;/p&gt;
+&lt;p class="attribution"&gt;&amp;mdash;Montesquieu, &lt;em&gt;De l'esprit des lois&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cette citation de Montesquieu parle bien sûr de politique et de la
+séparation de ses pouvoirs. Dans cet article, je vais décrire une
+approche …&lt;/p&gt;</summary><content type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Pour qu’on ne puisse abuser du pouvoir, il faut que, par la
+disposition des choses, le pouvoir arrête le pouvoir&amp;quot;&lt;/p&gt;
+&lt;p class="attribution"&gt;&amp;mdash;Montesquieu, &lt;em&gt;De l'esprit des lois&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cette citation de Montesquieu parle bien sûr de politique et de la
+séparation de ses pouvoirs. Dans cet article, je vais décrire une
+approche qui me permet de faire rapidement l'audit d'une entreprise sur
+sa maturité en terme de test logiciel.
+Il m'a paru intéressant de rapprocher cette citation du domaine du
+développement logiciel. En essayant de déterminer quels sont les jeux de
+pouvoir qu'il peut exister au sein d'une entreprise qui développe des
+produits logiciels, on peut voir apparaître les forces et les lacunes
+qui conduisent à des dérives et des biais dans la construction d'un
+produit logiciel.&lt;/p&gt;
+&lt;div class="section" id="les-pouvoirs-en-presence"&gt;
+&lt;h2&gt;Les pouvoirs en présence&lt;/h2&gt;
+&lt;p&gt;Les trois pouvoirs politiques définis par Montesquieu &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; sont&amp;nbsp;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Le pouvoir &lt;strong&gt;législatif&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Le pouvoir&amp;nbsp;&lt;strong&gt;exécutif&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Le pouvoir &lt;strong&gt;judiciaire&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Maintenant, transposons cette vision dans le domaine de l'industrie
+logicielle. On peut définir 3 pouvoirs qui gravitent autour d'un produit
+logiciel :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Le pouvoir de&amp;nbsp;&lt;strong&gt;définir&lt;/strong&gt;&amp;nbsp;le produit : législatif&lt;/li&gt;
+&lt;li&gt;Le pouvoir de&amp;nbsp;&lt;strong&gt;construire&lt;/strong&gt; le produit : exécutif&lt;/li&gt;
+&lt;li&gt;Le pouvoir de &lt;strong&gt;contrôler&lt;/strong&gt; l'état du&amp;nbsp;produit : judiciaire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour illustrer cette notion, on peut par exemple rapprocher ces
+&amp;quot;pouvoirs&amp;quot; de différentes entités qu'il est commun de trouver dans
+l'industrie du logiciel :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;La MOA &lt;a class="footnote-reference" href="#f2" id="footnote-reference-2"&gt;[2]&lt;/a&gt;&amp;nbsp;: entité chargée de définir le produit et de formuler les besoins
+des clients et du marché, qui a le pouvoir de définir&lt;/li&gt;
+&lt;li&gt;La MOE &lt;a class="footnote-reference" href="#f3" id="footnote-reference-3"&gt;[3]&lt;/a&gt;&amp;nbsp;: entité de développement du logiciel, peut être appelée aussi &amp;quot;R&amp;amp;D&amp;quot;
+ou &amp;quot;équipes de développement&amp;quot;, qui a le pouvoir de construire&lt;/li&gt;
+&lt;li&gt;La QA &lt;a class="footnote-reference" href="#f4" id="footnote-reference-4"&gt;[4]&lt;/a&gt;&amp;nbsp;: entité chargée de vérifier le bon fonctionnement du produit, qui a
+le pouvoir de contrôler&amp;nbsp;l'état du&amp;nbsp;produit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jeu-de-pouvoir"&gt;
+&lt;h2&gt;Jeu de pouvoir&lt;/h2&gt;
+&lt;p&gt;L'idée consiste maintenant à évaluer les équilibres entre les pouvoirs
+qu'il existe au sein d'une entreprise entre ces entités.&lt;/p&gt;
+&lt;p&gt;Il s'agit d'évaluer pour chacune d'elles, leurs effectifs, leurs rôles
+hiérarchiques, les degrés d'indépendance, les processus qui les font
+interagir, etc. On pourra alors avoir une idée des forces en présence
+afin d'évaluer s'il n'y a pas une carence ou un excès de tel ou tel
+pouvoir.&lt;/p&gt;
+&lt;div class="section" id="exemples"&gt;
+&lt;h3&gt;Exemples&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Prenons le cas d'une MOA qui définirait uniquement des exigences
+métiers ou des exigences fonctionnelles. Elle conduirait la MOE à ne
+s'attacher à résoudre que des problématiques d'ordre fonctionnel et à
+construire un produit qui fonctionne peut-être mais mal car ayant des
+lacunes dans le domaine non-fonctionnel (comme la performance,
+l'utilisabilité, la facilité de déploiement, etc).&lt;/li&gt;
+&lt;li&gt;Un autre exemple : Prenons le cas d'une société qui aurait une MOE de
+100 personnes et une QA de 5 personnes. La&amp;nbsp;responsabilité&amp;nbsp;de la&amp;nbsp;QA
+étant sous celle de la MOE. On voit bien ici le déséquilibre entre le
+pouvoir de construction et le pouvoir de contrôle. Le risque ici est
+bien de livrer un produit qui est construit de façon non contrôlée et
+qui ne correspondra pas aux attentes en terme de fonctionnalités et
+de qualité.&lt;/li&gt;
+&lt;li&gt;Un troisième cas, qui de mon point de vue est sûrement le plus rare,
+la QA est constituée d'une équipe importante, ayant un fort degré
+d'indépendance par rapport à la MOA et la MOE. Son pouvoir de
+contrôle et de veto surdimensionné pourrait nuire au bon déroulement
+de la construction. La QA pourrait demander des exigences
+qualitatives difficiles à atteindre et qui ferait augmenter les coûts
+de développement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Cette réflexion m'est venue suite à un audit réalisé dans une entreprise
+qui avait des problèmes de fiabilité sur ses logiciels. Je me suis
+aperçu que selon la définition des pouvoirs que j'ai énoncé ici,
+l'entité QA était réellement sous dimensionnée. Les personnes dédiées au
+Test et à la Qualité représentent moins de 10% de l'effectif et donc
+approximativement du budget, alors que le standard de l'industrie sont
+deux à trois fois supérieurs à cela depuis plusieurs années &lt;a class="footnote-reference" href="#f5" id="footnote-reference-5"&gt;[5]&lt;/a&gt;.
+Il y avait donc clairement un déficit dans le contre-pouvoir du
+contrôle de la Qualité, expliquant en partie les problèmes de fiabilité
+rencontrés par cette entreprise.&lt;/p&gt;
+&lt;p&gt;J'espère que ce petit outil permettra à d'autres d'évaluer les lacunes
+et les forces en présence dans une entreprise ou une équipe de
+développement. C'est un exercice que j'ai trouvé intéressant à faire et
+qui m'a permis de mieux comprendre le contexte d'une entreprise.&lt;/p&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="100%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://eh-bien-testez-maintenant.github.io/images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg"&gt;&lt;img alt="image0" src="https://eh-bien-testez-maintenant.github.io/images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg" style="width: 640px; height: 414px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sketchnote &amp;quot;Développement logiciel et Gouvernance&amp;quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p class="rubric"&gt;Notes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pouvoirs#Montesquieu_:_reprise_de_la_philosophie_de_Locke"&gt;https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pouvoirs#Montesquieu_:_reprise_de_la_philosophie_de_Locke&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOA = Maîtrise d'ouvrage&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-3"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOE = Maîtrise d'oeuvre&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f4" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-4"&gt;[4]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;QA = Quality Assurance ou Assurance Qualité&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f5" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-5"&gt;[5]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Voir à ce sujet le &amp;quot;World Quality Report 2015-16&amp;quot; : en 2015, en moyenne 35% du budget IT est alloué à la Qualité et au Test : www.world-quality-report.com&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="gouvernance"></category><category term="test logiciel"></category></entry></feed>

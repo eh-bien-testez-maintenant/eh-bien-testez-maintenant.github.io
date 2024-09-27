@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Eh Bien Testez Maintenant ! - compilation</title><link href="https://eh-bien-testez-maintenant.github.io/" rel="alternate"></link><link href="https://eh-bien-testez-maintenant.github.io/feeds/compilation.atom.xml" rel="self"></link><id>https://eh-bien-testez-maintenant.github.io/</id><updated>2018-10-14T21:23:00+02:00</updated><subtitle>Vous codiez ? J'en suis fort aise.&lt;br/&gt; Eh bien : testez maintenant !</subtitle><entry><title>Compilation de blogs français sur le Test Logiciel</title><link href="https://eh-bien-testez-maintenant.github.io/2018/10/14/blogs-francais-sur-test-logiciel/" rel="alternate"></link><published>2018-10-14T21:23:00+02:00</published><updated>2018-10-14T21:23:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-10-14:/2018/10/14/blogs-francais-sur-test-logiciel/</id><summary type="html">&lt;img alt="Blogs en français" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-blogs.jpg" style="width: 400px;" /&gt;
+&lt;p&gt;Il y a peu de blogs qui publient en français sur le thème du Test Logiciel (ou alors je n'ai pas assez cherché 😅 et
+dans ce cas vous pouvez me le faire savoir dans les commentaires en bas).&lt;/p&gt;
+&lt;p&gt;Je souhaite mettre en avant ces blogs car je trouve qu'en France …&lt;/p&gt;</summary><content type="html">&lt;img alt="Blogs en français" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-blogs.jpg" style="width: 400px;" /&gt;
+&lt;p&gt;Il y a peu de blogs qui publient en français sur le thème du Test Logiciel (ou alors je n'ai pas assez cherché 😅 et
+dans ce cas vous pouvez me le faire savoir dans les commentaires en bas).&lt;/p&gt;
+&lt;p&gt;Je souhaite mettre en avant ces blogs car je trouve qu'en France le métier de Testeur est trop méconnu et que
+parallèlement à cela, il y a peu de ressources et d'informations sur le Test Logiciel dans notre langue, l'un pouvant
+d'ailleurs être la conséquence de l'autre. Pourtant, quoi de mieux que de s'adresser à quelqu'un dans sa langue
+maternelle pour se faire connaitre ?&lt;/p&gt;
+&lt;p&gt;Voici donc la liste de blogs français sur le Test Logiciel que j'ai dans mon lecteur RSS :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.lyontesting.fr"&gt;Lyon Testing&lt;/a&gt; a commencé il y a deux ans à peu près commme moi mais ils (3 testeurs) sont beaucoup plus prolifiques :) De plus ils font l'effort de la double traduction (français et anglais). J'aime bien leur approche &lt;a class="reference external" href="http://context-driven-testing.com/"&gt;Context Driven&lt;/a&gt;. Leurs articles sont très intéressants. Bref, je ne peux que recommander !&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.lyontesting.fr"&gt;La Taverne du Testeur&lt;/a&gt; existe depuis un peu moins d'un an et est rédigé par un collectif de testeurs. L'approche est plus &amp;quot;ISTQB&amp;quot;. Il y a beaucoup d'articles et ce que j'apprécie c'est leurs nombreux interviews que je compile d'ailleurs, entre autres, dans &lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/pages/interviews-de-testeurs/"&gt;cette page&lt;/a&gt; :)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.testwik.com"&gt;Testwik&lt;/a&gt;, à lire aussi&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://parlonstest.wordpress.com/"&gt;Parlons Test&lt;/a&gt; par &lt;a class="reference external" href="https://twitter.com/StephDesby"&gt;&amp;#64;StephDesby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://laurent.bristiel.com"&gt;Blog de Laurent Bristiel&lt;/a&gt;, souvent rédigé dans la langue de Shakespeare mais pertinant, notamment pour ceux qui s'intéressent à &lt;a class="reference external" href="https:\robotframework.org"&gt;Robot Framework&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.test-recette.fr/"&gt;Test et Recette&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.univ-angers.fr/qsfs/"&gt;Blog de la formation QSF d'Angers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.qualifiez.fr/journaldutesteur/index.php?blog"&gt;Qualifiez&lt;/a&gt; ne semble malheureusement plus rédiger d'articles depuis un certain temps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Du coté des &amp;quot;entreprises&amp;quot; :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.hightest.nc/blog"&gt;Hightest&lt;/a&gt; est une société basée en Nouvelle-Calédonie. Leur blog est sympa avec des articles quelquefois, comment dire ?, &lt;a class="reference external" href="https://www.hightest.nc/blog/posts/les-7-principes-generaux-du-test-en-illustrations"&gt;un peu &amp;quot;décalés&amp;quot;&lt;/a&gt; 👍&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www2.stardust-testing.com/blog-fr"&gt;Blog de StarDust&lt;/a&gt;, entreprise qui travaille dans le Test et l'Assurance Qualité&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.all4test.fr/dossiers-thematiques/"&gt;Blog de All4Test&lt;/a&gt;, entreprise créée en 2006, se présente comme un &amp;quot;pure player&amp;quot; dans le domaine du Test Logiciel&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.testingdigital.com"&gt;Blog de Testing Digital&lt;/a&gt;, entreprise qui travaille dans le Test et la Qualité Logiciels sur Paris&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Voilà, avec tous ces blogs dans votre liste, vous devriez avoir de quoi lire !&lt;/p&gt;
+&lt;p&gt;Si vous en connaissez d'autres ou si le votre n'apparait pas sur votre liste : faites le moi savoir dans les
+commentaires ci-dessous ⬇️&lt;/p&gt;
+</content><category term="compilation"></category><category term="blog"></category><category term="test logiciel"></category></entry><entry><title>Compilation 2017: Interviews de Testeur Logiciels</title><link href="https://eh-bien-testez-maintenant.github.io/2018/02/27/compilation-2017-interviews-de-testeur-logiciels/" rel="alternate"></link><published>2018-02-27T19:51:00+01:00</published><updated>2018-02-27T19:51:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-02-27:/2018/02/27/compilation-2017-interviews-de-testeur-logiciels/</id><summary type="html">&lt;img alt="Interviews" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-interviews.jpg" style="width: 200px; height: 111px;" /&gt;
+&lt;p&gt;&lt;strong&gt;Compilation 2017&lt;/strong&gt; d'interviews de Testeurs Logiciels qui témoignent
+de leur métier.
+J'ai trouvé de nombreuses interviews de testeurs en 2017, grâce
+notamment au travail de &lt;a class="reference external" href="https://www.lyontesting.fr/"&gt;Lyon Testing&lt;/a&gt;  et
+de &lt;a class="reference external" href="https://latavernedutesteur.fr/"&gt;La Taverne du Testeur&lt;/a&gt;  que je remercie au passage
+de partager ces témoignages.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;28/12
+:&amp;nbsp;&lt;a class="reference external" href="http://www.acpqualife.com/actu/t%C3%A9moignage-emilie-ing%C3%A9nieur-test"&gt;http://www.acpqualife.com/actu/t …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;img alt="Interviews" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-interviews.jpg" style="width: 200px; height: 111px;" /&gt;
+&lt;p&gt;&lt;strong&gt;Compilation 2017&lt;/strong&gt; d'interviews de Testeurs Logiciels qui témoignent
+de leur métier.
+J'ai trouvé de nombreuses interviews de testeurs en 2017, grâce
+notamment au travail de &lt;a class="reference external" href="https://www.lyontesting.fr/"&gt;Lyon Testing&lt;/a&gt;  et
+de &lt;a class="reference external" href="https://latavernedutesteur.fr/"&gt;La Taverne du Testeur&lt;/a&gt;  que je remercie au passage
+de partager ces témoignages.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;28/12
+:&amp;nbsp;&lt;a class="reference external" href="http://www.acpqualife.com/actu/t%C3%A9moignage-emilie-ing%C3%A9nieur-test"&gt;http://www.acpqualife.com/actu/t%C3%A9moignage-emilie-ing%C3%A9nieur-test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;30/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/30/michael-granier-po-et-testeur/"&gt;https://latavernedutesteur.fr/2017/11/30/michael-granier-po-et-testeur/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;23/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/23/benjamin-butel-test-manageur-et-formateur/"&gt;https://latavernedutesteur.fr/2017/11/23/benjamin-butel-test-manageur-et-formateur/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;06/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/16/valentin-guerlesquin-responsable-tests-automatises-et-tests-de-performance/"&gt;https://latavernedutesteur.fr/2017/11/16/valentin-guerlesquin-responsable-tests-automatises-et-tests-de-performance/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;06/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/06/mathieu-pradal-business-developer-it/"&gt;https://latavernedutesteur.fr/2017/11/06/mathieu-pradal-business-developer-it/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;03/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/lydie-niveaux-ingenieure-validation-logicielle/"&gt;https://latavernedutesteur.fr/2017/11/03/lydie-niveaux-ingenieure-validation-logicielle/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;03/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/marc-hage-chahine-passionne-test-logiciel-interview-1/"&gt;https://latavernedutesteur.fr/2017/11/03/marc-hage-chahine-passionne-test-logiciel-interview-1/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;03/11
+:&amp;nbsp;&lt;a class="reference external" href="https://latavernedutesteur.fr/2017/11/03/eric-blanquet-chef-de-projet-test/"&gt;https://latavernedutesteur.fr/2017/11/03/eric-blanquet-chef-de-projet-test/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;07/07
+:&amp;nbsp;&lt;a class="reference external" href="https://www.lyontesting.fr/fr/interview-dune-testeuse-3-stephanie-desby/"&gt;https://www.lyontesting.fr/fr/interview-dune-testeuse-3-stephanie-desby/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;19/05
+:&amp;nbsp;&lt;a class="reference external" href="https://www.lyontesting.fr/fr/interview-dun-testeur-2-thierry-gerbeau/"&gt;https://www.lyontesting.fr/fr/interview-dun-testeur-2-thierry-gerbeau/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;07/04
+:&amp;nbsp;&lt;a class="reference external" href="https://www.lyontesting.fr/fr/interview-dun-testeur-1-julien-blanc/"&gt;https://www.lyontesting.fr/fr/interview-dun-testeur-1-julien-blanc/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cela nous montre que nous sommes souvent confrontés aux mêmes
+problèmes, heureusement ! ou malheureusement selon le point de vue :-)&lt;/p&gt;
+&lt;p&gt;PS : si vous connaissez d'autres interviews de testeurs, n'hésitez pas à
+&lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/pages/a-propos/"&gt;me le faire savoir&lt;/a&gt;.&lt;/p&gt;
+</content><category term="compilation"></category><category term="interviews"></category><category term="test logiciel"></category></entry></feed>

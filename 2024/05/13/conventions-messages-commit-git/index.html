@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+    href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/native.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/default.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/custom.css">
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Eh Bien Testez Maintenant ! Atom">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKML3CYE6E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKML3CYE6E');
+</script>
+
+ 
+
+<meta name="author" content="apallier" />
+<meta name="description" content="Est-ce que vous pensez aussi que les messages de commit dans Git font partie de la qualité d’un logiciel au sens large ? J’ai creusé un peu la question ces derniers temps et je présente ici un résumé des différentes conventions que j’ai trouvées pour les messages de …" />
+<meta name="keywords" content="code, git">
+
+
+  <meta property="og:site_name" content="Eh Bien Testez Maintenant !"/>
+  <meta property="og:title" content="Conventions pour les messages de commit sous Git"/>
+  <meta property="og:description" content="Est-ce que vous pensez aussi que les messages de commit dans Git font partie de la qualité d’un logiciel au sens large ? J’ai creusé un peu la question ces derniers temps et je présente ici un résumé des différentes conventions que j’ai trouvées pour les messages de …"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:url" content="https://eh-bien-testez-maintenant.github.io/2024/05/13/conventions-messages-commit-git/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2024-05-13 00:00:00+02:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://eh-bien-testez-maintenant.github.io/author/apallier.html">
+  <meta property="article:section" content="revue"/>
+  <meta property="article:tag" content="code"/>
+  <meta property="article:tag" content="git"/>
+  <meta property="og:image" content="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg">
+
+  <title>Eh Bien Testez Maintenant ! &ndash; Conventions pour les messages de commit sous Git</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="https://eh-bien-testez-maintenant.github.io/">
+      <img src="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="https://eh-bien-testez-maintenant.github.io/"></a>
+    </h1>
+
+    <p>Vous codiez ? J'en suis fort aise.<br/> Eh bien : testez maintenant !</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/a-propos/#a-propos">
+                A propos
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/curriculum-vitae/#curriculum-vitae">
+                Curriculum Vitae
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/ma-petite-entreprise/#ma-petite-entreprise">
+                Ma petite entreprise
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/interviews-de-testeurs/#interviews-de-testeurs">
+                Interviews de testeurs
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/portfolio/#portfolio">
+                Portfolio
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/alexispallier/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="//eh-bien-testez-maintenant.github.io/rss.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/apallier"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://eh-bien-testez-maintenant.github.io/">Accueil</a>
+
+  <a href="/archives.html">Archives</a>
+  <a href="/categories.html">Catégories</a>
+  <a href="/tags.html">Tags</a>
+
+  <a href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="conventions-messages-commit-git">Conventions pour les messages de commit sous Git</h1>
+    <p>
+      Posté le Mon 13 May 2024 dans <a href="https://eh-bien-testez-maintenant.github.io/category/revue.html">revue</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <img alt="Image d'un bloc-note avec une main qui tient un crayon" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2024-conventions-messages-commit.jpg" style="width: 300px;" />
+<!-- Photo de Karolina Grabowska: https://www.pexels.com/fr-fr/photo/cahier-bureau-stylo-ecrite-4195401/ -->
+<p>Est-ce que vous pensez aussi que les messages de commit dans Git font partie de la qualité d’un logiciel au sens
+large ?</p>
+<p>J’ai creusé un peu la question ces derniers temps et je présente ici un résumé des différentes conventions que j’ai
+trouvées pour les messages de commit sous Git.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="les-conventional-commits">
+<h2>1. Les Conventional Commits</h2>
+<p>Sûrement le plus connu, &quot;Conventional Commits&quot; propose un standard pour la création de messages de commit,
+avec des préfixes définis tels que “feat” (pour les nouvelles fonctionnalités), “fix” (pour les corrections de bugs),
+“chore” (pour les tâches de maintenance), etc.</p>
+<ul class="simple">
+<li>Site Web : <a class="reference external" href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a></li>
+<li><dl class="first docutils">
+<dt>Outils qui permettent de générer les messages de commit</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="https://github.com/Everduin94/better-commits">better-commit</a></li>
+<li><a class="reference external" href="https://github.com/commitizen/cz-cli">Commitizen</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>Linter de message : <a class="reference external" href="https://github.com/conventional-changelog/commitlint">Commitlint</a></li>
+</ul>
+<p>Exemple de message de type commit :</p>
+<div class="highlight"><pre><span></span>fix(api): prevent racing of requests
+
+Introduce a request id and a reference to latest request. Dismiss
+incoming responses other than from latest request.
+
+Remove timeouts which were used to mitigate the racing issue but are
+obsolete now.
+
+Reviewed-by: ABC
+Refs: #123
+</pre></div>
+</div>
+<div class="section" id="la-convention-angular">
+<h2>2. La Convention Angular</h2>
+<p>Il me semble que les “Conventional commits” viennent d’Angular qui a développé ses propres directives de messages de
+commit. Ces directives recommandent un format structuré pour les messages de commit, en utilisant des en-têtes avec
+des mots-clés spécifiques pour indiquer le type de changement.</p>
+<ul class="simple">
+<li>GitHub Repository : <a class="reference external" href="https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit">https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit</a></li>
+</ul>
+<p>Résumé de l'en-tête de la Convention Angular :</p>
+<div class="highlight"><pre><span></span>&lt;type&gt;(&lt;scope&gt;): &lt;short summary&gt;
+  │       │             │
+  │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
+  │       │
+  │       └─⫸ Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
+  │                          elements|forms|http|language-service|localize|platform-browser|
+  │                          platform-browser-dynamic|platform-server|router|service-worker|
+  │                          upgrade|zone.js|packaging|changelog|docs-infra|migrations|
+  │                          devtools
+  │
+  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
+</pre></div>
+</div>
+<div class="section" id="gitmoji">
+<h2>3. Gitmoji</h2>
+<p>Gitmoji propose une approche plus ludique pour ajouter des émojis aux messages de commit afin d'indiquer le type de
+changement introduit par le commit. Chaque emoji a une signification spécifique (comme 🐛 pour les corrections de bugs,
+✨ pour les nouvelles fonctionnalités, etc.), ce qui rend les messages de commit plus visuels et expressifs.</p>
+<ul class="simple">
+<li>Site web : <a class="reference external" href="https://gitmoji.dev/">https://gitmoji.dev/</a></li>
+</ul>
+<p>Exemples de messages de commit avec Gitmoji :</p>
+<div class="highlight"><pre><span></span>🏗️ Transform project into a monorepo (#1235)
+* 🏗️ Define monorepo architecture
+* 🚚 Extract `gitmojis` as an isolated package
+* 🚚 Extract `website` as an isolated package
+* 🚚 Clean-up root package.json
+* ➕ Install `turbo`
+* 🔧 Setup turborepo
+* 👷 Use `turbo` in `ci` workflow
+* 👷 Update `npm-publish` workflow with `turbo`
+* ♻️ Migrate yarn from `classic` to `berry`
+* 📝 Update contributing guide
+* 🎨 Update readme
+* 📝 Add readme file for `gitmojis` package
+* 🚚 Move `public` folder to `website` package
+</pre></div>
+</div>
+<div class="section" id="la-convention-atom">
+<h2>4. La convention Atom</h2>
+<p>Bien que l'éditeur Atom ne soit plus maintenu, il avait créé un guide pour les messages de commit qui a
+l'intérêt d'être très concis.</p>
+<ul class="simple">
+<li>GitHub Repository : <a class="reference external" href="https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages">https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages</a></li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Pour l'anecdote, on peut noter que
+<a class="reference external" href="https://ec.europa.eu/component-library/v1.15.0/eu/docs/conventions/git/">la Commission Européenne</a>
+utilise la convention &quot;Angular&quot; pour les messages de commit dans ses projets.</p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>Il existe plusieurs conventions pour les messages de commit sous Git. La &quot;Conventional Commit Convention&quot; semble être
+une référence aujourd'hui.</p>
+<p>L'adoption d'une convention pour les messages de commit dans un projet Git améliore la traçabilité du développement,
+favorise la cohérence au sein de l'équipe, et facilite l'automatisation de certaines tâches liées à la gestion du code
+source et permet de créer de l'outillage.</p>
+<p>Bref, c'est un outil au service de la Qualité logicielle.</p>
+</div>
+
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/code.html">code</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/git.html">git</a>
+    </p>
+  </div>
+
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'eh-bien-testez-maintenant';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Veuillez activer le JavaScript pour voir les commentaires.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>&copy; 2023 </p>
+<p>
+Construit avec <a href="http://getpelican.com" target="_blank">Pelican</a> utilisant le thème <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a>
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="https://eh-bien-testez-maintenant.github.io/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="dark"
+          type="text/javascript">
+  </script>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Eh Bien Testez Maintenant ! ",
+  "url" : "https://eh-bien-testez-maintenant.github.io",
+  "image": "https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg",
+  "description": "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA, Test automatique, Test automation"
+}
+</script>
+</body>
+</html>

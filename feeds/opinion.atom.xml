@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Eh Bien Testez Maintenant ! - opinion</title><link href="https://eh-bien-testez-maintenant.github.io/" rel="alternate"></link><link href="https://eh-bien-testez-maintenant.github.io/feeds/opinion.atom.xml" rel="self"></link><id>https://eh-bien-testez-maintenant.github.io/</id><updated>2024-09-06T00:00:00+02:00</updated><subtitle>Vous codiez ? J'en suis fort aise.&lt;br/&gt; Eh bien : testez maintenant !</subtitle><entry><title>Expérience développeur et Qualité logicielle</title><link href="https://eh-bien-testez-maintenant.github.io/2024/09/06/experience-developpeur-qualite-logicielle/" rel="alternate"></link><published>2024-09-06T00:00:00+02:00</published><updated>2024-09-06T00:00:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2024-09-06:/2024/09/06/experience-developpeur-qualite-logicielle/</id><summary type="html">&lt;img alt="Image d'un tableau abstrait avec des carrés colorés" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2024-experience-developpeur-qualite-logicielle.jpg" style="width: 300px;" /&gt;
+&lt;!-- Photo de Edward Jenner: https://www.pexels.com/fr-fr/photo/art-colore-concevoir-designer-4252895/ --&gt;
+&lt;p&gt;Je m’intéresse depuis quelques mois à l’“Expérience développeur” ou “devex” ou “DX” pour “Developer Experience”.&lt;/p&gt;
+&lt;p&gt;En résumé, la “devex” fait référence à la qualité globale des interactions et des perceptions qu'une personne qui
+travaille dans le développement informatique a lorsqu’elle utilise un produit, un outil ou une …&lt;/p&gt;</summary><content type="html">&lt;img alt="Image d'un tableau abstrait avec des carrés colorés" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2024-experience-developpeur-qualite-logicielle.jpg" style="width: 300px;" /&gt;
+&lt;!-- Photo de Edward Jenner: https://www.pexels.com/fr-fr/photo/art-colore-concevoir-designer-4252895/ --&gt;
+&lt;p&gt;Je m’intéresse depuis quelques mois à l’“Expérience développeur” ou “devex” ou “DX” pour “Developer Experience”.&lt;/p&gt;
+&lt;p&gt;En résumé, la “devex” fait référence à la qualité globale des interactions et des perceptions qu'une personne qui
+travaille dans le développement informatique a lorsqu’elle utilise un produit, un outil ou une plateforme de
+développement.&lt;/p&gt;
+&lt;p&gt;Après avoir vu travailler un certain nombre d’équipes depuis le début de ma carrière :) je suis persuadé que la &amp;quot;devex&amp;quot;
+a un impact aussi sur la qualité du produit développé. Et donc forcément, ça m’intéresse en tant que QA/Testeur.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Voici notamment les 4 aspects de la “devex” qui me paraissent cruciaux pour la Qualité logicielle&lt;/em&gt; :&lt;/p&gt;
+&lt;div class="section" id="une-bonne-documentation"&gt;
+&lt;h2&gt;Une bonne documentation&lt;/h2&gt;
+&lt;p&gt;La qualité de la documentation est souvent un point noir des équipes de dev. Une certaine interprétation de l’Agilité
+n’y a pas aidé. On a cru à tort que l’Agilité prônait le moins de documentation possible… Le paradoxe est que, dans le
+développement logiciel, on passe une grande partie de notre temps à lire des informations, y compris notre propre
+documentation qui n'est des fois pas toujours la meilleure :/&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conseil&lt;/strong&gt; : créez une documentation de qualité, pas forcément exhaustive mais à jour et facilement accessible. Tâche
+difficile mais on peut commencer par des choses simples comme nettoyer, ranger et référencer puis ensuite appliquer un
+framework de documentation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="lautomatisation"&gt;
+&lt;h2&gt;L’automatisation&lt;/h2&gt;
+&lt;p&gt;L'automatisation des tâches courantes peut grandement améliorer la productivité. Je ne parle pas ici forcément que des
+tests mais aussi de toutes les autres tâches comme le déploiement, les tâches administratives, le monitoring de KPI,
+etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conseil&lt;/strong&gt; : automatisez toutes les tâches répétitives que vous pouvez. Pour cela, je conseille d’aller voir aussi du
+côté du no code/low code (outils comme Make.com, Zapier, JIRA automation, Robot Framework, …)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="des-outils-et-environnements-communs"&gt;
+&lt;h2&gt;Des outils et environnements communs&lt;/h2&gt;
+&lt;p&gt;La présence de templates, d’images Docker communes, de librairies de code, etc… va jouer sur la productivité et la
+satisfaction globale. Pourquoi passer du temps à refaire (des fois en moins bien) ce que les collègues ont déjà fait ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conseil&lt;/strong&gt; : observez ce qui fonctionne bien et industrialisez-le pour votre équipe (l’automatisation peut aider).
+Créez des templates avec Cookiecutter, utilisez les templates de GitLab CI, JIRA, … Pour les librairies, distribuez-les
+sous forme de package installable, et pour vos outils internes sous forme d’images Docker.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="support-et-communaute"&gt;
+&lt;h2&gt;Support et communauté&lt;/h2&gt;
+&lt;p&gt;Dans les équipes de développement plus larges, la présence de canaux de communication thématiques ou de formations
+internes permet d’arriver plus vite au niveau de connaissance nécessaire.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conseil&lt;/strong&gt; : mettez en place des canaux thématiques (code, outil, test, …) dans votre messagerie instantanée
+d’entreprises. Créez des tutoriels sur les points douloureux récurrents que rencontrent les nouveaux arrivants.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Les bénéfices de la &amp;quot;devex&amp;quot; sur la Qualité logicielle sont réels mais, soyons réalistes, la &amp;quot;devex&amp;quot; n’est pas facile à
+mettre en place. Elle nécessite une vision plus large que la vision “produit” qui prédomine aujourd’hui. Elle n’est
+néanmoins pas incompatible et a même pour objectif de la soutenir.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="experience developpeur"></category><category term="developer experience"></category><category term="devex"></category><category term="DX"></category><category term="qualité"></category><category term="QA"></category></entry><entry><title>Test automatique : la Flakiness</title><link href="https://eh-bien-testez-maintenant.github.io/2018/09/02/test-automatique-flakiness/" rel="alternate"></link><published>2018-09-02T08:30:00+02:00</published><updated>2018-09-02T08:30:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-09-02:/2018/09/02/test-automatique-flakiness/</id><summary type="html">&lt;img alt="Test automatique : la Flakiness" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-flakiness.jpg" style="width: 300px;" /&gt;
+&lt;div class="section" id="qu-est-ce-que-la-flakiness"&gt;
+&lt;h2&gt;Qu'est-ce que la flakiness ?&lt;/h2&gt;
+&lt;p&gt;Il existe un phénomène peut-être méconnu ou bien sous-estimé lorsque l'on fait du Test automatique : la &amp;quot;&lt;strong&gt;flakiness&lt;/strong&gt;&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Google définit le terme &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; de la façon suivante &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; :&lt;/p&gt;
+&lt;blockquote&gt;
+Un résultat de test est &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; lorsque le test peut à la fois passer et être un échec sur …&lt;/blockquote&gt;&lt;/div&gt;</summary><content type="html">&lt;img alt="Test automatique : la Flakiness" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-flakiness.jpg" style="width: 300px;" /&gt;
+&lt;div class="section" id="qu-est-ce-que-la-flakiness"&gt;
+&lt;h2&gt;Qu'est-ce que la flakiness ?&lt;/h2&gt;
+&lt;p&gt;Il existe un phénomène peut-être méconnu ou bien sous-estimé lorsque l'on fait du Test automatique : la &amp;quot;&lt;strong&gt;flakiness&lt;/strong&gt;&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Google définit le terme &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; de la façon suivante &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; :&lt;/p&gt;
+&lt;blockquote&gt;
+Un résultat de test est &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; lorsque le test peut à la fois passer et être un échec sur le même code&lt;/blockquote&gt;
+&lt;p&gt;La &lt;em&gt;flakiness&lt;/em&gt; est donc ce qui caractérise des tests qui peuvent passer ou être en échec entre deux exécutions exactement identiques
+(mêmes logiciels, versions, environements...). On a donc des résultats contradictoires sur deux campagnes de test identiques.
+Il devient alors difficile de se faire un avis précis de l'état du logiciel testé. On ne peut plus distinguer les &amp;quot;vrais&amp;quot; bugs
+des &amp;quot;&lt;em&gt;flaky&lt;/em&gt;&amp;quot; tests.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="quand-la-rencontre-t-on"&gt;
+&lt;h2&gt;Quand la rencontre-t'on ?&lt;/h2&gt;
+&lt;p&gt;Ce phénomène est une &lt;em&gt;constante lorsqu'on fait du Test automatique&lt;/em&gt; &lt;a class="footnote-reference" href="#f2" id="footnote-reference-2"&gt;[2]&lt;/a&gt;. C'est un peu comme les infections nosocomiales,
+on ne peut pas vraiment y échapper, il faut faire avec, tout en essayant de la mitiger au maximum.&lt;/p&gt;
+&lt;p&gt;Elle a tendance à augmenter avec le niveau de test. Par exemple, on peut en avoir un peu en tests unitaires, plus en intégration et encore
+beaucoup plus en test d'acceptance via l'interface graphique.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pourquoi"&gt;
+&lt;h2&gt;Pourquoi ?&lt;/h2&gt;
+&lt;p&gt;Malheureusement, les causes de la &lt;em&gt;flakiness&lt;/em&gt; sont nombreuses.&lt;/p&gt;
+&lt;p&gt;Pêle-mêle, on peut citer :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Les environnements de test instables / non maitrisés. Un bon exemple : le réseau&lt;/li&gt;
+&lt;li&gt;Les données de test (Test Data) non maitrisées. Exemple : données d'entrée aléatoires ou changeantes&lt;/li&gt;
+&lt;li&gt;L'utilisation de threads, les exécutions parallèles, l'asynchronicité&lt;/li&gt;
+&lt;li&gt;Les dépendances logicielles ou produits tiers non maitrisés. Exemple : des versions qui peuvent changer d'une exécution à l'autre&lt;/li&gt;
+&lt;li&gt;Les tests via une interface graphique&lt;/li&gt;
+&lt;li&gt;La mémoire utilisée et la taille des binaires. Voir l'étude de Google &lt;a class="footnote-reference" href="#f3" id="footnote-reference-3"&gt;[3]&lt;/a&gt; à ce sujet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="que-faire-pour-eviter-la-flakiness"&gt;
+&lt;h2&gt;Que faire pour éviter la flakiness ?&lt;/h2&gt;
+&lt;p&gt;Il y a autant de solutions spécifiques que de causes différentes mais on peut citer les bonnes pratiques suivantes:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Maitriser la configuration de son environnement à l'aide de fixtures (setup/teardown des tests)&lt;/li&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Limiter ou maîtriser les dépendances.&lt;/dt&gt;
+&lt;dd&gt;Solutions : virtualiser les &lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/"&gt;environnements de test&lt;/a&gt;,
+bouchonnner les outils tiers...&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;Utiliser des attentes actives &lt;a class="footnote-reference" href="#f4" id="footnote-reference-4"&gt;[4]&lt;/a&gt; plutôt que des attentes incompressibles pour attendre la fin d'une exécution&lt;/li&gt;
+&lt;li&gt;Eviter de paralléliser les exécutions&lt;/li&gt;
+&lt;li&gt;Limiter les tests via l'interface graphique ou utiliser l'&lt;em&gt;UI encapsulation&lt;/em&gt; &lt;a class="footnote-reference" href="#f5" id="footnote-reference-5"&gt;[5]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rejouer automatiquement les tests en échec&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;La &lt;em&gt;flakiness&lt;/em&gt; est un véritable problème lorsque l'on fait du Test automatique. Il faut en prendre conscience pour ne pas être déçu
+car, oui, cela engendre du &lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2018/01/19/test-automatique-lecueil-de-la-maintenance/"&gt;travail de maintenance des tests&lt;/a&gt;.
+Mais elle permet également, si elle est vraiment prise en compte, de mieux comprendre comment fonctionne le logiciel que l'on teste.&lt;/p&gt;
+&lt;p&gt;Enfin, elle permet aussi de relativiser l'importance - quelque fois irraisonnable - que l'on place dans les résulats
+des tests automatiques ;-)&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p class="rubric"&gt;Notes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;em&gt;&amp;quot;We define a &amp;quot;flaky&amp;quot; test result as a test that exhibits both a passing and a failing result with the same code.&amp;quot;&lt;/em&gt;
+&lt;a class="reference external" href="https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html"&gt;https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Voir paragraphe &amp;quot;A war you can’t win&amp;quot; de cet article : &lt;a class="reference external" href="https://hackernoon.com/flaky-tests-a-war-that-never-ends-9aa32fdef359"&gt;https://hackernoon.com/flaky-tests-a-war-that-never-ends-9aa32fdef359&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-3"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://testing.googleblog.com/2017/04/where-do-our-flaky-tests-come-from.html"&gt;https://testing.googleblog.com/2017/04/where-do-our-flaky-tests-come-from.html&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f4" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-4"&gt;[4]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Exemple d'implémentation d'attente active avec Robot Framework, le keyword &lt;cite&gt;Wait Until Keyword Succeeds&lt;/cite&gt; :
+&lt;a class="reference external" href="http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Wait%20Until%20Keyword%20Succeeds"&gt;http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Wait%20Until%20Keyword%20Succeeds&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f5" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-5"&gt;[5]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Voir le paragraphe &amp;quot;Follow the Testing Pyramid&amp;quot; de cet article : &lt;a class="reference external" href="https://smartbear.com/resources/ebooks/managing-ui-test-flakiness/"&gt;https://smartbear.com/resources/ebooks/managing-ui-test-flakiness/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="automatisation"></category><category term="test logiciel"></category></entry><entry><title>Test automatique : l'écueil de la maintenance</title><link href="https://eh-bien-testez-maintenant.github.io/2018/01/19/test-automatique-lecueil-de-la-maintenance/" rel="alternate"></link><published>2018-01-19T08:28:00+01:00</published><updated>2018-01-19T08:28:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2018-01-19:/2018/01/19/test-automatique-lecueil-de-la-maintenance/</id><summary type="html">&lt;img alt="Test automatique : l'écueil de la maintenance" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-lecueil-de-la-maintenance.jpg" style="width: 200px; height: 150px;" /&gt;
+&lt;p&gt;La confusion n'est pas loin - et le terme est trompeur - entre
+&amp;quot;&lt;em&gt;automatiser des tests&lt;/em&gt;&amp;quot; et &amp;quot;&lt;em&gt;tester automatiquement un logiciel&lt;/em&gt;&amp;quot;.
+Or il s'agit bien du premier terme dont on parle lorsqu'on
+dit &amp;quot;Test automatique&amp;quot;. Cette différence tenue est pourtant fondamentale
+car elle nous dit que les tests ne vont pas vraiment …&lt;/p&gt;</summary><content type="html">&lt;img alt="Test automatique : l'écueil de la maintenance" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-lecueil-de-la-maintenance.jpg" style="width: 200px; height: 150px;" /&gt;
+&lt;p&gt;La confusion n'est pas loin - et le terme est trompeur - entre
+&amp;quot;&lt;em&gt;automatiser des tests&lt;/em&gt;&amp;quot; et &amp;quot;&lt;em&gt;tester automatiquement un logiciel&lt;/em&gt;&amp;quot;.
+Or il s'agit bien du premier terme dont on parle lorsqu'on
+dit &amp;quot;Test automatique&amp;quot;. Cette différence tenue est pourtant fondamentale
+car elle nous dit que les tests ne vont pas vraiment fonctionner tout
+seuls. Il va falloir les écrire et les maintenir au même titre
+d'ailleurs que&amp;nbsp; n'importe quel logiciel informatique...&lt;/p&gt;
+&lt;div class="section" id="pourquoi"&gt;
+&lt;h2&gt;Pourquoi ?&lt;/h2&gt;
+&lt;p&gt;Les tests automatiques vérifient un logiciel. Ce logiciel est sujet à
+des modifications, si du moins le projet est &amp;quot;vivant&amp;quot;. Ces changements
+devront nécessairement se répercuter dans les tests et/ou dans
+l'environnement de test. Or ces changements ont un coût. Ce coût englobe
+le temps, les personnes et les compétences qu'il est nécessaire de
+déployer pour que les tests automatiques fonctionnent tout au long de la
+vie du projet.&lt;/p&gt;
+&lt;p&gt;Des tests automatiques non maintenus perdent très vites de leur valeur,
+surtout si le logiciel qu'ils testent évolue vite. On peut même imaginer
+arriver à un point de non retour où il n'est plus rentable de les
+remettre à jour. L'investissement dans les tests auto ne sera jamais
+rentabilisé, créant alors beaucoup de déception.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mieux-vaut-prevenir"&gt;
+&lt;h2&gt;Mieux vaut prévenir...&lt;/h2&gt;
+&lt;p&gt;La négligence des aspects de maintenance est à mon avis l'une des
+principales causes d'échec des projets d'automatisation. Après avoir
+investi dans la mise en place d'un environnement de test, on se rend
+compte que cela ne marche pas exactement &amp;quot;tout seul&amp;quot;, il y a toujours
+besoin de réaliser des ajustements. On est déçu et on abandonne.&lt;/p&gt;
+&lt;p&gt;On rêverait tous d'un logiciel qui s'auto-teste tout seul (pléonasme ?).
+En attendant, à nous testeurs de rappeler aux décideurs que &lt;strong&gt;l'enjeu de
+la maintenance est crucial&lt;/strong&gt; afin qu'il n'y ait pas de déception et que
+l'on puisse se lancer (ou non d'ailleurs) dans des projets
+d'automatisation de tests en &lt;strong&gt;connaissance de cause&lt;/strong&gt;, en sachant sans
+feindre de l'ignorer quel est le vrai &amp;quot;prix&amp;quot; de l'automatisation.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="automatisation"></category><category term="test logiciel"></category></entry><entry><title>Les environnements de test logiciel</title><link href="https://eh-bien-testez-maintenant.github.io/2017/11/01/les-environnements-de-test-logiciel/" rel="alternate"></link><published>2017-11-01T21:37:00+01:00</published><updated>2017-11-01T21:37:00+01:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2017-11-01:/2017/11/01/les-environnements-de-test-logiciel/</id><summary type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2017-les-environnements-de-test-logiciel.jpg" style="width: 200px; height: 133px;" /&gt;
+&lt;p&gt;Le déploiement d'environnement de test est une activité importante du
+test logiciel. En effet, il peut devenir un point critique s'il est
+complexe à mettre en place &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;. C'est une lapalissade : &amp;quot;plus le
+temps de mise en place d'un environnement de test est long, moins on
+testera&amp;quot;. Le temps qui …&lt;/p&gt;</summary><content type="html">&lt;img alt="Couverture du livre" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2017-les-environnements-de-test-logiciel.jpg" style="width: 200px; height: 133px;" /&gt;
+&lt;p&gt;Le déploiement d'environnement de test est une activité importante du
+test logiciel. En effet, il peut devenir un point critique s'il est
+complexe à mettre en place &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;. C'est une lapalissade : &amp;quot;plus le
+temps de mise en place d'un environnement de test est long, moins on
+testera&amp;quot;. Le temps qui est investi pour mettre en place l'environnement
+de test diminue le temps pendant lequel on pourrait faire des tests.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;em&gt;&amp;quot;Plus le temps de mise en place d'un environnement de test est long
+et difficile, moins on testera et plus la barrière psychologique
+pour tester sera importante.&amp;quot;&lt;/em&gt;&lt;/blockquote&gt;
+&lt;p&gt;Mais là n'est pas mon propos. Je voulais parler d'une autre conséquence
+néfaste qui est &lt;strong&gt;la barrière psychologique&lt;/strong&gt; que représente l'obstacle
+de la mise en route. En effet, si votre environnement de test est
+difficile à mettre en place, vous allez - peut-être même inconsciemment
+- vous limiter dans vos tests. C'est un biais simplement humain, nous
+préférons les tâches &amp;quot;simples&amp;quot; et courtes aux activités plus complexes.
+Surtout que la mise en place d'un environnement de test logiciel n'est
+pas non plus l'activité la plus &amp;quot;intéressante&amp;quot; qui existe :-)&lt;/p&gt;
+&lt;p&gt;Je prends deux illustrations très concrètes :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;vous avez mis 1 journée entière pour mettre en place votre
+environnement. Vous allez éviter les cas de tests aux limites qui
+viendrait &amp;quot;casser&amp;quot; votre environnement (suppression de fichiers,
+arrêt électrique, corruption de la base de données...), cas qui
+pourtant pourraient s'avérer très intéressants d'un point de vue
+&amp;quot;test&amp;quot;.&lt;/li&gt;
+&lt;li&gt;vous êtes à quelques heures d'une livraison et vous n'avez plus aucun
+environnement de test &amp;quot;propre&amp;quot; ou &amp;quot;standard&amp;quot;. Vous avez un doute sur
+une partie du logiciel mais vous allez pourtant omettre ce petit test
+(qui quelque fois vous sauve la mise) avant la livraison car
+(consciemment ou inconsciemment) vous avez envisagé le temps de mise
+en place d'un nouvel environnement propre et que ce n'est peut-être
+pas le moment d'en perdre avant une livraison importante...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="diminuer-le-temps-de-mise-en-place"&gt;
+&lt;h2&gt;Diminuer le temps de mise en place&lt;/h2&gt;
+&lt;p&gt;Il devient donc important de faciliter la phase de mise en place des
+environnements de test. Il faut inciter ou du moins ne pas &amp;quot;décourager&amp;quot;
+les testeurs à tester en facilitant l'accès à un environnement prêt à
+tester.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;em&gt;&amp;quot;Ne pas décourager les testeurs à tester, en facilitant le
+déploiement des environnements de test&amp;quot;&lt;/em&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comment ?&lt;/em&gt; Plus facile à dire qu'à faire ! La mise en place
+d'environnement nécessite du &lt;strong&gt;matériel&lt;/strong&gt;, des &lt;strong&gt;compétences en
+virtualisation&lt;/strong&gt; ou conteneurisation, et des &lt;strong&gt;compétences en
+administration système&lt;/strong&gt;. Si vous développez ces compétences, vous aller
+pouvoir optimiser votre temps de mise en place d'environnements de test
+et globalement augmenter vos capacités de test.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="outils-pour-aller-plus-loin"&gt;
+&lt;h2&gt;Outils pour aller plus loin&lt;/h2&gt;
+&lt;p&gt;Parmi les outils qui existent pour faciliter la mise en place d'environnement de test, on peut citer :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;les outils de type virtualisation / conteneurisation&lt;/strong&gt; : Docker,
+Vagrant et toutes les solutions de virtualisation (Virtual box,
+ESXi...)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;les outils de gestion de configuration système&lt;/strong&gt; : Salt Stack,
+Puppet, Ansible, Chef&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;les outils de déploiements&lt;/strong&gt; : &amp;nbsp;Open stack, Cobbler, Foreman (Voir
+mon &lt;a class="reference external" href="https://eh-bien-testez-maintenant.github.io/2016/12/17/memo-deploiement-denvironnement-de-test-ou-autres/"&gt;memo à ce
+sujet&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;J'ai l'exemple d'une entreprise où un environnement de test nécessitait plusieurs jours de travail !&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="environnement de test"></category><category term="test logiciel"></category></entry><entry><title>Développement logiciel et Gouvernance</title><link href="https://eh-bien-testez-maintenant.github.io/2016/10/19/developpement-logiciel-et-gouvernance/" rel="alternate"></link><published>2016-10-19T20:51:00+02:00</published><updated>2016-10-19T20:51:00+02:00</updated><author><name>apallier</name></author><id>tag:eh-bien-testez-maintenant.github.io,2016-10-19:/2016/10/19/developpement-logiciel-et-gouvernance/</id><summary type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Pour qu’on ne puisse abuser du pouvoir, il faut que, par la
+disposition des choses, le pouvoir arrête le pouvoir&amp;quot;&lt;/p&gt;
+&lt;p class="attribution"&gt;&amp;mdash;Montesquieu, &lt;em&gt;De l'esprit des lois&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cette citation de Montesquieu parle bien sûr de politique et de la
+séparation de ses pouvoirs. Dans cet article, je vais décrire une
+approche …&lt;/p&gt;</summary><content type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Pour qu’on ne puisse abuser du pouvoir, il faut que, par la
+disposition des choses, le pouvoir arrête le pouvoir&amp;quot;&lt;/p&gt;
+&lt;p class="attribution"&gt;&amp;mdash;Montesquieu, &lt;em&gt;De l'esprit des lois&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cette citation de Montesquieu parle bien sûr de politique et de la
+séparation de ses pouvoirs. Dans cet article, je vais décrire une
+approche qui me permet de faire rapidement l'audit d'une entreprise sur
+sa maturité en terme de test logiciel.
+Il m'a paru intéressant de rapprocher cette citation du domaine du
+développement logiciel. En essayant de déterminer quels sont les jeux de
+pouvoir qu'il peut exister au sein d'une entreprise qui développe des
+produits logiciels, on peut voir apparaître les forces et les lacunes
+qui conduisent à des dérives et des biais dans la construction d'un
+produit logiciel.&lt;/p&gt;
+&lt;div class="section" id="les-pouvoirs-en-presence"&gt;
+&lt;h2&gt;Les pouvoirs en présence&lt;/h2&gt;
+&lt;p&gt;Les trois pouvoirs politiques définis par Montesquieu &lt;a class="footnote-reference" href="#f1" id="footnote-reference-1"&gt;[1]&lt;/a&gt; sont&amp;nbsp;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Le pouvoir &lt;strong&gt;législatif&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Le pouvoir&amp;nbsp;&lt;strong&gt;exécutif&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Le pouvoir &lt;strong&gt;judiciaire&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Maintenant, transposons cette vision dans le domaine de l'industrie
+logicielle. On peut définir 3 pouvoirs qui gravitent autour d'un produit
+logiciel :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Le pouvoir de&amp;nbsp;&lt;strong&gt;définir&lt;/strong&gt;&amp;nbsp;le produit : législatif&lt;/li&gt;
+&lt;li&gt;Le pouvoir de&amp;nbsp;&lt;strong&gt;construire&lt;/strong&gt; le produit : exécutif&lt;/li&gt;
+&lt;li&gt;Le pouvoir de &lt;strong&gt;contrôler&lt;/strong&gt; l'état du&amp;nbsp;produit : judiciaire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour illustrer cette notion, on peut par exemple rapprocher ces
+&amp;quot;pouvoirs&amp;quot; de différentes entités qu'il est commun de trouver dans
+l'industrie du logiciel :&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;La MOA &lt;a class="footnote-reference" href="#f2" id="footnote-reference-2"&gt;[2]&lt;/a&gt;&amp;nbsp;: entité chargée de définir le produit et de formuler les besoins
+des clients et du marché, qui a le pouvoir de définir&lt;/li&gt;
+&lt;li&gt;La MOE &lt;a class="footnote-reference" href="#f3" id="footnote-reference-3"&gt;[3]&lt;/a&gt;&amp;nbsp;: entité de développement du logiciel, peut être appelée aussi &amp;quot;R&amp;amp;D&amp;quot;
+ou &amp;quot;équipes de développement&amp;quot;, qui a le pouvoir de construire&lt;/li&gt;
+&lt;li&gt;La QA &lt;a class="footnote-reference" href="#f4" id="footnote-reference-4"&gt;[4]&lt;/a&gt;&amp;nbsp;: entité chargée de vérifier le bon fonctionnement du produit, qui a
+le pouvoir de contrôler&amp;nbsp;l'état du&amp;nbsp;produit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jeu-de-pouvoir"&gt;
+&lt;h2&gt;Jeu de pouvoir&lt;/h2&gt;
+&lt;p&gt;L'idée consiste maintenant à évaluer les équilibres entre les pouvoirs
+qu'il existe au sein d'une entreprise entre ces entités.&lt;/p&gt;
+&lt;p&gt;Il s'agit d'évaluer pour chacune d'elles, leurs effectifs, leurs rôles
+hiérarchiques, les degrés d'indépendance, les processus qui les font
+interagir, etc. On pourra alors avoir une idée des forces en présence
+afin d'évaluer s'il n'y a pas une carence ou un excès de tel ou tel
+pouvoir.&lt;/p&gt;
+&lt;div class="section" id="exemples"&gt;
+&lt;h3&gt;Exemples&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Prenons le cas d'une MOA qui définirait uniquement des exigences
+métiers ou des exigences fonctionnelles. Elle conduirait la MOE à ne
+s'attacher à résoudre que des problématiques d'ordre fonctionnel et à
+construire un produit qui fonctionne peut-être mais mal car ayant des
+lacunes dans le domaine non-fonctionnel (comme la performance,
+l'utilisabilité, la facilité de déploiement, etc).&lt;/li&gt;
+&lt;li&gt;Un autre exemple : Prenons le cas d'une société qui aurait une MOE de
+100 personnes et une QA de 5 personnes. La&amp;nbsp;responsabilité&amp;nbsp;de la&amp;nbsp;QA
+étant sous celle de la MOE. On voit bien ici le déséquilibre entre le
+pouvoir de construction et le pouvoir de contrôle. Le risque ici est
+bien de livrer un produit qui est construit de façon non contrôlée et
+qui ne correspondra pas aux attentes en terme de fonctionnalités et
+de qualité.&lt;/li&gt;
+&lt;li&gt;Un troisième cas, qui de mon point de vue est sûrement le plus rare,
+la QA est constituée d'une équipe importante, ayant un fort degré
+d'indépendance par rapport à la MOA et la MOE. Son pouvoir de
+contrôle et de veto surdimensionné pourrait nuire au bon déroulement
+de la construction. La QA pourrait demander des exigences
+qualitatives difficiles à atteindre et qui ferait augmenter les coûts
+de développement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Cette réflexion m'est venue suite à un audit réalisé dans une entreprise
+qui avait des problèmes de fiabilité sur ses logiciels. Je me suis
+aperçu que selon la définition des pouvoirs que j'ai énoncé ici,
+l'entité QA était réellement sous dimensionnée. Les personnes dédiées au
+Test et à la Qualité représentent moins de 10% de l'effectif et donc
+approximativement du budget, alors que le standard de l'industrie sont
+deux à trois fois supérieurs à cela depuis plusieurs années &lt;a class="footnote-reference" href="#f5" id="footnote-reference-5"&gt;[5]&lt;/a&gt;.
+Il y avait donc clairement un déficit dans le contre-pouvoir du
+contrôle de la Qualité, expliquant en partie les problèmes de fiabilité
+rencontrés par cette entreprise.&lt;/p&gt;
+&lt;p&gt;J'espère que ce petit outil permettra à d'autres d'évaluer les lacunes
+et les forces en présence dans une entreprise ou une équipe de
+développement. C'est un exercice que j'ai trouvé intéressant à faire et
+qui m'a permis de mieux comprendre le contexte d'une entreprise.&lt;/p&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="100%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a class="reference external image-reference" href="https://eh-bien-testez-maintenant.github.io/images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg"&gt;&lt;img alt="image0" src="https://eh-bien-testez-maintenant.github.io/images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg" style="width: 640px; height: 414px;" /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sketchnote &amp;quot;Développement logiciel et Gouvernance&amp;quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p class="rubric"&gt;Notes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pouvoirs#Montesquieu_:_reprise_de_la_philosophie_de_Locke"&gt;https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pouvoirs#Montesquieu_:_reprise_de_la_philosophie_de_Locke&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOA = Maîtrise d'ouvrage&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-3"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;MOE = Maîtrise d'oeuvre&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f4" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-4"&gt;[4]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;QA = Quality Assurance ou Assurance Qualité&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="f5" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-5"&gt;[5]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Voir à ce sujet le &amp;quot;World Quality Report 2015-16&amp;quot; : en 2015, en moyenne 35% du budget IT est alloué à la Qualité et au Test : www.world-quality-report.com&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</content><category term="opinion"></category><category term="gouvernance"></category><category term="test logiciel"></category></entry></feed>

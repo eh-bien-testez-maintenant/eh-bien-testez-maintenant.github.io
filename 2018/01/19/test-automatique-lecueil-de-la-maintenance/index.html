@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+    href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/native.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/default.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/custom.css">
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Eh Bien Testez Maintenant ! Atom">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKML3CYE6E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKML3CYE6E');
+</script>
+
+ 
+
+<meta name="author" content="apallier" />
+<meta name="description" content="La confusion n&#39;est pas loin - et le terme est trompeur - entre &#34;automatiser des tests&#34; et &#34;tester automatiquement un logiciel&#34;. Or il s&#39;agit bien du premier terme dont on parle lorsqu&#39;on dit &#34;Test automatique&#34;. Cette différence tenue est pourtant fondamentale car elle nous dit que les tests ne vont pas vraiment …" />
+<meta name="keywords" content="automatisation, test logiciel">
+
+
+  <meta property="og:site_name" content="Eh Bien Testez Maintenant !"/>
+  <meta property="og:title" content="Test automatique : l&#39;écueil de la maintenance"/>
+  <meta property="og:description" content="La confusion n&#39;est pas loin - et le terme est trompeur - entre &#34;automatiser des tests&#34; et &#34;tester automatiquement un logiciel&#34;. Or il s&#39;agit bien du premier terme dont on parle lorsqu&#39;on dit &#34;Test automatique&#34;. Cette différence tenue est pourtant fondamentale car elle nous dit que les tests ne vont pas vraiment …"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:url" content="https://eh-bien-testez-maintenant.github.io/2018/01/19/test-automatique-lecueil-de-la-maintenance/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2018-01-19 08:28:00+01:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://eh-bien-testez-maintenant.github.io/author/apallier.html">
+  <meta property="article:section" content="opinion"/>
+  <meta property="article:tag" content="automatisation"/>
+  <meta property="article:tag" content="test logiciel"/>
+  <meta property="og:image" content="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg">
+
+  <title>Eh Bien Testez Maintenant ! &ndash; Test automatique : l&#39;écueil de la maintenance</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="https://eh-bien-testez-maintenant.github.io/">
+      <img src="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="https://eh-bien-testez-maintenant.github.io/"></a>
+    </h1>
+
+    <p>Vous codiez ? J'en suis fort aise.<br/> Eh bien : testez maintenant !</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/a-propos/#a-propos">
+                A propos
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/curriculum-vitae/#curriculum-vitae">
+                Curriculum Vitae
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/ma-petite-entreprise/#ma-petite-entreprise">
+                Ma petite entreprise
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/interviews-de-testeurs/#interviews-de-testeurs">
+                Interviews de testeurs
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/portfolio/#portfolio">
+                Portfolio
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/alexispallier/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="//eh-bien-testez-maintenant.github.io/rss.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/apallier"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://eh-bien-testez-maintenant.github.io/">Accueil</a>
+
+  <a href="/archives.html">Archives</a>
+  <a href="/categories.html">Catégories</a>
+  <a href="/tags.html">Tags</a>
+
+  <a href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="test-automatique-lecueil-de-la-maintenance">Test automatique : l'écueil de la maintenance</h1>
+    <p>
+      Posté le Fri 19 January 2018 dans <a href="https://eh-bien-testez-maintenant.github.io/category/opinion.html">opinion</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <img alt="Test automatique : l'écueil de la maintenance" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2018-test-automatique-lecueil-de-la-maintenance.jpg" style="width: 200px; height: 150px;" />
+<p>La confusion n'est pas loin - et le terme est trompeur - entre
+&quot;<em>automatiser des tests</em>&quot; et &quot;<em>tester automatiquement un logiciel</em>&quot;.
+Or il s'agit bien du premier terme dont on parle lorsqu'on
+dit &quot;Test automatique&quot;. Cette différence tenue est pourtant fondamentale
+car elle nous dit que les tests ne vont pas vraiment fonctionner tout
+seuls. Il va falloir les écrire et les maintenir au même titre
+d'ailleurs que&nbsp; n'importe quel logiciel informatique...</p>
+<div class="section" id="pourquoi">
+<h2>Pourquoi ?</h2>
+<p>Les tests automatiques vérifient un logiciel. Ce logiciel est sujet à
+des modifications, si du moins le projet est &quot;vivant&quot;. Ces changements
+devront nécessairement se répercuter dans les tests et/ou dans
+l'environnement de test. Or ces changements ont un coût. Ce coût englobe
+le temps, les personnes et les compétences qu'il est nécessaire de
+déployer pour que les tests automatiques fonctionnent tout au long de la
+vie du projet.</p>
+<p>Des tests automatiques non maintenus perdent très vites de leur valeur,
+surtout si le logiciel qu'ils testent évolue vite. On peut même imaginer
+arriver à un point de non retour où il n'est plus rentable de les
+remettre à jour. L'investissement dans les tests auto ne sera jamais
+rentabilisé, créant alors beaucoup de déception.</p>
+</div>
+<div class="section" id="mieux-vaut-prevenir">
+<h2>Mieux vaut prévenir...</h2>
+<p>La négligence des aspects de maintenance est à mon avis l'une des
+principales causes d'échec des projets d'automatisation. Après avoir
+investi dans la mise en place d'un environnement de test, on se rend
+compte que cela ne marche pas exactement &quot;tout seul&quot;, il y a toujours
+besoin de réaliser des ajustements. On est déçu et on abandonne.</p>
+<p>On rêverait tous d'un logiciel qui s'auto-teste tout seul (pléonasme ?).
+En attendant, à nous testeurs de rappeler aux décideurs que <strong>l'enjeu de
+la maintenance est crucial</strong> afin qu'il n'y ait pas de déception et que
+l'on puisse se lancer (ou non d'ailleurs) dans des projets
+d'automatisation de tests en <strong>connaissance de cause</strong>, en sachant sans
+feindre de l'ignorer quel est le vrai &quot;prix&quot; de l'automatisation.</p>
+</div>
+
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/automatisation.html">automatisation</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/test-logiciel.html">test logiciel</a>
+    </p>
+  </div>
+
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'eh-bien-testez-maintenant';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Veuillez activer le JavaScript pour voir les commentaires.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>&copy; 2023 </p>
+<p>
+Construit avec <a href="http://getpelican.com" target="_blank">Pelican</a> utilisant le thème <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a>
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="https://eh-bien-testez-maintenant.github.io/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="dark"
+          type="text/javascript">
+  </script>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Eh Bien Testez Maintenant ! ",
+  "url" : "https://eh-bien-testez-maintenant.github.io",
+  "image": "https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg",
+  "description": "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA, Test automatique, Test automation"
+}
+</script>
+</body>
+</html>
