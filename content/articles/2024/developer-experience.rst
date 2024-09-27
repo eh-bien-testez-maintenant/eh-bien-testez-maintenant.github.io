@@ -1,7 +1,7 @@
 Expérience développeur et Qualité logicielle
 ============================================
 
-:date: 2024-06-09
+:date: 2024-09-06
 :author: apallier
 :category: opinion
 :tags: experience developpeur, developer experience, devex, DX, qualité, QA
