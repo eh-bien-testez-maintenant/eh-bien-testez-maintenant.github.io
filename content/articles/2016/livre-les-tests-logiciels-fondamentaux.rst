@@ -6,7 +6,7 @@ Livre : Les tests logiciels fondamentaux
 :tags: livre, test logiciel
 :slug: livre-les-tests-logiciels-fondamentaux
 
-.. image:: https://static.eyrolles.com/img/2/7/4/6/2/3/1/5/9782746231559_h430.jpg
+.. image:: {static}/images/2016-livre-tests-logiciels-fondamentaux.jpg
    :width: 213px
    :height: 320px
    :align: center
