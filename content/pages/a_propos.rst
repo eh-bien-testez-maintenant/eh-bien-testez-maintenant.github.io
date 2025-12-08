@@ -1,7 +1,7 @@
 A propos
 ########
 
-Je m'appelle Alexis Pallier et ce site est mon blog professionel. Depuis 2006, je me suis spécialisé dans le domaine du Test logiciel. 
+Je m'appelle Alexis Pallier et ce site est mon blog professionnel. Depuis 2006, je me suis spécialisé dans le domaine du Test logiciel.
 
 Ce blog est ma manière de contribuer, à ma petite échelle, à faire découvrir cette vaste discipline de l'informatique qu'est le Test logiciel 
 et aussi sa consoeur quasi indissociable : la Qualité logicielle.

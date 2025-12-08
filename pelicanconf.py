@@ -14,13 +14,14 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 
 # Feed configuration
+FEED_RSS = 'rss.xml'
+RSS_FEED_SUMMARY_ONLY = False
+FEED_ATOM = None
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-FEED_RSS = 'rss.xml'
-RSS_FEED_SUMMARY_ONLY = False
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Catégories', '/categories.html'),
