@@ -5,6 +5,7 @@ Développement logiciel et Gouvernance
 :category: opinion
 :tags: gouvernance, test logiciel
 :slug: developpement-logiciel-et-gouvernance
+:cover: images/2016-SketchnoteDéveloppementLogicielEtGouvernance.jpg
 
 |
 

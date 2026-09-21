@@ -6,6 +6,7 @@ Compilation de blogs français sur le Test Logiciel
 :category: compilation
 :tags: blog, test logiciel
 :slug: blogs-francais-sur-test-logiciel
+:cover: images/2018-blogs.jpg
 
 .. image:: {static}/images/2018-blogs.jpg
    :width: 400px

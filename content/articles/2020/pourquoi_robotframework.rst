@@ -7,6 +7,7 @@ Pourquoi Robot Framework ?
 :category: automatisation
 :tags: outil, automatisation, robotframework
 :slug: pourquoi-robotframework
+:cover: images/2020-pourquoi-robotframework.jpg
 
 .. image:: {static}/images/2020-pourquoi-robotframework.jpg
    :width: 300px

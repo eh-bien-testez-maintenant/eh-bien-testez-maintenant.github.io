@@ -6,6 +6,7 @@ Expérience développeur et Qualité logicielle
 :category: opinion
 :tags: experience developpeur, developer experience, devex, DX, qualité, QA
 :slug: experience-developpeur-qualite-logicielle
+:cover: images/2024-experience-developpeur-qualite-logicielle.jpg
 
 .. image:: {static}/images/2024-experience-developpeur-qualite-logicielle.jpg
     :width: 300px

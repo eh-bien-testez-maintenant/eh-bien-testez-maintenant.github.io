@@ -7,6 +7,7 @@
 :category: automatisation
 :tags: Robot Framework, Playwright, Cypress, Selenium, tests, automatisation, qualité, QA
 :slug: comparatif-robotframework-playwright-cypress-selenium
+:cover: images/2026-comparatif-robotframework-playwright-cypress-selenium.png
 
 .. image:: {static}/images/2026-comparatif-robotframework-playwright-cypress-selenium.png
     :width: 300px

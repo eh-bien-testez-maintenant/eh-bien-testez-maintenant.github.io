@@ -5,6 +5,7 @@ Livre : Pratique des tests logiciels
 :category: revue
 :tags: livre, test logiciel
 :slug: livre-pratique-des-tests-logiciels
+:cover: https://books.google.fr/books/content?id=UWj2yEt78l0C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70GJsU-dpETfg7XS-XIp52pCoETKtMS-W2RQ-OXFwWZ7OiNS27uiLOEEduHkwv1I1nh2vGlV_48J1DmVhiA78oF1gbKVAeXj_SwAVHhMu6D_jfHcNjtamZw489s_mEpUD9zGHI9
 
 .. image:: https://books.google.fr/books/content?id=UWj2yEt78l0C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70GJsU-dpETfg7XS-XIp52pCoETKtMS-W2RQ-OXFwWZ7OiNS27uiLOEEduHkwv1I1nh2vGlV_48J1DmVhiA78oF1gbKVAeXj_SwAVHhMu6D_jfHcNjtamZw489s_mEpUD9zGHI9
    :align: center

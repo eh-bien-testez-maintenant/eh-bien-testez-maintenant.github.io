@@ -5,6 +5,7 @@ Livre : Les tests logiciels fondamentaux
 :category: revue
 :tags: livre, test logiciel
 :slug: livre-les-tests-logiciels-fondamentaux
+:cover: images/2016-livre-tests-logiciels-fondamentaux.jpg
 
 .. image:: {static}/images/2016-livre-tests-logiciels-fondamentaux.jpg
    :width: 213px

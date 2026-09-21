@@ -6,6 +6,7 @@ Conventions pour les messages de commit sous Git
 :category: revue
 :tags: code, git
 :slug: conventions-messages-commit-git
+:cover: images/2024-conventions-messages-commit.jpg
 
 .. image:: {static}/images/2024-conventions-messages-commit.jpg
    :width: 300px

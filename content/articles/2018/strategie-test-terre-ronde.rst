@@ -6,6 +6,7 @@ La stratégie de test de la "Terre ronde"
 :category: revue
 :tags: strategie, test logiciel
 :slug: strategie-test-terre-ronde
+:cover: images/2018-terre-globe.jpg
 
 
 .. image:: {static}/images/2018-terre-globe.jpg

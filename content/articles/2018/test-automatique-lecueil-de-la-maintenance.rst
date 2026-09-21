@@ -5,6 +5,7 @@ Test automatique : l'écueil de la maintenance
 :category: opinion
 :tags: automatisation, test logiciel
 :slug: test-automatique-lecueil-de-la-maintenance
+:cover: images/2018-test-automatique-lecueil-de-la-maintenance.jpg
 
 
 .. image:: {static}/images/2018-test-automatique-lecueil-de-la-maintenance.jpg

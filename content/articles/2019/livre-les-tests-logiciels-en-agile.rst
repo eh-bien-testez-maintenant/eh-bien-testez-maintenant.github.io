@@ -6,6 +6,7 @@ Livre : Les tests logiciels en Agile
 :category: revue
 :tags: livre, test logiciel, agile
 :slug: livre-les-tests-logiciels-en-agile
+:cover: images/2019-livre-les-tests-logiciels-en-agile.jpg
 
 .. image:: {static}/images/2019-livre-les-tests-logiciels-en-agile.jpg
    :width: 250px

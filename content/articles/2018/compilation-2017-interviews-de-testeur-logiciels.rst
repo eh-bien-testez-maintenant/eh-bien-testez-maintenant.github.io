@@ -5,6 +5,7 @@ Compilation 2017: Interviews de Testeur Logiciels
 :category: compilation
 :tags: interviews, test logiciel
 :slug: compilation-2017-interviews-de-testeur-logiciels
+:cover: images/2018-interviews.jpg
 
 .. image:: {static}/images/2018-interviews.jpg
    :width: 200px

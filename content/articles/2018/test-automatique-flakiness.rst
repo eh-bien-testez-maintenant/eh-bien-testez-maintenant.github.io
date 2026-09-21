@@ -5,6 +5,7 @@ Test automatique : la Flakiness
 :category: opinion
 :tags: automatisation, test logiciel
 :slug: test-automatique-flakiness
+:cover: images/2018-test-automatique-flakiness.jpg
 
 
 .. image:: {static}/images/2018-test-automatique-flakiness.jpg
