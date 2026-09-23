@@ -20,4 +20,4 @@ DISQUS_SITENAME = 'eh-bien-testez-maintenant'
 GOOGLE_GLOBAL_SITE_TAG = "G-EKML3CYE6E"
 # Flex theme configuration
 SITELOGO = SITEURL + '/images/logo_400x400.jpg'
-COPYRIGHT_YEAR = 2023
+COPYRIGHT_YEAR = 2026
