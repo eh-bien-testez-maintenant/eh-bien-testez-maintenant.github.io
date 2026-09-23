@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/style.min.css">
+
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+    href="https://eh-bien-testez-maintenant.github.io/theme/stylesheet/dark-theme.min.css">
+
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/native.min.css">
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light)"
+          href="https://eh-bien-testez-maintenant.github.io/theme/pygments/default.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://eh-bien-testez-maintenant.github.io/theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/custom.css">
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <link href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Eh Bien Testez Maintenant ! Atom">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKML3CYE6E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKML3CYE6E');
+</script>
+
+
+
+
+
+
+ 
+
+<meta name="author" content="apallier" />
+<meta name="description" content="On compare souvent les outils d&#39;automatisation Robot Framework, Playwright, Cypress et Selenium car ils font référence dans le domaine de l&#39;automatisation de tests et en particulier les tests &#34;web&#34; (via un navigateur). Certaines comparaisons que l&#39;on peut trouver çà et là sur internet me dérangeaient puisqu&#39;elles confondaient certaines notions. On …" />
+<meta name="keywords" content="Robot Framework, Playwright, Cypress, Selenium, tests, automatisation, qualité, QA">
+
+
+  <meta property="og:site_name" content="Eh Bien Testez Maintenant !"/>
+  <meta property="og:title" content="Comparatif Robot Framework - Playwright - Cypress - Selenium"/>
+  <meta property="og:description" content="On compare souvent les outils d&#39;automatisation Robot Framework, Playwright, Cypress et Selenium car ils font référence dans le domaine de l&#39;automatisation de tests et en particulier les tests &#34;web&#34; (via un navigateur). Certaines comparaisons que l&#39;on peut trouver çà et là sur internet me dérangeaient puisqu&#39;elles confondaient certaines notions. On …"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:url" content="https://eh-bien-testez-maintenant.github.io/2026/09/21/comparatif-robotframework-playwright-cypress-selenium/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2026-09-21 00:00:00+02:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://eh-bien-testez-maintenant.github.io/author/apallier.html">
+  <meta property="article:section" content="automatisation"/>
+  <meta property="article:tag" content="Robot Framework"/>
+  <meta property="article:tag" content="Playwright"/>
+  <meta property="article:tag" content="Cypress"/>
+  <meta property="article:tag" content="Selenium"/>
+  <meta property="article:tag" content="tests"/>
+  <meta property="article:tag" content="automatisation"/>
+  <meta property="article:tag" content="qualité"/>
+  <meta property="article:tag" content="QA"/>
+  <meta property="og:image" content="https://eh-bien-testez-maintenant.github.io/images/2026-comparatif-robotframework-playwright-cypress-selenium.png">
+
+  <title>Eh Bien Testez Maintenant ! &ndash; Comparatif Robot Framework - Playwright - Cypress - Selenium</title>
+
+
+</head>
+<body >
+
+<aside>
+  <div>
+    <a href="https://eh-bien-testez-maintenant.github.io/">
+      <img src="https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="https://eh-bien-testez-maintenant.github.io/"></a>
+    </h1>
+
+    <p>Vous codiez ? J'en suis fort aise.<br/> Eh bien : testez maintenant !</p>
+
+
+    <nav>
+      <ul class="list">
+
+
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/a-propos/#a-propos">
+                A propos
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/mon-cv/#mon-cv">
+                Mon CV
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/interviews-de-testeurs/#interviews-de-testeurs">
+                Interviews de testeurs
+              </a>
+            </li>
+            <li>
+              <a target="_self"
+                 href="https://eh-bien-testez-maintenant.github.io/pages/portfolio/#portfolio">
+                Portfolio
+              </a>
+            </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/alexispallier/"
+           target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-rss"
+           href="//eh-bien-testez-maintenant.github.io/rss.xml"
+           target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-github"
+           href="https://github.com/apallier"
+           target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+<nav>
+  <a href="https://eh-bien-testez-maintenant.github.io/">Accueil</a>
+
+  <a href="/archives.html">Archives</a>
+  <a href="/categories.html">Catégories</a>
+  <a href="/tags.html">Tags</a>
+
+  <a href="https://eh-bien-testez-maintenant.github.io/feeds/all.atom.xml">Atom</a>
+
+</nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="comparatif-robotframework-playwright-cypress-selenium">Comparatif Robot Framework - Playwright - Cypress - Selenium</h1>
+    <p>
+      Posté le Mon 21 September 2026 dans <a href="https://eh-bien-testez-maintenant.github.io/category/automatisation.html">automatisation</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <img alt="Image d'un tableau comparatif entre Robot Framework, Playwright, Cypress et Selenium" class="align-center" src="https://eh-bien-testez-maintenant.github.io/images/2026-comparatif-robotframework-playwright-cypress-selenium.png" style="width: 300px;" />
+<p>On compare souvent les outils d'automatisation Robot Framework, Playwright, Cypress et Selenium car ils font référence
+dans le domaine de l'automatisation de tests et en particulier les tests &quot;web&quot; (via un navigateur).</p>
+<p>Certaines comparaisons que l'on peut trouver çà et là sur internet me dérangeaient puisqu'elles confondaient certaines
+notions. On ne peut pas par exemple comparer une librairie et un framework.</p>
+<p>J'ai voulu voir ce qu'il en était vraiment, en détail, pour essayer de mieux comprendre. En partant du modèle &quot;gTAA&quot;
+(<a class="reference external" href="https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTAL-TAE_Syllabus_v2.0.pdf">Generic Test Automation Architecture</a>), j'ai créé cette vue synthétique qui,
+je l'espère, permet d'éclairer l'usage précis de chacun de ces outils d'automatisation de tests.</p>
+<div class="section" id="selenium-n-est-pas-un-framework">
+<h2>Selenium n'est pas un framework</h2>
+<p>Selenium n'est pas un framework au sens strict du terme mais une librairie capable de piloter un navigateur en utilisant
+le protocole WebDriver <a class="footnote-reference" href="#footnote-1" id="footnote-reference-1">[1]</a>.</p>
+<p>C'est une librairie utilisée pour tester mais elle n'offre à elle seule aucun cadre pour écrire des tests et nécessite
+un &quot;Test Runner&quot; pour remplir, a minima, le rôle de &quot;framework&quot;.</p>
+<p>Associé à des frameworks de tests comme TestNG, JUnit ou autres, il a cependant été la référence pendant des années dans
+les tests &quot;web&quot;.</p>
+</div>
+<div class="section" id="playwright-et-cypress-2-frameworks-comparables">
+<h2>Playwright et Cypress : 2 frameworks comparables</h2>
+<p>D'un point de vue purement &quot;framework&quot;, Playwright et Cypress sont très comparables : orientés test &quot;web&quot;, ils proposent
+quasiment les mêmes fonctionnalités.</p>
+<p>Playwright semble cependant gagner en adoption au détriment de Cypress ces derniers temps <a class="footnote-reference" href="#footnote-2" id="footnote-reference-2">[2]</a>.</p>
+</div>
+<div class="section" id="robot-framework-le-plus-oriente-test">
+<h2>Robot Framework : le plus &quot;orienté Test&quot;</h2>
+<p>Tous les frameworks de ce comparatif &quot;se tiennent&quot; dans les couches basses du modèle &quot;gTAA&quot;, mais Robot Framework tire
+son épingle du jeu sur l'approche &quot;Test&quot; pur.</p>
+<p>Sa force réside dans son approche plus complète sur les aspects &quot;Test&quot; purs. Les personnes orientées Test/QA vont bien
+s'y retrouver mais les profils plus &quot;développeurs&quot; vont avoir moins d'appétence à l'utiliser. C'est en tous cas ce que
+j'ai remarqué dans mon expérience personnelle.</p>
+</div>
+<div class="section" id="le-comparatif">
+<h2>Le comparatif</h2>
+<div class="figure align-center">
+<a class="reference external image-reference" href="https://eh-bien-testez-maintenant.github.io/images/2026-comparatif-robotframework-playwright-cypress-selenium.png">
+<img alt="Image d'un tableau comparatif entre Robot Framework, Playwright, Cypress et Selenium" src="https://eh-bien-testez-maintenant.github.io/images/2026-comparatif-robotframework-playwright-cypress-selenium.png" />
+</a>
+<p class="caption">Robot Framework, Playwright, Cypress et Selenium positionnés selon le modèle gTAA</p>
+</div>
+<hr class="docutils" />
+<table class="docutils footnote" frame="void" id="footnote-1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-1">[1]</a></td><td>Voir <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/WebDriver">WebDriver - MDN Web Docs</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="footnote-2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#footnote-reference-2">[2]</a></td><td>Sur <a class="reference external" href="https://npmtrends.com/cypress-vs-playwright">npm trends</a>, les téléchargements hebdomadaires de Playwright
+ont dépassé ceux de Cypress mi-2024 et l'écart n'a cessé de se creuser depuis. Le sondage <a class="reference external" href="https://2025.stateofjs.com/en-US/libraries/testing/">State of JS 2025</a> va dans le même sens : Playwright y reste le framework de
+test E2E le mieux noté, en popularité (usage) comme en satisfaction, avec un écart qui continue de se creuser face à
+Cypress.</td></tr>
+</tbody>
+</table>
+</div>
+
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/robot-framework.html">Robot Framework</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/playwright.html">Playwright</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/cypress.html">Cypress</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/selenium.html">Selenium</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/tests.html">tests</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/automatisation.html">automatisation</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/qualite.html">qualité</a>
+      <a href="https://eh-bien-testez-maintenant.github.io/tag/qa.html">QA</a>
+    </p>
+  </div>
+
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'eh-bien-testez-maintenant';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Veuillez activer le JavaScript pour voir les commentaires.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+<footer>
+<p>&copy; 2026 </p>
+<p>
+Construit avec <a href="http://getpelican.com" target="_blank">Pelican</a> utilisant le thème <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a>
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="https://eh-bien-testez-maintenant.github.io/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="dark"
+          type="text/javascript">
+  </script>
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Eh Bien Testez Maintenant ! ",
+  "url" : "https://eh-bien-testez-maintenant.github.io",
+  "image": "https://eh-bien-testez-maintenant.github.io/images/logo_400x400.jpg",
+  "description": "Test logiciel, Software Testing, Qualité, Assurance Qualité, QA, Test automatique, Test automation"
+}
+</script>
+</body>
+</html>
